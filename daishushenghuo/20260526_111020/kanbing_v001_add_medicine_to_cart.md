@@ -1,0 +1,25 @@
+# kanbing_v001_add_medicine_to_cart  ✅
+
+- **Brand**: `daishushenghuo`
+- **Class**: `DaishushenghuoKanbingV001AddMedicineToCartTask`
+- **Pass@3**: **3/3**  (score = 1.00)
+- **Elapsed**: 713s (~11.9 min)
+- **Model**: `doubao-seed-2-0-lite-260428`
+- **Raw log**: [./raw_logs/DaishushenghuoKanbingV001AddMedicineToCartTask.log](./raw_logs/DaishushenghuoKanbingV001AddMedicineToCartTask.log)
+- **Generated**: 2026-05-26T11:22:50+08:00
+
+## Task Goal
+
+> 【当前账户档案】账号：demo@rlbox.ai；昵称：张三；支付密码：123456；默认收货地址（JSON）：{"recipient": "王", "phone": "15212348132", "address": "惠恒大厦1期 3楼312室"}。请基于以上档案打开 com.daishushenghuo 并完成以下任务：在南北明华药行医保店(十五分店)加购 1 盒 999感冒灵颗粒10g*9袋/盒（¥13.61，购物车小计¥13.61）
+
+## Attempts
+
+| # | Outcome | Steps | Terminated | Reason | Start → End |
+|---|---------|-------|------------|--------|-------------|
+| 1 | ✅ passed | 21 | answer | – | 2026-05-26 11:10:58 → 2026-05-26 11:14:06 |
+| 2 | ✅ passed | 23 | answer | – | 2026-05-26 11:14:06 → 2026-05-26 11:18:00 |
+| 3 | ✅ passed | 23 | answer | – | 2026-05-26 11:18:00 → 2026-05-26 11:22:50 |
+
+---
+
+> 本摘要由 `sengclaw/scripts/pipeline/log_summarizer.py` 自动生成。 原始完整 log 见上方 Raw log 链接（含每 step 的 messages / tool_call / screenshot 引用）。
