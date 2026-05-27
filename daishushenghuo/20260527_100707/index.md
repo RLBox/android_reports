@@ -1,0 +1,15 @@
+# Pass@3 Report — daishushenghuo — 20260527_100707
+
+## Summary
+
+- Total tasks: **1**
+- ✅ All passed (3/3): **0**
+- ⚠️  Partial (1-2 / 3): **1**
+- ❌ Failed (0/3): **0**
+- Total elapsed: 938s (15.6 min)
+
+## Tasks
+
+| Status | Task | Pass@3 | Steps (ep1/ep2/ep3) | Elapsed |
+|--------|------|--------|---------------------|---------|
+| ⚠️ | [`DaishushenghuoKanbingV030BuyDashenlinThreeTask`](./kanbing_v030_buy_dashenlin_three.md) | 2/3 | 38/41/37 | 938s |
