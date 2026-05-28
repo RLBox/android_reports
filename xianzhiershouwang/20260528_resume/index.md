@@ -6,10 +6,10 @@
 - ✅ All passed (3/3): **0**
 - ⚠️  Partial (1-2 / 3): **1**
 - ❌ Failed (0/3): **0**
-- Total elapsed: 129s (2.1 min)
+- Total elapsed: 211s (3.5 min)
 
 ## Tasks
 
 | Status | Task | Pass@3 | Steps (ep1/ep2/ep3) | Elapsed |
 |--------|------|--------|---------------------|---------|
-| ⚠️ | [`XianzhiershouwangMessageV013MessageValidatorTask`](./message_v013_message_validator.md) | 2/3 | 7/7/7 | 129s |
+| ⚠️ | [`XianzhiershouwangMessageV016MessageValidatorTask`](./message_v016_message_validator.md) | 2/3 | 10/10/10 | 211s |
