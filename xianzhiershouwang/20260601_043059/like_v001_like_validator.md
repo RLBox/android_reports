@@ -1,0 +1,25 @@
+# like/v001_like_validator  ✅
+
+- **Brand**: `xianzhiershouwang`
+- **Class**: `XianzhiershouwangLikeV001LikeValidatorTask`
+- **Pass@3**: **3/3**  (score = 1.00)
+- **Elapsed**: 261s (~4.3 min)
+- **Model**: `doubao-seed-2-0-lite-260428`
+- **Raw log**: [./raw_logs/XianzhiershouwangLikeV001LikeValidatorTask.log](./raw_logs/XianzhiershouwangLikeV001LikeValidatorTask.log)
+- **Generated**: 2026-06-01T05:56:44+08:00
+
+## Task Goal
+
+> 【当前账户档案】账号：zhangsan@example.com；昵称：张三；支付密码：无需密码，如需支付直接确认即可；默认收货地址（JSON）：{"recipient": "张三", "phone": "13800138000", "address": "上海市 上海市 浦东新区 陆家嘴环路1000号"}。请基于以上档案打开 com.xianzhiershouwang 并完成以下任务：搜一下三体全集，有精装版和普通版对吧，帮我蹲精装那个，期望价设它标价的8折
+
+## Attempts
+
+| # | Outcome | Steps | Terminated | Reason | Start → End |
+|---|---------|-------|------------|--------|-------------|
+| 1 | ✅ passed | 10 | answer | – | 2026-06-01 05:24:45 → 2026-06-01 05:26:10 |
+| 2 | ✅ passed | 10 | answer | – | 2026-06-01 05:26:10 → 2026-06-01 05:27:37 |
+| 3 | ✅ passed | 10 | answer | – | 2026-06-01 05:27:37 → 2026-06-01 05:29:06 |
+
+---
+
+> 本摘要由 `sengclaw/scripts/pipeline/log_summarizer.py` 自动生成。 原始完整 log 见上方 Raw log 链接（含每 step 的 messages / tool_call / screenshot 引用）。
