@@ -1,0 +1,856 @@
+🦞 runner args: server=http://localhost:6800 k=1 max_steps=80 mode=multi-candidate-fallback
+🦞 candidates:  [primary=doubao-seed-2-0-lite-260428, fallback_1=anthropic/claude-sonnet-4-6, fallback_2=anthropic/claude-opus-4.7]
+🦞 user args:   --task-name WogoumarketNotificationV004ConfirmReceiptAfterShippingNotificationTask --k 3 --max-steps 80 --artifact-root /tmp/pass_at_3_reports/wogoumarket_20260602_050755/artifacts/WogoumarketNotificationV004ConfirmReceiptAfterShippingNotificationTask
+
+2026-06-02 06:34:40.402 | INFO     | __main__:run_pass_k:196 - Server healthy at http://localhost:6800
+2026-06-02 06:34:40.402 | INFO     | __main__:run_pass_k:199 - Pass@k start: task=WogoumarketNotificationV004ConfirmReceiptAfterShippingNotificationTask k=3 max_steps=80 episodes=[1, 2, 3]
+2026-06-02 06:34:40.402 | INFO     | __main__:run_pass_k:203 - 
+============================================================
+Starting episode 1/3: WogoumarketNotificationV004ConfirmReceiptAfterShippingNotificationTask
+============================================================
+2026-06-02 06:34:40.449 | INFO     | __main__:run_episode:65 - Task: WogoumarketNotificationV004ConfirmReceiptAfterShippingNotificationTask | Goal: 【当前账户档案】账号：demo@rlbox.ai；昵称：张三；支付密码：123456，如需支付请使用此密码完成支付；默认收货地址（JSON）：{"recipient": "科憨憨", "phone": "13100002345", "address": "腾讯滨海大厦 广东省 深圳市 南山区 1楼东门外卖柜"}。请基于以上档案打开 com.wogoumarket 并完成以下任务：我看到有个消息通知说我的订单在派送了，帮我在消息通知里的订单信息查看一下详细信息
+2026-06-02 06:34:42.086 | INFO     | __main__:run_episode:81 - --- Step 1/80 ---
+2026-06-02 06:34:42.259 | INFO     | android_tasks_external.agent_loop.logging_utils:pretty_print_messages:40 - messages:
+[
+  {
+    "role": "system",
+    "content": "You are provided with a task description, a history of previous actions, and corresponding screenshots. Your goal is to perform the next action to complete the task. Please note that if performing the same action multiple times results in a static screen with no changes, you should attempt a modified or alternative action."
+  },
+  {
+    "role": "system",
+    "content": "## Function Definition\n\n- You have access to the following functions:\n{\"type\": \"function\", \"name\": \"clarify\", \"description\": \"Ask the user for more information to complete the task.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"content\": {\"type\": \"string\", \"description\": \"The content of the clarification request.\"}}, \"required\": [\"content\"]}}\n{\"type\": \"function\", \"name\": \"click\", \"description\": \"Mouse left single click action.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"point\": {\"type\": \"string\", \"description\": \"Click coordinates. The format is: <point>x y</point>\"}}, \"required\": [\"point\"]}}\n{\"type\": \"function\", \"name\": \"double_click\", \"description\": \"Mouse left double click action.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"point\": {\"type\": \"string\", \"description\": \"Double click coordinates. The format is: <point>x y</point>\"}}, \"required\": [\"point\"]}}\n{\"type\": \"function\", \"name\": \"drag\", \"description\": \"Perform a drag action from the start point to the end point. Typically used for swiping or selecting elements.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"start_point\": {\"type\": \"string\", \"description\": \"The starting coordinates of the drag action. The format is: <point>x y</point>\"}, \"end_point\": {\"type\": \"string\", \"description\": \"The ending coordinates of the drag action. The format is: <point>x y</point>\"}}, \"required\": [\"start_point\", \"end_point\"]}}\n{\"type\": \"function\", \"name\": \"long_press\", \"description\": \"Perform a long press action at the specified coordinates.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"point\": {\"type\": \"string\", \"description\": \"The coordinates where the long press action will be performed. The format is: <point>x y</point>\"}}, \"required\": [\"point\"]}}\n{\"type\": \"function\", \"name\": \"open_app\", \"description\": \"Open the specified application.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"app_name\": {\"type\": \"string\", \"description\": \"The name of the app to open.\"}}, \"required\": [\"app_name\"]}}\n{\"type\": \"function\", \"name\": \"press_back\", \"description\": \"Press the back button.\", \"parameters\": {\"type\": \"object\", \"properties\": {}, \"required\": []}}\n{\"type\": \"function\", \"name\": \"press_enter\", \"description\": \"Press the enter key.\", \"parameters\": {\"type\": \"object\", \"properties\": {}, \"required\": []}}\n{\"type\": \"function\", \"name\": \"press_home\", \"description\": \"Press the home button.\", \"parameters\": {\"type\": \"object\", \"properties\": {}, \"required\": []}}\n{\"type\": \"function\", \"name\": \"take_notes\", \"description\": \"Take notes and report the result in the specified content.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"content\": {\"type\": \"string\", \"description\": \"The content of the notes to take. Use \\\\', \\\\\\\" and \\\\\\\\n to ensure proper parsing in Python string format.\"}}, \"required\": [\"content\"]}}\n{\"type\": \"function\", \"name\": \"type\", \"description\": \"Type the specified content. You should manually delete any text from the input box that you want to remove.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"content\": {\"type\": \"string\", \"description\": \"The text content to type. Use \\\\', \\\\\\\" and \\\\\\\\n to ensure proper parsing in Python string format. Add '\\\\\\\\n' at the end of the content to submit input.\"}}, \"required\": [\"content\"]}}\n{\"type\": \"function\", \"name\": \"wait\", \"description\": \"Wait for a certain period of time.\", \"parameters\": {\"type\": \"object\", \"properties\": {}, \"required\": []}}\n\n- To call a function, use the following structure without any suffix:\n\n<seed:tool_call><function name=\"example_function_name\"><parameter name=\"example_parameter_1\" string=\"false|true\">value_1</parameter></function></seed:tool_call>\n\n## Important Notes\n- All required parameters must be explicitly provided.\n- The string attribute within the parameter tag specifies the type of the parameter value. For instance, if the value is an integer, number, or boolean, set string=\"false\". If the value is a string, set string=\"true\". Example:\n<parameter name=\"parameter1\" string=\"false\">1</parameter>\n<parameter name=\"parameter1\" string=\"false\">1.0</parameter>\n<parameter name=\"parameter2\" string=\"false\">true</parameter>\n<parameter name=\"parameter3\" string=\"true\">This is a test 1.</parameter>\n- For complex parameter types, such as lists or objects, set string=\"false\" and provide the parameter value in JSON format. Example:\n<parameter name=\"parameter4\" string=\"false\">{\"key1\": \"value1\", \"key2\": \"value2\"}</parameter>\n<parameter name=\"parameter5\" string=\"false\">[1, 2, 3]</parameter>\n\n## Additional Notes\n- Available Apps: [\"com.wogoumarket\"].\n- If you think you have no enough information to complete the task, you should use `clarify` action to ask the user to get more information.\n- If the task involves any risky operations (including sending orders, logging in, etc.), you need to complete them yourself instead of finishing the task."
+  },
+  {
+    "role": "user",
+    "content": "【当前账户档案】账号：demo@rlbox.ai；昵称：张三；支付密码：123456，如需支付请使用此密码完成支付；默认收货地址（JSON）：{\"recipient\": \"科憨憨\", \"phone\": \"13100002345\", \"address\": \"腾讯滨海大厦 广东省 深圳市 南山区 1楼东门外卖柜\"}。请基于以上档案打开 com.wogoumarket 并完成以下任务：我看到有个消息通知说我的订单在派送了，帮我在消息通知里的订单信息查看一下详细信息"
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "text",
+        "text": "Current screen."
+      },
+      {
+        "type": "image_url",
+        "image_url": {
+          "url": "[IMAGE_BASE64]"
+        }
+      }
+    ]
+  }
+]
+2026-06-02 06:34:46.447 | INFO     | __main__:run_episode:83 - Action: {'action_type': 'open_app', 'app_name': 'com.wogoumarket'}
+2026-06-02 06:34:49.747 | INFO     | __main__:run_episode:81 - --- Step 2/80 ---
+2026-06-02 06:34:49.791 | INFO     | android_tasks_external.agent_loop.logging_utils:pretty_print_messages:40 - 
+[... 1 earlier message(s) omitted ...]
+messages:
+[
+  {
+    "role": "system",
+    "content": "## Function Definition\n\n- You have access to the following functions:\n{\"type\": \"function\", \"name\": \"clarify\", \"description\": \"Ask the user for more information to complete the task.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"content\": {\"type\": \"string\", \"description\": \"The content of the clarification request.\"}}, \"required\": [\"content\"]}}\n{\"type\": \"function\", \"name\": \"click\", \"description\": \"Mouse left single click action.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"point\": {\"type\": \"string\", \"description\": \"Click coordinates. The format is: <point>x y</point>\"}}, \"required\": [\"point\"]}}\n{\"type\": \"function\", \"name\": \"double_click\", \"description\": \"Mouse left double click action.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"point\": {\"type\": \"string\", \"description\": \"Double click coordinates. The format is: <point>x y</point>\"}}, \"required\": [\"point\"]}}\n{\"type\": \"function\", \"name\": \"drag\", \"description\": \"Perform a drag action from the start point to the end point. Typically used for swiping or selecting elements.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"start_point\": {\"type\": \"string\", \"description\": \"The starting coordinates of the drag action. The format is: <point>x y</point>\"}, \"end_point\": {\"type\": \"string\", \"description\": \"The ending coordinates of the drag action. The format is: <point>x y</point>\"}}, \"required\": [\"start_point\", \"end_point\"]}}\n{\"type\": \"function\", \"name\": \"long_press\", \"description\": \"Perform a long press action at the specified coordinates.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"point\": {\"type\": \"string\", \"description\": \"The coordinates where the long press action will be performed. The format is: <point>x y</point>\"}}, \"required\": [\"point\"]}}\n{\"type\": \"function\", \"name\": \"open_app\", \"description\": \"Open the specified application.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"app_name\": {\"type\": \"string\", \"description\": \"The name of the app to open.\"}}, \"required\": [\"app_name\"]}}\n{\"type\": \"function\", \"name\": \"press_back\", \"description\": \"Press the back button.\", \"parameters\": {\"type\": \"object\", \"properties\": {}, \"required\": []}}\n{\"type\": \"function\", \"name\": \"press_enter\", \"description\": \"Press the enter key.\", \"parameters\": {\"type\": \"object\", \"properties\": {}, \"required\": []}}\n{\"type\": \"function\", \"name\": \"press_home\", \"description\": \"Press the home button.\", \"parameters\": {\"type\": \"object\", \"properties\": {}, \"required\": []}}\n{\"type\": \"function\", \"name\": \"take_notes\", \"description\": \"Take notes and report the result in the specified content.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"content\": {\"type\": \"string\", \"description\": \"The content of the notes to take. Use \\\\', \\\\\\\" and \\\\\\\\n to ensure proper parsing in Python string format.\"}}, \"required\": [\"content\"]}}\n{\"type\": \"function\", \"name\": \"type\", \"description\": \"Type the specified content. You should manually delete any text from the input box that you want to remove.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"content\": {\"type\": \"string\", \"description\": \"The text content to type. Use \\\\', \\\\\\\" and \\\\\\\\n to ensure proper parsing in Python string format. Add '\\\\\\\\n' at the end of the content to submit input.\"}}, \"required\": [\"content\"]}}\n{\"type\": \"function\", \"name\": \"wait\", \"description\": \"Wait for a certain period of time.\", \"parameters\": {\"type\": \"object\", \"properties\": {}, \"required\": []}}\n\n- To call a function, use the following structure without any suffix:\n\n<seed:tool_call><function name=\"example_function_name\"><parameter name=\"example_parameter_1\" string=\"false|true\">value_1</parameter></function></seed:tool_call>\n\n## Important Notes\n- All required parameters must be explicitly provided.\n- The string attribute within the parameter tag specifies the type of the parameter value. For instance, if the value is an integer, number, or boolean, set string=\"false\". If the value is a string, set string=\"true\". Example:\n<parameter name=\"parameter1\" string=\"false\">1</parameter>\n<parameter name=\"parameter1\" string=\"false\">1.0</parameter>\n<parameter name=\"parameter2\" string=\"false\">true</parameter>\n<parameter name=\"parameter3\" string=\"true\">This is a test 1.</parameter>\n- For complex parameter types, such as lists or objects, set string=\"false\" and provide the parameter value in JSON format. Example:\n<parameter name=\"parameter4\" string=\"false\">{\"key1\": \"value1\", \"key2\": \"value2\"}</parameter>\n<parameter name=\"parameter5\" string=\"false\">[1, 2, 3]</parameter>\n\n## Additional Notes\n- Available Apps: [\"com.wogoumarket\"].\n- If you think you have no enough information to complete the task, you should use `clarify` action to ask the user to get more information.\n- If the task involves any risky operations (including sending orders, logging in, etc.), you need to complete them yourself instead of finishing the task."
+  },
+  {
+    "role": "user",
+    "content": "【当前账户档案】账号：demo@rlbox.ai；昵称：张三；支付密码：123456，如需支付请使用此密码完成支付；默认收货地址（JSON）：{\"recipient\": \"科憨憨\", \"phone\": \"13100002345\", \"address\": \"腾讯滨海大厦 广东省 深圳市 南山区 1楼东门外卖柜\"}。请基于以上档案打开 com.wogoumarket 并完成以下任务：我看到有个消息通知说我的订单在派送了，帮我在消息通知里的订单信息查看一下详细信息"
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "text",
+        "text": "Current screen."
+      },
+      {
+        "type": "image_url",
+        "image_url": {
+          "url": "[IMAGE_BASE64]"
+        }
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "<think>打开指定沃狗市场应用，是我需要完成的任务。我将直接调用打开应用的操作，启动指定的沃狗市场应用。</think>\n<seed:tool_call><function name=\"open_app\"><parameter name=\"app_name\" string=\"true\">com.wogoumarket</parameter></function></seed:tool_call>"
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "text",
+        "text": "Current screen."
+      },
+      {
+        "type": "image_url",
+        "image_url": {
+          "url": "[IMAGE_BASE64]"
+        }
+      }
+    ]
+  }
+]
+2026-06-02 06:34:53.012 | INFO     | __main__:run_episode:83 - Action: {'action_type': 'click', 'x': 1007, 'y': 122}
+2026-06-02 06:34:54.161 | INFO     | __main__:run_episode:81 - --- Step 3/80 ---
+2026-06-02 06:34:54.179 | INFO     | android_tasks_external.agent_loop.logging_utils:pretty_print_messages:40 - 
+[... 3 earlier message(s) omitted ...]
+messages:
+[
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "text",
+        "text": "Current screen."
+      },
+      {
+        "type": "image_url",
+        "image_url": {
+          "url": "[IMAGE_BASE64]"
+        }
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "<think>打开指定沃狗市场应用，是我需要完成的任务。我将直接调用打开应用的操作，启动指定的沃狗市场应用。</think>\n<seed:tool_call><function name=\"open_app\"><parameter name=\"app_name\" string=\"true\">com.wogoumarket</parameter></function></seed:tool_call>"
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "text",
+        "text": "Current screen."
+      },
+      {
+        "type": "image_url",
+        "image_url": {
+          "url": "[IMAGE_BASE64]"
+        }
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "<think>沃狗市场已打开，有12条未读消息。接下来我将点击右上角消息图标，进入消息页查看订单详情。</think>\n<seed:tool_call><function name=\"click\"><parameter name=\"point\" string=\"true\"><point>932 51</point></parameter></function></seed:tool_call>"
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "text",
+        "text": "Current screen."
+      },
+      {
+        "type": "image_url",
+        "image_url": {
+          "url": "[IMAGE_BASE64]"
+        }
+      }
+    ]
+  }
+]
+2026-06-02 06:34:58.023 | INFO     | __main__:run_episode:83 - Action: {'action_type': 'click', 'x': 324, 'y': 336}
+2026-06-02 06:34:59.168 | INFO     | __main__:run_episode:81 - --- Step 4/80 ---
+2026-06-02 06:34:59.181 | INFO     | android_tasks_external.agent_loop.logging_utils:pretty_print_messages:40 - 
+[... 5 earlier message(s) omitted ...]
+messages:
+[
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "text",
+        "text": "Current screen."
+      },
+      {
+        "type": "image_url",
+        "image_url": {
+          "url": "[IMAGE_BASE64]"
+        }
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "<think>沃狗市场已打开，有12条未读消息。接下来我将点击右上角消息图标，进入消息页查看订单详情。</think>\n<seed:tool_call><function name=\"click\"><parameter name=\"point\" string=\"true\"><point>932 51</point></parameter></function></seed:tool_call>"
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "text",
+        "text": "Current screen."
+      },
+      {
+        "type": "image_url",
+        "image_url": {
+          "url": "[IMAGE_BASE64]"
+        }
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "<think>当前处于消息通知页面，我将点击订单信息查看派送中订单详情。</think>\n<seed:tool_call><function name=\"click\"><parameter name=\"point\" string=\"true\"><point>300 140</point></parameter></function></seed:tool_call>"
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "text",
+        "text": "Current screen."
+      },
+      {
+        "type": "image_url",
+        "image_url": {
+          "url": "[IMAGE_BASE64]"
+        }
+      }
+    ]
+  }
+]
+2026-06-02 06:35:03.309 | INFO     | __main__:run_episode:83 - Action: {'action_type': 'click', 'x': 216, 'y': 420}
+2026-06-02 06:35:04.480 | INFO     | __main__:run_episode:81 - --- Step 5/80 ---
+2026-06-02 06:35:04.509 | INFO     | android_tasks_external.agent_loop.logging_utils:pretty_print_messages:40 - 
+[... 7 earlier message(s) omitted ...]
+messages:
+[
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "text",
+        "text": "Current screen."
+      },
+      {
+        "type": "image_url",
+        "image_url": {
+          "url": "[IMAGE_BASE64]"
+        }
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "<think>当前处于消息通知页面，我将点击订单信息查看派送中订单详情。</think>\n<seed:tool_call><function name=\"click\"><parameter name=\"point\" string=\"true\"><point>300 140</point></parameter></function></seed:tool_call>"
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "text",
+        "text": "Current screen."
+      },
+      {
+        "type": "image_url",
+        "image_url": {
+          "url": "[IMAGE_BASE64]"
+        }
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "<think>接下来我将点击当前页面的订单派送中条目，进入详情页查看详细订单信息。</think>\n<seed:tool_call><function name=\"click\"><parameter name=\"point\" string=\"true\"><point>200 175</point></parameter></function></seed:tool_call>"
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "text",
+        "text": "Current screen."
+      },
+      {
+        "type": "image_url",
+        "image_url": {
+          "url": "[IMAGE_BASE64]"
+        }
+      }
+    ]
+  }
+]
+2026-06-02 06:35:09.585 | INFO     | __main__:run_episode:83 - Action: {'action_type': 'answer', 'text': '已为你在沃狗市场中查看了消息通知里处于派送状态的订单详细信息：该订单预计送达时间为今天（周二）09:00-10:00，配送员为周剑，收货人为科憨憨，收货地址为广东省深圳市南山区腾讯滨海大厦1楼东门外卖柜，商品为广西香蕉1kg装，商品金额5.90元，运费2.00元，包装费1.20元，实际支付9.10元，收货备注为其他商品继续配送(缺货商品退款)，任务完成。'}
+2026-06-02 06:35:10.747 | INFO     | __main__:run_episode:99 - Task terminated at step 5 (action_type=answer)
+2026-06-02 06:35:10.781 | INFO     | __main__:run_episode:132 - Score: 1.0 | Reason:  | Terminated: answer
+2026-06-02 06:35:10.848 | INFO     | __main__:run_pass_k:203 - 
+============================================================
+Starting episode 2/3: WogoumarketNotificationV004ConfirmReceiptAfterShippingNotificationTask
+============================================================
+2026-06-02 06:35:10.881 | INFO     | __main__:run_episode:65 - Task: WogoumarketNotificationV004ConfirmReceiptAfterShippingNotificationTask | Goal: 【当前账户档案】账号：demo@rlbox.ai；昵称：张三；支付密码：123456，如需支付请使用此密码完成支付；默认收货地址（JSON）：{"recipient": "科憨憨", "phone": "13100002345", "address": "腾讯滨海大厦 广东省 深圳市 南山区 1楼东门外卖柜"}。请基于以上档案打开 com.wogoumarket 并完成以下任务：我看到有个消息通知说我的订单在派送了，帮我在消息通知里的订单信息查看一下详细信息
+2026-06-02 06:35:12.502 | INFO     | __main__:run_episode:81 - --- Step 1/80 ---
+2026-06-02 06:35:12.665 | INFO     | android_tasks_external.agent_loop.logging_utils:pretty_print_messages:40 - messages:
+[
+  {
+    "role": "system",
+    "content": "You are provided with a task description, a history of previous actions, and corresponding screenshots. Your goal is to perform the next action to complete the task. Please note that if performing the same action multiple times results in a static screen with no changes, you should attempt a modified or alternative action."
+  },
+  {
+    "role": "system",
+    "content": "## Function Definition\n\n- You have access to the following functions:\n{\"type\": \"function\", \"name\": \"clarify\", \"description\": \"Ask the user for more information to complete the task.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"content\": {\"type\": \"string\", \"description\": \"The content of the clarification request.\"}}, \"required\": [\"content\"]}}\n{\"type\": \"function\", \"name\": \"click\", \"description\": \"Mouse left single click action.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"point\": {\"type\": \"string\", \"description\": \"Click coordinates. The format is: <point>x y</point>\"}}, \"required\": [\"point\"]}}\n{\"type\": \"function\", \"name\": \"double_click\", \"description\": \"Mouse left double click action.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"point\": {\"type\": \"string\", \"description\": \"Double click coordinates. The format is: <point>x y</point>\"}}, \"required\": [\"point\"]}}\n{\"type\": \"function\", \"name\": \"drag\", \"description\": \"Perform a drag action from the start point to the end point. Typically used for swiping or selecting elements.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"start_point\": {\"type\": \"string\", \"description\": \"The starting coordinates of the drag action. The format is: <point>x y</point>\"}, \"end_point\": {\"type\": \"string\", \"description\": \"The ending coordinates of the drag action. The format is: <point>x y</point>\"}}, \"required\": [\"start_point\", \"end_point\"]}}\n{\"type\": \"function\", \"name\": \"long_press\", \"description\": \"Perform a long press action at the specified coordinates.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"point\": {\"type\": \"string\", \"description\": \"The coordinates where the long press action will be performed. The format is: <point>x y</point>\"}}, \"required\": [\"point\"]}}\n{\"type\": \"function\", \"name\": \"open_app\", \"description\": \"Open the specified application.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"app_name\": {\"type\": \"string\", \"description\": \"The name of the app to open.\"}}, \"required\": [\"app_name\"]}}\n{\"type\": \"function\", \"name\": \"press_back\", \"description\": \"Press the back button.\", \"parameters\": {\"type\": \"object\", \"properties\": {}, \"required\": []}}\n{\"type\": \"function\", \"name\": \"press_enter\", \"description\": \"Press the enter key.\", \"parameters\": {\"type\": \"object\", \"properties\": {}, \"required\": []}}\n{\"type\": \"function\", \"name\": \"press_home\", \"description\": \"Press the home button.\", \"parameters\": {\"type\": \"object\", \"properties\": {}, \"required\": []}}\n{\"type\": \"function\", \"name\": \"take_notes\", \"description\": \"Take notes and report the result in the specified content.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"content\": {\"type\": \"string\", \"description\": \"The content of the notes to take. Use \\\\', \\\\\\\" and \\\\\\\\n to ensure proper parsing in Python string format.\"}}, \"required\": [\"content\"]}}\n{\"type\": \"function\", \"name\": \"type\", \"description\": \"Type the specified content. You should manually delete any text from the input box that you want to remove.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"content\": {\"type\": \"string\", \"description\": \"The text content to type. Use \\\\', \\\\\\\" and \\\\\\\\n to ensure proper parsing in Python string format. Add '\\\\\\\\n' at the end of the content to submit input.\"}}, \"required\": [\"content\"]}}\n{\"type\": \"function\", \"name\": \"wait\", \"description\": \"Wait for a certain period of time.\", \"parameters\": {\"type\": \"object\", \"properties\": {}, \"required\": []}}\n\n- To call a function, use the following structure without any suffix:\n\n<seed:tool_call><function name=\"example_function_name\"><parameter name=\"example_parameter_1\" string=\"false|true\">value_1</parameter></function></seed:tool_call>\n\n## Important Notes\n- All required parameters must be explicitly provided.\n- The string attribute within the parameter tag specifies the type of the parameter value. For instance, if the value is an integer, number, or boolean, set string=\"false\". If the value is a string, set string=\"true\". Example:\n<parameter name=\"parameter1\" string=\"false\">1</parameter>\n<parameter name=\"parameter1\" string=\"false\">1.0</parameter>\n<parameter name=\"parameter2\" string=\"false\">true</parameter>\n<parameter name=\"parameter3\" string=\"true\">This is a test 1.</parameter>\n- For complex parameter types, such as lists or objects, set string=\"false\" and provide the parameter value in JSON format. Example:\n<parameter name=\"parameter4\" string=\"false\">{\"key1\": \"value1\", \"key2\": \"value2\"}</parameter>\n<parameter name=\"parameter5\" string=\"false\">[1, 2, 3]</parameter>\n\n## Additional Notes\n- Available Apps: [\"com.wogoumarket\"].\n- If you think you have no enough information to complete the task, you should use `clarify` action to ask the user to get more information.\n- If the task involves any risky operations (including sending orders, logging in, etc.), you need to complete them yourself instead of finishing the task."
+  },
+  {
+    "role": "user",
+    "content": "【当前账户档案】账号：demo@rlbox.ai；昵称：张三；支付密码：123456，如需支付请使用此密码完成支付；默认收货地址（JSON）：{\"recipient\": \"科憨憨\", \"phone\": \"13100002345\", \"address\": \"腾讯滨海大厦 广东省 深圳市 南山区 1楼东门外卖柜\"}。请基于以上档案打开 com.wogoumarket 并完成以下任务：我看到有个消息通知说我的订单在派送了，帮我在消息通知里的订单信息查看一下详细信息"
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "text",
+        "text": "Current screen."
+      },
+      {
+        "type": "image_url",
+        "image_url": {
+          "url": "[IMAGE_BASE64]"
+        }
+      }
+    ]
+  }
+]
+2026-06-02 06:35:19.015 | INFO     | __main__:run_episode:83 - Action: {'action_type': 'open_app', 'app_name': 'com.wogoumarket'}
+2026-06-02 06:35:22.319 | INFO     | __main__:run_episode:81 - --- Step 2/80 ---
+2026-06-02 06:35:22.367 | INFO     | android_tasks_external.agent_loop.logging_utils:pretty_print_messages:40 - 
+[... 1 earlier message(s) omitted ...]
+messages:
+[
+  {
+    "role": "system",
+    "content": "## Function Definition\n\n- You have access to the following functions:\n{\"type\": \"function\", \"name\": \"clarify\", \"description\": \"Ask the user for more information to complete the task.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"content\": {\"type\": \"string\", \"description\": \"The content of the clarification request.\"}}, \"required\": [\"content\"]}}\n{\"type\": \"function\", \"name\": \"click\", \"description\": \"Mouse left single click action.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"point\": {\"type\": \"string\", \"description\": \"Click coordinates. The format is: <point>x y</point>\"}}, \"required\": [\"point\"]}}\n{\"type\": \"function\", \"name\": \"double_click\", \"description\": \"Mouse left double click action.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"point\": {\"type\": \"string\", \"description\": \"Double click coordinates. The format is: <point>x y</point>\"}}, \"required\": [\"point\"]}}\n{\"type\": \"function\", \"name\": \"drag\", \"description\": \"Perform a drag action from the start point to the end point. Typically used for swiping or selecting elements.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"start_point\": {\"type\": \"string\", \"description\": \"The starting coordinates of the drag action. The format is: <point>x y</point>\"}, \"end_point\": {\"type\": \"string\", \"description\": \"The ending coordinates of the drag action. The format is: <point>x y</point>\"}}, \"required\": [\"start_point\", \"end_point\"]}}\n{\"type\": \"function\", \"name\": \"long_press\", \"description\": \"Perform a long press action at the specified coordinates.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"point\": {\"type\": \"string\", \"description\": \"The coordinates where the long press action will be performed. The format is: <point>x y</point>\"}}, \"required\": [\"point\"]}}\n{\"type\": \"function\", \"name\": \"open_app\", \"description\": \"Open the specified application.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"app_name\": {\"type\": \"string\", \"description\": \"The name of the app to open.\"}}, \"required\": [\"app_name\"]}}\n{\"type\": \"function\", \"name\": \"press_back\", \"description\": \"Press the back button.\", \"parameters\": {\"type\": \"object\", \"properties\": {}, \"required\": []}}\n{\"type\": \"function\", \"name\": \"press_enter\", \"description\": \"Press the enter key.\", \"parameters\": {\"type\": \"object\", \"properties\": {}, \"required\": []}}\n{\"type\": \"function\", \"name\": \"press_home\", \"description\": \"Press the home button.\", \"parameters\": {\"type\": \"object\", \"properties\": {}, \"required\": []}}\n{\"type\": \"function\", \"name\": \"take_notes\", \"description\": \"Take notes and report the result in the specified content.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"content\": {\"type\": \"string\", \"description\": \"The content of the notes to take. Use \\\\', \\\\\\\" and \\\\\\\\n to ensure proper parsing in Python string format.\"}}, \"required\": [\"content\"]}}\n{\"type\": \"function\", \"name\": \"type\", \"description\": \"Type the specified content. You should manually delete any text from the input box that you want to remove.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"content\": {\"type\": \"string\", \"description\": \"The text content to type. Use \\\\', \\\\\\\" and \\\\\\\\n to ensure proper parsing in Python string format. Add '\\\\\\\\n' at the end of the content to submit input.\"}}, \"required\": [\"content\"]}}\n{\"type\": \"function\", \"name\": \"wait\", \"description\": \"Wait for a certain period of time.\", \"parameters\": {\"type\": \"object\", \"properties\": {}, \"required\": []}}\n\n- To call a function, use the following structure without any suffix:\n\n<seed:tool_call><function name=\"example_function_name\"><parameter name=\"example_parameter_1\" string=\"false|true\">value_1</parameter></function></seed:tool_call>\n\n## Important Notes\n- All required parameters must be explicitly provided.\n- The string attribute within the parameter tag specifies the type of the parameter value. For instance, if the value is an integer, number, or boolean, set string=\"false\". If the value is a string, set string=\"true\". Example:\n<parameter name=\"parameter1\" string=\"false\">1</parameter>\n<parameter name=\"parameter1\" string=\"false\">1.0</parameter>\n<parameter name=\"parameter2\" string=\"false\">true</parameter>\n<parameter name=\"parameter3\" string=\"true\">This is a test 1.</parameter>\n- For complex parameter types, such as lists or objects, set string=\"false\" and provide the parameter value in JSON format. Example:\n<parameter name=\"parameter4\" string=\"false\">{\"key1\": \"value1\", \"key2\": \"value2\"}</parameter>\n<parameter name=\"parameter5\" string=\"false\">[1, 2, 3]</parameter>\n\n## Additional Notes\n- Available Apps: [\"com.wogoumarket\"].\n- If you think you have no enough information to complete the task, you should use `clarify` action to ask the user to get more information.\n- If the task involves any risky operations (including sending orders, logging in, etc.), you need to complete them yourself instead of finishing the task."
+  },
+  {
+    "role": "user",
+    "content": "【当前账户档案】账号：demo@rlbox.ai；昵称：张三；支付密码：123456，如需支付请使用此密码完成支付；默认收货地址（JSON）：{\"recipient\": \"科憨憨\", \"phone\": \"13100002345\", \"address\": \"腾讯滨海大厦 广东省 深圳市 南山区 1楼东门外卖柜\"}。请基于以上档案打开 com.wogoumarket 并完成以下任务：我看到有个消息通知说我的订单在派送了，帮我在消息通知里的订单信息查看一下详细信息"
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "text",
+        "text": "Current screen."
+      },
+      {
+        "type": "image_url",
+        "image_url": {
+          "url": "[IMAGE_BASE64]"
+        }
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "<think>打开指定包名的应用是我需要完成的任务。当前桌面未找到目标应用图标，我将直接调用工具打开该应用，后续查看订单详情。</think>\n<seed:tool_call><function name=\"open_app\"><parameter name=\"app_name\" string=\"true\">com.wogoumarket</parameter></function></seed:tool_call>"
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "text",
+        "text": "Current screen."
+      },
+      {
+        "type": "image_url",
+        "image_url": {
+          "url": "[IMAGE_BASE64]"
+        }
+      }
+    ]
+  }
+]
+2026-06-02 06:35:26.688 | INFO     | __main__:run_episode:83 - Action: {'action_type': 'click', 'x': 1005, 'y': 122}
+2026-06-02 06:35:27.843 | INFO     | __main__:run_episode:81 - --- Step 3/80 ---
+2026-06-02 06:35:27.861 | INFO     | android_tasks_external.agent_loop.logging_utils:pretty_print_messages:40 - 
+[... 3 earlier message(s) omitted ...]
+messages:
+[
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "text",
+        "text": "Current screen."
+      },
+      {
+        "type": "image_url",
+        "image_url": {
+          "url": "[IMAGE_BASE64]"
+        }
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "<think>打开指定包名的应用是我需要完成的任务。当前桌面未找到目标应用图标，我将直接调用工具打开该应用，后续查看订单详情。</think>\n<seed:tool_call><function name=\"open_app\"><parameter name=\"app_name\" string=\"true\">com.wogoumarket</parameter></function></seed:tool_call>"
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "text",
+        "text": "Current screen."
+      },
+      {
+        "type": "image_url",
+        "image_url": {
+          "url": "[IMAGE_BASE64]"
+        }
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "<think>消息通知入口已找到，将点击查看派送订单详情。点击消息按钮进入页面。</think>\n<seed:tool_call><function name=\"click\"><parameter name=\"point\" string=\"true\"><point>931 51</point></parameter></function></seed:tool_call>"
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "text",
+        "text": "Current screen."
+      },
+      {
+        "type": "image_url",
+        "image_url": {
+          "url": "[IMAGE_BASE64]"
+        }
+      }
+    ]
+  }
+]
+2026-06-02 06:35:32.274 | INFO     | __main__:run_episode:83 - Action: {'action_type': 'click', 'x': 324, 'y': 336}
+2026-06-02 06:35:33.428 | INFO     | __main__:run_episode:81 - --- Step 4/80 ---
+2026-06-02 06:35:33.441 | INFO     | android_tasks_external.agent_loop.logging_utils:pretty_print_messages:40 - 
+[... 5 earlier message(s) omitted ...]
+messages:
+[
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "text",
+        "text": "Current screen."
+      },
+      {
+        "type": "image_url",
+        "image_url": {
+          "url": "[IMAGE_BASE64]"
+        }
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "<think>消息通知入口已找到，将点击查看派送订单详情。点击消息按钮进入页面。</think>\n<seed:tool_call><function name=\"click\"><parameter name=\"point\" string=\"true\"><point>931 51</point></parameter></function></seed:tool_call>"
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "text",
+        "text": "Current screen."
+      },
+      {
+        "type": "image_url",
+        "image_url": {
+          "url": "[IMAGE_BASE64]"
+        }
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "<think>订单信息项有未读标记，我将点击它查看派送订单详情。</think>\n<seed:tool_call><function name=\"click\"><parameter name=\"point\" string=\"true\"><point>300 140</point></parameter></function></seed:tool_call>"
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "text",
+        "text": "Current screen."
+      },
+      {
+        "type": "image_url",
+        "image_url": {
+          "url": "[IMAGE_BASE64]"
+        }
+      }
+    ]
+  }
+]
+2026-06-02 06:35:37.924 | INFO     | __main__:run_episode:83 - Action: {'action_type': 'click', 'x': 400, 'y': 444}
+2026-06-02 06:35:39.114 | INFO     | __main__:run_episode:81 - --- Step 5/80 ---
+2026-06-02 06:35:39.142 | INFO     | android_tasks_external.agent_loop.logging_utils:pretty_print_messages:40 - 
+[... 7 earlier message(s) omitted ...]
+messages:
+[
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "text",
+        "text": "Current screen."
+      },
+      {
+        "type": "image_url",
+        "image_url": {
+          "url": "[IMAGE_BASE64]"
+        }
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "<think>订单信息项有未读标记，我将点击它查看派送订单详情。</think>\n<seed:tool_call><function name=\"click\"><parameter name=\"point\" string=\"true\"><point>300 140</point></parameter></function></seed:tool_call>"
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "text",
+        "text": "Current screen."
+      },
+      {
+        "type": "image_url",
+        "image_url": {
+          "url": "[IMAGE_BASE64]"
+        }
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "<think>订单信息页面已进入，查到有派送中的订单，留意配送电话即可。接下来我将点击该通知查看订单详情。</think>\n<seed:tool_call><function name=\"click\"><parameter name=\"point\" string=\"true\"><point>370 185</point></parameter></function></seed:tool_call>"
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "text",
+        "text": "Current screen."
+      },
+      {
+        "type": "image_url",
+        "image_url": {
+          "url": "[IMAGE_BASE64]"
+        }
+      }
+    ]
+  }
+]
+2026-06-02 06:35:46.615 | INFO     | __main__:run_episode:83 - Action: {'action_type': 'answer', 'text': '已为你查看该派送订单的详细信息：预计送达时间为今天（周二）09:00-10:00，配送员是周剑，收货地址为广东省深圳市南山区腾讯滨海大厦1楼东门外卖柜（收件人科憨憨），商品为广西香蕉1kg装，商品金额5.90元，运费2.00元，包装费1.20元，实际支付9.10元，收货备注为其他商品继续配送(缺货商品退款)。任务完成。'}
+2026-06-02 06:35:47.781 | INFO     | __main__:run_episode:99 - Task terminated at step 5 (action_type=answer)
+2026-06-02 06:35:47.834 | INFO     | __main__:run_episode:132 - Score: 1.0 | Reason:  | Terminated: answer
+2026-06-02 06:35:47.904 | INFO     | __main__:run_pass_k:203 - 
+============================================================
+Starting episode 3/3: WogoumarketNotificationV004ConfirmReceiptAfterShippingNotificationTask
+============================================================
+2026-06-02 06:35:47.936 | INFO     | __main__:run_episode:65 - Task: WogoumarketNotificationV004ConfirmReceiptAfterShippingNotificationTask | Goal: 【当前账户档案】账号：demo@rlbox.ai；昵称：张三；支付密码：123456，如需支付请使用此密码完成支付；默认收货地址（JSON）：{"recipient": "科憨憨", "phone": "13100002345", "address": "腾讯滨海大厦 广东省 深圳市 南山区 1楼东门外卖柜"}。请基于以上档案打开 com.wogoumarket 并完成以下任务：我看到有个消息通知说我的订单在派送了，帮我在消息通知里的订单信息查看一下详细信息
+2026-06-02 06:35:49.554 | INFO     | __main__:run_episode:81 - --- Step 1/80 ---
+2026-06-02 06:35:49.713 | INFO     | android_tasks_external.agent_loop.logging_utils:pretty_print_messages:40 - messages:
+[
+  {
+    "role": "system",
+    "content": "You are provided with a task description, a history of previous actions, and corresponding screenshots. Your goal is to perform the next action to complete the task. Please note that if performing the same action multiple times results in a static screen with no changes, you should attempt a modified or alternative action."
+  },
+  {
+    "role": "system",
+    "content": "## Function Definition\n\n- You have access to the following functions:\n{\"type\": \"function\", \"name\": \"clarify\", \"description\": \"Ask the user for more information to complete the task.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"content\": {\"type\": \"string\", \"description\": \"The content of the clarification request.\"}}, \"required\": [\"content\"]}}\n{\"type\": \"function\", \"name\": \"click\", \"description\": \"Mouse left single click action.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"point\": {\"type\": \"string\", \"description\": \"Click coordinates. The format is: <point>x y</point>\"}}, \"required\": [\"point\"]}}\n{\"type\": \"function\", \"name\": \"double_click\", \"description\": \"Mouse left double click action.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"point\": {\"type\": \"string\", \"description\": \"Double click coordinates. The format is: <point>x y</point>\"}}, \"required\": [\"point\"]}}\n{\"type\": \"function\", \"name\": \"drag\", \"description\": \"Perform a drag action from the start point to the end point. Typically used for swiping or selecting elements.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"start_point\": {\"type\": \"string\", \"description\": \"The starting coordinates of the drag action. The format is: <point>x y</point>\"}, \"end_point\": {\"type\": \"string\", \"description\": \"The ending coordinates of the drag action. The format is: <point>x y</point>\"}}, \"required\": [\"start_point\", \"end_point\"]}}\n{\"type\": \"function\", \"name\": \"long_press\", \"description\": \"Perform a long press action at the specified coordinates.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"point\": {\"type\": \"string\", \"description\": \"The coordinates where the long press action will be performed. The format is: <point>x y</point>\"}}, \"required\": [\"point\"]}}\n{\"type\": \"function\", \"name\": \"open_app\", \"description\": \"Open the specified application.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"app_name\": {\"type\": \"string\", \"description\": \"The name of the app to open.\"}}, \"required\": [\"app_name\"]}}\n{\"type\": \"function\", \"name\": \"press_back\", \"description\": \"Press the back button.\", \"parameters\": {\"type\": \"object\", \"properties\": {}, \"required\": []}}\n{\"type\": \"function\", \"name\": \"press_enter\", \"description\": \"Press the enter key.\", \"parameters\": {\"type\": \"object\", \"properties\": {}, \"required\": []}}\n{\"type\": \"function\", \"name\": \"press_home\", \"description\": \"Press the home button.\", \"parameters\": {\"type\": \"object\", \"properties\": {}, \"required\": []}}\n{\"type\": \"function\", \"name\": \"take_notes\", \"description\": \"Take notes and report the result in the specified content.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"content\": {\"type\": \"string\", \"description\": \"The content of the notes to take. Use \\\\', \\\\\\\" and \\\\\\\\n to ensure proper parsing in Python string format.\"}}, \"required\": [\"content\"]}}\n{\"type\": \"function\", \"name\": \"type\", \"description\": \"Type the specified content. You should manually delete any text from the input box that you want to remove.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"content\": {\"type\": \"string\", \"description\": \"The text content to type. Use \\\\', \\\\\\\" and \\\\\\\\n to ensure proper parsing in Python string format. Add '\\\\\\\\n' at the end of the content to submit input.\"}}, \"required\": [\"content\"]}}\n{\"type\": \"function\", \"name\": \"wait\", \"description\": \"Wait for a certain period of time.\", \"parameters\": {\"type\": \"object\", \"properties\": {}, \"required\": []}}\n\n- To call a function, use the following structure without any suffix:\n\n<seed:tool_call><function name=\"example_function_name\"><parameter name=\"example_parameter_1\" string=\"false|true\">value_1</parameter></function></seed:tool_call>\n\n## Important Notes\n- All required parameters must be explicitly provided.\n- The string attribute within the parameter tag specifies the type of the parameter value. For instance, if the value is an integer, number, or boolean, set string=\"false\". If the value is a string, set string=\"true\". Example:\n<parameter name=\"parameter1\" string=\"false\">1</parameter>\n<parameter name=\"parameter1\" string=\"false\">1.0</parameter>\n<parameter name=\"parameter2\" string=\"false\">true</parameter>\n<parameter name=\"parameter3\" string=\"true\">This is a test 1.</parameter>\n- For complex parameter types, such as lists or objects, set string=\"false\" and provide the parameter value in JSON format. Example:\n<parameter name=\"parameter4\" string=\"false\">{\"key1\": \"value1\", \"key2\": \"value2\"}</parameter>\n<parameter name=\"parameter5\" string=\"false\">[1, 2, 3]</parameter>\n\n## Additional Notes\n- Available Apps: [\"com.wogoumarket\"].\n- If you think you have no enough information to complete the task, you should use `clarify` action to ask the user to get more information.\n- If the task involves any risky operations (including sending orders, logging in, etc.), you need to complete them yourself instead of finishing the task."
+  },
+  {
+    "role": "user",
+    "content": "【当前账户档案】账号：demo@rlbox.ai；昵称：张三；支付密码：123456，如需支付请使用此密码完成支付；默认收货地址（JSON）：{\"recipient\": \"科憨憨\", \"phone\": \"13100002345\", \"address\": \"腾讯滨海大厦 广东省 深圳市 南山区 1楼东门外卖柜\"}。请基于以上档案打开 com.wogoumarket 并完成以下任务：我看到有个消息通知说我的订单在派送了，帮我在消息通知里的订单信息查看一下详细信息"
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "text",
+        "text": "Current screen."
+      },
+      {
+        "type": "image_url",
+        "image_url": {
+          "url": "[IMAGE_BASE64]"
+        }
+      }
+    ]
+  }
+]
+2026-06-02 06:35:54.841 | INFO     | __main__:run_episode:83 - Action: {'action_type': 'open_app', 'app_name': 'com.wogoumarket'}
+2026-06-02 06:35:58.130 | INFO     | __main__:run_episode:81 - --- Step 2/80 ---
+2026-06-02 06:35:58.175 | INFO     | android_tasks_external.agent_loop.logging_utils:pretty_print_messages:40 - 
+[... 1 earlier message(s) omitted ...]
+messages:
+[
+  {
+    "role": "system",
+    "content": "## Function Definition\n\n- You have access to the following functions:\n{\"type\": \"function\", \"name\": \"clarify\", \"description\": \"Ask the user for more information to complete the task.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"content\": {\"type\": \"string\", \"description\": \"The content of the clarification request.\"}}, \"required\": [\"content\"]}}\n{\"type\": \"function\", \"name\": \"click\", \"description\": \"Mouse left single click action.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"point\": {\"type\": \"string\", \"description\": \"Click coordinates. The format is: <point>x y</point>\"}}, \"required\": [\"point\"]}}\n{\"type\": \"function\", \"name\": \"double_click\", \"description\": \"Mouse left double click action.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"point\": {\"type\": \"string\", \"description\": \"Double click coordinates. The format is: <point>x y</point>\"}}, \"required\": [\"point\"]}}\n{\"type\": \"function\", \"name\": \"drag\", \"description\": \"Perform a drag action from the start point to the end point. Typically used for swiping or selecting elements.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"start_point\": {\"type\": \"string\", \"description\": \"The starting coordinates of the drag action. The format is: <point>x y</point>\"}, \"end_point\": {\"type\": \"string\", \"description\": \"The ending coordinates of the drag action. The format is: <point>x y</point>\"}}, \"required\": [\"start_point\", \"end_point\"]}}\n{\"type\": \"function\", \"name\": \"long_press\", \"description\": \"Perform a long press action at the specified coordinates.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"point\": {\"type\": \"string\", \"description\": \"The coordinates where the long press action will be performed. The format is: <point>x y</point>\"}}, \"required\": [\"point\"]}}\n{\"type\": \"function\", \"name\": \"open_app\", \"description\": \"Open the specified application.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"app_name\": {\"type\": \"string\", \"description\": \"The name of the app to open.\"}}, \"required\": [\"app_name\"]}}\n{\"type\": \"function\", \"name\": \"press_back\", \"description\": \"Press the back button.\", \"parameters\": {\"type\": \"object\", \"properties\": {}, \"required\": []}}\n{\"type\": \"function\", \"name\": \"press_enter\", \"description\": \"Press the enter key.\", \"parameters\": {\"type\": \"object\", \"properties\": {}, \"required\": []}}\n{\"type\": \"function\", \"name\": \"press_home\", \"description\": \"Press the home button.\", \"parameters\": {\"type\": \"object\", \"properties\": {}, \"required\": []}}\n{\"type\": \"function\", \"name\": \"take_notes\", \"description\": \"Take notes and report the result in the specified content.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"content\": {\"type\": \"string\", \"description\": \"The content of the notes to take. Use \\\\', \\\\\\\" and \\\\\\\\n to ensure proper parsing in Python string format.\"}}, \"required\": [\"content\"]}}\n{\"type\": \"function\", \"name\": \"type\", \"description\": \"Type the specified content. You should manually delete any text from the input box that you want to remove.\", \"parameters\": {\"type\": \"object\", \"properties\": {\"content\": {\"type\": \"string\", \"description\": \"The text content to type. Use \\\\', \\\\\\\" and \\\\\\\\n to ensure proper parsing in Python string format. Add '\\\\\\\\n' at the end of the content to submit input.\"}}, \"required\": [\"content\"]}}\n{\"type\": \"function\", \"name\": \"wait\", \"description\": \"Wait for a certain period of time.\", \"parameters\": {\"type\": \"object\", \"properties\": {}, \"required\": []}}\n\n- To call a function, use the following structure without any suffix:\n\n<seed:tool_call><function name=\"example_function_name\"><parameter name=\"example_parameter_1\" string=\"false|true\">value_1</parameter></function></seed:tool_call>\n\n## Important Notes\n- All required parameters must be explicitly provided.\n- The string attribute within the parameter tag specifies the type of the parameter value. For instance, if the value is an integer, number, or boolean, set string=\"false\". If the value is a string, set string=\"true\". Example:\n<parameter name=\"parameter1\" string=\"false\">1</parameter>\n<parameter name=\"parameter1\" string=\"false\">1.0</parameter>\n<parameter name=\"parameter2\" string=\"false\">true</parameter>\n<parameter name=\"parameter3\" string=\"true\">This is a test 1.</parameter>\n- For complex parameter types, such as lists or objects, set string=\"false\" and provide the parameter value in JSON format. Example:\n<parameter name=\"parameter4\" string=\"false\">{\"key1\": \"value1\", \"key2\": \"value2\"}</parameter>\n<parameter name=\"parameter5\" string=\"false\">[1, 2, 3]</parameter>\n\n## Additional Notes\n- Available Apps: [\"com.wogoumarket\"].\n- If you think you have no enough information to complete the task, you should use `clarify` action to ask the user to get more information.\n- If the task involves any risky operations (including sending orders, logging in, etc.), you need to complete them yourself instead of finishing the task."
+  },
+  {
+    "role": "user",
+    "content": "【当前账户档案】账号：demo@rlbox.ai；昵称：张三；支付密码：123456，如需支付请使用此密码完成支付；默认收货地址（JSON）：{\"recipient\": \"科憨憨\", \"phone\": \"13100002345\", \"address\": \"腾讯滨海大厦 广东省 深圳市 南山区 1楼东门外卖柜\"}。请基于以上档案打开 com.wogoumarket 并完成以下任务：我看到有个消息通知说我的订单在派送了，帮我在消息通知里的订单信息查看一下详细信息"
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "text",
+        "text": "Current screen."
+      },
+      {
+        "type": "image_url",
+        "image_url": {
+          "url": "[IMAGE_BASE64]"
+        }
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "<think>我将打开指定包名的沃狗市场应用。我将调用指定的打开应用操作，启动包名为com.wogoumarket的目标应用，后续查看订单派送详情。</think>\n<seed:tool_call><function name=\"open_app\"><parameter name=\"app_name\" string=\"true\">com.wogoumarket</parameter></function></seed:tool_call>"
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "text",
+        "text": "Current screen."
+      },
+      {
+        "type": "image_url",
+        "image_url": {
+          "url": "[IMAGE_BASE64]"
+        }
+      }
+    ]
+  }
+]
+2026-06-02 06:36:02.274 | INFO     | __main__:run_episode:83 - Action: {'action_type': 'click', 'x': 1005, 'y': 122}
+2026-06-02 06:36:03.439 | INFO     | __main__:run_episode:81 - --- Step 3/80 ---
+2026-06-02 06:36:03.457 | INFO     | android_tasks_external.agent_loop.logging_utils:pretty_print_messages:40 - 
+[... 3 earlier message(s) omitted ...]
+messages:
+[
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "text",
+        "text": "Current screen."
+      },
+      {
+        "type": "image_url",
+        "image_url": {
+          "url": "[IMAGE_BASE64]"
+        }
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "<think>我将打开指定包名的沃狗市场应用。我将调用指定的打开应用操作，启动包名为com.wogoumarket的目标应用，后续查看订单派送详情。</think>\n<seed:tool_call><function name=\"open_app\"><parameter name=\"app_name\" string=\"true\">com.wogoumarket</parameter></function></seed:tool_call>"
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "text",
+        "text": "Current screen."
+      },
+      {
+        "type": "image_url",
+        "image_url": {
+          "url": "[IMAGE_BASE64]"
+        }
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "<think>已打开目标应用，右上角有12条未读消息。接下来我将点击右上角消息图标，进入消息页查找订单派送通知。</think>\n<seed:tool_call><function name=\"click\"><parameter name=\"point\" string=\"true\"><point>931 51</point></parameter></function></seed:tool_call>"
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "text",
+        "text": "Current screen."
+      },
+      {
+        "type": "image_url",
+        "image_url": {
+          "url": "[IMAGE_BASE64]"
+        }
+      }
+    ]
+  }
+]
+2026-06-02 06:36:07.506 | INFO     | __main__:run_episode:83 - Action: {'action_type': 'click', 'x': 324, 'y': 336}
+2026-06-02 06:36:08.652 | INFO     | __main__:run_episode:81 - --- Step 4/80 ---
+2026-06-02 06:36:08.665 | INFO     | android_tasks_external.agent_loop.logging_utils:pretty_print_messages:40 - 
+[... 5 earlier message(s) omitted ...]
+messages:
+[
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "text",
+        "text": "Current screen."
+      },
+      {
+        "type": "image_url",
+        "image_url": {
+          "url": "[IMAGE_BASE64]"
+        }
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "<think>已打开目标应用，右上角有12条未读消息。接下来我将点击右上角消息图标，进入消息页查找订单派送通知。</think>\n<seed:tool_call><function name=\"click\"><parameter name=\"point\" string=\"true\"><point>931 51</point></parameter></function></seed:tool_call>"
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "text",
+        "text": "Current screen."
+      },
+      {
+        "type": "image_url",
+        "image_url": {
+          "url": "[IMAGE_BASE64]"
+        }
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "<think>在消息通知页，我找到1条派送相关未读订单。接下来我将点击进入查看订单详情。</think>\n<seed:tool_call><function name=\"click\"><parameter name=\"point\" string=\"true\"><point>300 140</point></parameter></function></seed:tool_call>"
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "text",
+        "text": "Current screen."
+      },
+      {
+        "type": "image_url",
+        "image_url": {
+          "url": "[IMAGE_BASE64]"
+        }
+      }
+    ]
+  }
+]
+2026-06-02 06:36:13.368 | INFO     | __main__:run_episode:83 - Action: {'action_type': 'answer', 'text': '已为你在com.wogoumarket的消息通知中查看到派送中的订单详细信息：订单号为2606025970093251800，当前状态为订单派送中，提示请留意配送电话，通知日期为2026-06-02。任务完成。'}
+2026-06-02 06:36:14.503 | INFO     | __main__:run_episode:99 - Task terminated at step 4 (action_type=answer)
+2026-06-02 06:36:14.540 | INFO     | __main__:run_episode:132 - Score: 0.0 | Reason: 派送通知已阅读: 派送通知未被阅读，Agent 未点击查看详情 | Terminated: answer
+2026-06-02 06:36:14.616 | INFO     | __main__:run_pass_k:279 - Pass@k done: task=WogoumarketNotificationV004ConfirmReceiptAfterShippingNotificationTask success=2/3 success_rate=0.6667 pass_at_k=1.0 terminated_breakdown={'answer': 3}
+{
+  "task_name": "WogoumarketNotificationV004ConfirmReceiptAfterShippingNotificationTask",
+  "server_url": "http://localhost:6800",
+  "model_name": "doubao-seed-2-0-lite-260428",
+  "llm_base_url": "https://ark.cn-beijing.volces.com/api/v3",
+  "k": 3,
+  "success_count": 2,
+  "success_rate": 0.6666666666666666,
+  "pass_at_k": 1.0,
+  "fail_consistency": null,
+  "early_stop": false,
+  "episodes_run": 3,
+  "terminated_breakdown": {
+    "answer": 3
+  },
+  "episodes": [
+    {
+      "episode_index": 1,
+      "score": 1.0,
+      "reason": "",
+      "steps": 5,
+      "success": true,
+      "artifact_dir": "/tmp/pass_at_3_reports/wogoumarket_20260602_050755/artifacts/WogoumarketNotificationV004ConfirmReceiptAfterShippingNotificationTask/episode_001",
+      "terminated_reason": "answer",
+      "eval_details": {
+        "score": 1.0,
+        "reason": "",
+        "passed": true,
+        "assertions": [
+          {
+            "name": "派送通知已阅读",
+            "weight": 50,
+            "passed": true
+          },
+          {
+            "name": "查看的是正确的派送中订单",
+            "weight": 50,
+            "passed": true
+          }
+        ],
+        "errors": [],
+        "session_id": "84c0c646-72ca-436b-b974-052a88db2ca4"
+      }
+    },
+    {
+      "episode_index": 2,
+      "score": 1.0,
+      "reason": "",
+      "steps": 5,
+      "success": true,
+      "artifact_dir": "/tmp/pass_at_3_reports/wogoumarket_20260602_050755/artifacts/WogoumarketNotificationV004ConfirmReceiptAfterShippingNotificationTask/episode_002",
+      "terminated_reason": "answer",
+      "eval_details": {
+        "score": 1.0,
+        "reason": "",
+        "passed": true,
+        "assertions": [
+          {
+            "name": "派送通知已阅读",
+            "weight": 50,
+            "passed": true
+          },
+          {
+            "name": "查看的是正确的派送中订单",
+            "weight": 50,
+            "passed": true
+          }
+        ],
+        "errors": [],
+        "session_id": "4da7babb-a93b-4db0-9568-81fa9cac04be"
+      }
+    },
+    {
+      "episode_index": 3,
+      "score": 0.0,
+      "reason": "派送通知已阅读: 派送通知未被阅读，Agent 未点击查看详情",
+      "steps": 4,
+      "success": false,
+      "artifact_dir": "/tmp/pass_at_3_reports/wogoumarket_20260602_050755/artifacts/WogoumarketNotificationV004ConfirmReceiptAfterShippingNotificationTask/episode_003",
+      "terminated_reason": "answer",
+      "eval_details": {
+        "score": 0.0,
+        "reason": "派送通知已阅读: 派送通知未被阅读，Agent 未点击查看详情",
+        "passed": false,
+        "assertions": [
+          {
+            "name": "派送通知已阅读",
+            "weight": 50,
+            "passed": false,
+            "error": "派送通知未被阅读，Agent 未点击查看详情"
+          },
+          {
+            "name": "查看的是正确的派送中订单",
+            "weight": 50,
+            "passed": true
+          }
+        ],
+        "errors": [
+          "派送通知已阅读: 派送通知未被阅读，Agent 未点击查看详情"
+        ],
+        "session_id": "dac68521-1101-43f8-a73a-bea2cf4a6970"
+      }
+    }
+  ]
+}
