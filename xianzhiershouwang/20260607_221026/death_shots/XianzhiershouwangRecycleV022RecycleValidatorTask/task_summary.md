@@ -1,0 +1,21 @@
+# XianzhiershouwangRecycleV022RecycleValidatorTask — Agent Trace Summary
+
+- **Episodes**: 1 (0 passed, 1 failed)
+- **Goal**: 帮我回收一张星巴克礼品卡，200面值，卡号6200880000000000001，卡密SBUX2025TEST0001
+
+## Episode 1 — ❌ failed (6 steps)
+
+| # | Action | Think |
+|---|--------|-------|
+| 1 | open_app com.xianzhiershouwang | 先打开指定应用，之后我再回收星巴克礼品卡。接下来我将打开对应回收应用推进礼品卡回收流程。 |
+| 2 | click (731, 480) | 我将点击闲置回收入口，处理星巴克礼品卡回收。点击闲置回收入口后，我将查找星巴克礼品卡回收选项。 |
+| 3 | click (918, 2076) | 点击更多按钮查看更多回收品类，是我在二手回收页面要查找星巴克礼品卡回收时的操作。 |
+| 4 | click (756, 163) | 在当前页面搜索星巴克礼品卡回收。点击页面顶部搜索框输入关键词，就能快速找到星巴克礼品卡回收选项。 |
+| 5 | input_text "星巴克礼品卡" | 搜索框已激活，我将输入星巴克礼品卡查找回收选项。 |
+| 6 | answer "在当前应用中搜索“星巴克礼品卡”后，结果显示没有找到相关型号，无法完成该星..." | 该应用无星巴克礼品卡回收选项。该应用无星巴克礼品卡回收入口，无法完成回收，我将告知用户。 |
+
+- **Terminated**: answer
+- **Reason**: 卡券回收订单已创建且关联星巴克: 未找到星巴克的卡券回收订单（order_type=card_voucher）
+
+---
+> 由 `log_summarizer.render_task_digest_md` 自动生成。 展示 Agent 每步的决策（action）和思考过程（think）。
