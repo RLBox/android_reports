@@ -1,0 +1,100 @@
+# favorite/v012_favorite_validator  ❌
+
+- **Brand**: `xianzhiershouwang`
+- **Class**: `XianzhiershouwangFavoriteV012FavoriteValidatorTask`
+- **Pass@3**: **0/3**  (score = 0.00)
+- **Elapsed**: 403s (~6.7 min)
+- **Model**: `doubao-seed-2-0-lite-260428`
+- **Raw log**: [./raw_logs/XianzhiershouwangFavoriteV012FavoriteValidatorTask.log](./raw_logs/XianzhiershouwangFavoriteV012FavoriteValidatorTask.log)
+- **Generated**: 2026-06-07T18:40:19+08:00
+
+## Task Goal
+
+> 我新手机是Type-C口，想买副全新没拆封的 AirPods Pro 2，帮我挑符合的收藏一下
+
+## System Prompt
+
+<details>
+<summary>展开查看完整 System Prompt</summary>
+
+
+> You are provided with a task description, a history of previous actions, and corresponding screenshots. Your goal is to perform the next action to complete the task. Please note that if performing the same action multiple times results in a static screen with no changes, you should attempt a modified or alternative action.
+> 
+> ---
+> 
+> ## Function Definition
+> 
+> - `clarify` — Ask the user for more information to complete the task.
+> - `click` — Mouse left single click action.
+> - `double_click` — Mouse left double click action.
+> - `drag` — Perform a drag action from the start point to the end point. Typically used for swiping or selecting elements.
+> - `long_press` — Perform a long press action at the specified coordinates.
+> - `open_app` — Open the specified application.
+> - `press_back` — Press the back button.
+> - `press_enter` — Press the enter key.
+> - `press_home` — Press the home button.
+> - `take_notes` — Take notes and report the result in the specified content.
+> - `type` — Type the specified content. You should manually delete any text from the input box that you want to remove.
+> - `wait` — Wait for a certain period of time.
+
+</details>
+
+## User Query
+
+> 请在 com.xianzhiershouwang 里面完成以下任务：
+> 我新手机是Type-C口，想买副全新没拆封的 AirPods Pro 2，帮我挑符合的收藏一下
+
+## Attempts
+
+| # | Outcome | Steps | Terminated | Reason | Start → End |
+|---|---------|-------|------------|--------|-------------|
+| 1 | ❌ failed | 6 | answer | 执行了搜索操作: 未检测到搜索行为（无搜索历史且无收藏记录） Diff: @@ -1 +1 @@ -true +false ; 收藏了 AirPods Pro 2 相关帖子: 未找到对 AirPods Pro 2 帖子的收藏 | 2026-06-07 18:33:37 → 2026-06-07 18:36:02 |
+| 2 | ❌ failed | 12 | answer | 收藏的是全新 USB-C 版 AirPods Pro 2 (id=1310): 预期收藏全新未拆的 USB-C 版(id=1310)，实际收藏了帖子(id=1326)「全新未拆 AirPods Pro 2代 主动降噪 USB-C」（可能误选了二手或 Lightning 版） | 2026-06-07 18:36:02 → 2026-06-07 18:39:18 |
+| 3 | 💥 error | 0 | exception | exception: 500 Internal Server Error for url: http://localhost:6800/task/init \\| detail: init_task('XianzhiershouwangFavoriteV012Favorit... | 2026-06-07 18:39:18 → 2026-06-07 18:40:19 |
+
+## Failure Details
+
+### Episode 1 — ❌ failed
+
+- steps_used: `6`
+- terminated_reason: `answer`
+- reason:
+
+  ```
+  执行了搜索操作: 未检测到搜索行为（无搜索历史且无收藏记录）
+  Diff:
+  @@ -1 +1 @@
+  -true
+  +false
+  ; 收藏了 AirPods Pro 2 相关帖子: 未找到对 AirPods Pro 2 帖子的收藏
+  ```
+- death shot: ![last-step](./death_shots/XianzhiershouwangFavoriteV012FavoriteValidatorTask/episode_001/step_006.png)
+  - state: [`./death_shots/XianzhiershouwangFavoriteV012FavoriteValidatorTask/episode_001/step_006.json`](./death_shots/XianzhiershouwangFavoriteV012FavoriteValidatorTask/episode_001/step_006.json)
+  - digest: [`episode_digest.md`](./death_shots/XianzhiershouwangFavoriteV012FavoriteValidatorTask/episode_001/episode_digest.md)
+
+### Episode 2 — ❌ failed
+
+- steps_used: `12`
+- terminated_reason: `answer`
+- reason:
+
+  ```
+  收藏的是全新 USB-C 版 AirPods Pro 2 (id=1310): 预期收藏全新未拆的 USB-C 版(id=1310)，实际收藏了帖子(id=1326)「全新未拆 AirPods Pro 2代 主动降噪 USB-C」（可能误选了二手或 Lightning 版）
+  ```
+- death shot: ![last-step](./death_shots/XianzhiershouwangFavoriteV012FavoriteValidatorTask/episode_002/step_012.png)
+  - state: [`./death_shots/XianzhiershouwangFavoriteV012FavoriteValidatorTask/episode_002/step_012.json`](./death_shots/XianzhiershouwangFavoriteV012FavoriteValidatorTask/episode_002/step_012.json)
+  - digest: [`episode_digest.md`](./death_shots/XianzhiershouwangFavoriteV012FavoriteValidatorTask/episode_002/episode_digest.md)
+
+### Episode 3 — 💥 error
+
+- steps_used: `0`
+- terminated_reason: `exception`
+- reason:
+
+  ```
+  exception: 500 Internal Server Error for url: http://localhost:6800/task/init | detail: init_task('XianzhiershouwangFavoriteV012FavoriteValidatorTask') failed: Task 'XianzhiershouwangFavoriteV012FavoriteValidatorTask' failed during initialize_task()
+  ```
+
+---
+
+> 本摘要由 `sengclaw/scripts/pipeline/log_summarizer.py` 自动生成。 原始完整 log 见上方 Raw log 链接（含每 step 的 messages / tool_call / screenshot 引用）。
