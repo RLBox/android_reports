@@ -1,0 +1,20 @@
+# WogoumarketCustomerServiceV018TextInvoiceKeywordTask — Agent Trace Summary
+
+- **Episodes**: 1 (1 passed, 0 failed)
+- **Goal**: 在客服里问一下怎么开发票
+
+## Episode 1 — ✅ passed (6 steps)
+
+| # | Action | Think |
+|---|--------|-------|
+| 1 | open_app com.wogoumarket | 找该应用客服咨询开票。接下来我将打开沃狗市场应用，进入后再联系客服咨询开发票相关问题。 |
+| 2 | click (972, 2232) | 已进入沃狗市场首页，将去个人中心找客服。接下来点击“我的”找客服入口。 |
+| 3 | click (337, 1613) | 在我的页面，我找到联系客服入口。点击联系客服后，我将进入客服页咨询开发票事宜。 |
+| 4 | click (379, 2184) | 点击在线客服后，我将进入对话页面咨询开票相关问题。 |
+| 5 | click (294, 1265) | 已进入在线客服页，将点击“如何开发票”咨询。点击对应条目。 |
+| 6 | answer "已在com.wogoumarket的在线客服中询问到开发票的相关指引：开具..." | 用户已完成客服开票咨询，获取到详细指引，任务成功完成，将提交结果。 |
+
+- **Terminated**: answer
+
+---
+> 由 `log_summarizer.render_task_digest_md` 自动生成。 展示 Agent 每步的决策（action）和思考过程（think）。

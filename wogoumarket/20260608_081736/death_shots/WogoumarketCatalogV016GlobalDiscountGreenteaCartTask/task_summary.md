@@ -1,0 +1,20 @@
+# WogoumarketCatalogV016GlobalDiscountGreenteaCartTask — Agent Trace Summary
+
+- **Episodes**: 1 (1 passed, 0 failed)
+- **Goal**: 全球好物分类中，我看到有个限时折扣的标签，看一下有啥商品，找到绿茶籽精华，看看商品详情，帮我加入购物车
+
+## Episode 1 — ✅ passed (6 steps)
+
+| # | Action | Think |
+|---|--------|-------|
+| 1 | open_app com.wogoumarket | 我将启动沃狗市场应用。当前主屏幕未找到目标应用，我将直接调用启动工具打开对应沃狗市场应用，后续再完成查找商品等操作。 |
+| 2 | click (757, 1826) | 接下来我将点击「全球好物」按钮进入对应分类页。点击全球好物。 |
+| 3 | click (122, 773) | 我已进入全球好物分类页，将先点击左侧限时折扣查看对应商品，后续再找绿茶籽精华。 |
+| 4 | click (737, 720) | 已找到目标悦诗风吟精华，将点击进入详情页。点击商品进入详情页。 |
+| 5 | click (617, 2234) | 已进入商品详情页，将点击加入购物车。已确认目标商品，点击加入购物车。 |
+| 6 | answer "已在com.wogoumarket的全球好物分类的限时折扣中找到绿茶籽精华..." | 商品已成功加入购物车。全部操作步骤均已顺利完成，悦诗风吟绿茶籽精华已成功加入购物车，当前任务可提交。 |
+
+- **Terminated**: answer
+
+---
+> 由 `log_summarizer.render_task_digest_md` 自动生成。 展示 Agent 每步的决策（action）和思考过程（think）。
