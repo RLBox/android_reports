@@ -1,0 +1,22 @@
+# WogoumarketCustomerServiceV025ComplainExpiredFoodTask — Agent Trace Summary
+
+- **Episodes**: 1 (1 passed, 0 failed)
+- **Goal**: 收到的牛奶过期了，在客服里投诉并申请退款，原因选「质量问题」
+
+## Episode 1 — ✅ passed (8 steps)
+
+| # | Action | Think |
+|---|--------|-------|
+| 1 | open_app com.wogoumarket | 在该应用中，我将完成投诉退款任务。当前阶段的操作计划为先打开包名对应为com.wogoumarket的目标应用，推进后续的投诉退款流程。 |
+| 2 | click (972, 2232) | 已进入沃集鲜主界面，将找客服投诉退款。接下来我将点击底部导航栏最右侧的「我的」进入个人页面找客服。 |
+| 3 | click (333, 1620) | 在我的页面找到联系客服入口。接下来我将点击联系客服，反馈牛奶过期问题申请退款。 |
+| 4 | click (337, 2184) | 我选择点击在线客服，进入对话界面提交退款投诉。 |
+| 5 | click (314, 1032) | 在客服页申请牛奶过期退款。接下来将点击「商品质量问题」选项推进投诉流程。 |
+| 6 | click (454, 1884) | 目标牛奶订单已找到，将选其继续投诉退款。点击对应订单进入退款流程。 |
+| 7 | click (314, 1826) | 我将点击「质量问题」选项完成退款原因选择。点击对应选项。 |
+| 8 | answer "已在com.wogoumarket应用中针对收到的过期牛奶在客服处提交投诉..." | 已确认退款申请提交，任务完成。  整个投诉退款流程已全部完成，所有操作均符合用户要求。 |
+
+- **Terminated**: answer
+
+---
+> 由 `log_summarizer.render_task_digest_md` 自动生成。 展示 Agent 每步的决策（action）和思考过程（think）。
