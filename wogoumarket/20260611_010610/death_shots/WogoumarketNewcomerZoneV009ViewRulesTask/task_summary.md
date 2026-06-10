@@ -1,0 +1,18 @@
+# WogoumarketNewcomerZoneV009ViewRulesTask — Agent Trace Summary
+
+- **Episodes**: 1 (1 passed, 0 failed)
+- **Goal**: 首页有个新人专区，帮我点「查看更多」进去看看，进去后顶部红色横幅右上角有个「活动规则」小按钮，我想看看新人规则，帮我点进去看看
+
+## Episode 1 — ✅ passed (4 steps)
+
+| # | Action | Think |
+|---|--------|-------|
+| 1 | open_app com.wogoumarket | 我将打开目标应用。当前桌面未找到目标应用图标，我将调用相关工具打开wogoumarket应用。 |
+| 2 | click (926, 439) | 已打开应用首页，将点击新人专区右侧的查看更多按钮。点击查看更多按钮。 |
+| 3 | click (919, 276) | 已进入新人专区，接下来将点击活动规则按钮查看规则。 |
+| 4 | answer "已成功进入com.wogoumarket的新人专区活动规则页面，你可以查看..." | 已进入活动规则页，可查看新人相关规则。所有操作步骤均已完成，本次任务正式提交收尾。 |
+
+- **Terminated**: answer
+
+---
+> 由 `log_summarizer.render_task_digest_md` 自动生成。 展示 Agent 每步的决策（action）和思考过程（think）。
