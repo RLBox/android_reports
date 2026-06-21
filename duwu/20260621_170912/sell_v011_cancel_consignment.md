@@ -6,7 +6,7 @@
 - **Elapsed**: 861s (~14.3 min)
 - **Model**: `doubao-seed-2-0-lite-260428`
 - **Raw log**: [./raw_logs/DuwuSellV011CancelConsignmentTask.log](./raw_logs/DuwuSellV011CancelConsignmentTask.log)
-- **Generated**: 2026-06-21T23:29:08+08:00
+- **Generated**: 2026-06-21T23:45:42+08:00
 
 ## Task Goal
 
