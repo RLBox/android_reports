@@ -6,10 +6,10 @@
 - ✅ All passed (3/3): **0**
 - ⚠️  Partial (1-2 / 3): **0**
 - ❌ Failed (0/3): **1**
-- Total elapsed: 1446s (24.1 min)
+- Total elapsed: 1476s (24.6 min)
 
 ## Tasks
 
 | Status | Task | Pass@3 | Steps (ep1/ep2/ep3) | Elapsed |
 |--------|------|--------|---------------------|---------|
-| ❌ | [`DuwuSellV003SchedulePickupTask`](./sell_v003_schedule_pickup.md) | 0/3 | 48/44/63 | 1446s |
+| ❌ | [`DuwuSellV004ConsignPhoneSixTierTask`](./sell_v004_consign_phone_six_tier.md) | 0/3 | 47/44/78 | 1476s |
