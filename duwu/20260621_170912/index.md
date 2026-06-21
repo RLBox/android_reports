@@ -6,10 +6,10 @@
 - ✅ All passed (3/3): **0**
 - ⚠️  Partial (1-2 / 3): **0**
 - ❌ Failed (0/3): **1**
-- Total elapsed: 17s (0.3 min)
+- Total elapsed: 275s (4.6 min)
 
 ## Tasks
 
 | Status | Task | Pass@3 | Steps (ep1/ep2/ep3) | Elapsed |
 |--------|------|--------|---------------------|---------|
-| ❌ | [`DuwuDiscussionV004FilterTopicThenReplyTask`](./discussion_v004_filter_topic_then_reply.md) | 0/3 | 0/0/0 | 17s |
+| ❌ | [`DuwuIdentifyV004CreateDualOrderTask`](./identify_v004_create_dual_order.md) | 0/3 | 12/12/12 | 275s |
