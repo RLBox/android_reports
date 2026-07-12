@@ -1,0 +1,21 @@
+# DuwuFootprintV001ClearHistoryTask — Agent Trace Summary
+
+- **Episodes**: 1 (1 passed, 0 failed)
+- **Goal**: 把我的浏览足迹清空一下，最近看的东西不想留记录
+
+## Episode 1 — ✅ passed (7 steps)
+
+| # | Action | Think |
+|---|--------|-------|
+| 1 | open_app com.duwu | 先打开目标应用，再清空浏览足迹。我将打开包名为com.duwu的目标应用，推进清空浏览足迹的任务。 |
+| 2 | click (950, 2256) | 已进入应用，将查找个人中心入口。接下来我将点击底部「我」按钮进入个人页。 |
+| 3 | click (891, 1320) | 为清空浏览足迹，我将点击入口进入页面。点击目标入口进入对应页面。 |
+| 4 | click (918, 120) | 已进入“我的足迹”页面，将点击清空按钮清除浏览记录。点击清空按钮。 |
+| 5 | click (729, 1274) | 点击确认按钮，我将完成浏览足迹的清空操作。点击确认。 |
+| 6 | click (818, 1265) | 清空浏览足迹的任务已完成。接下来我将点击“知道了”关闭提示，正式结束本次任务。 |
+| 7 | answer "已为你在com.duwu应用中清空浏览足迹，当前页面显示“暂无浏览记录”，..." | 已确认com.duwu应用浏览足迹已清空，任务成功，将告知用户结果。 |
+
+- **Terminated**: answer
+
+---
+> 由 `log_summarizer.render_task_digest_md` 自动生成。 展示 Agent 每步的决策（action）和思考过程（think）。

@@ -1,0 +1,21 @@
+# DuwuBrandV002UnfollowBrandTask — Agent Trace Summary
+
+- **Episodes**: 1 (1 passed, 0 failed)
+- **Goal**: 去「我的关注」里的品牌列表，把 Nike 取关掉
+
+## Episode 1 — ✅ passed (7 steps)
+
+| # | Action | Think |
+|---|--------|-------|
+| 1 | open_app com.duwu | 我先启动目标应用，再操作取消关注Nike。已确认com.duwu对应得物App，接下来将打开该应用。 |
+| 2 | click (945, 2249) | 当前在得物主界面，将先进入“我的”页取消关注Nike品牌。接下来将由我点击底部「我」进入个人页。 |
+| 3 | click (540, 1512) | 得物关注列表入口已经被我找到。点击“关注2”进入列表后，我将找到Nike品牌执行取关。 |
+| 4 | click (900, 401) | 在品牌关注页，我将点击入口查看已关注品牌列表。点击目标入口。 |
+| 5 | click (945, 312) | 点击已关注按钮，我将完成对Nike的取关操作。 |
+| 6 | click (719, 1320) | 我将先询问用户是否确认取消关注Nike。经再次核对，用户明确要求取关Nike，我将点击弹窗中的确认按钮完成操作。 |
+| 7 | answer "已在得物（com.duwu）的「我的关注」品牌列表中完成对Nike的取关操..." | 已成功取消对Nike的关注。  所有操作已顺利完成，任务目标达成，可提交任务。 |
+
+- **Terminated**: answer
+
+---
+> 由 `log_summarizer.render_task_digest_md` 自动生成。 展示 Agent 每步的决策（action）和思考过程（think）。
