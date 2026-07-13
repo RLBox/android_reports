@@ -6,7 +6,8 @@
 - **Elapsed**: 487s (~8.1 min)
 - **Model**: `doubao-seed-2-0-lite-260428`
 - **Raw log**: [./raw_logs/DaishushenghuoXxsmV022PlaceOrderWithRemarkTask.log](./raw_logs/DaishushenghuoXxsmV022PlaceOrderWithRemarkTask.log)
-- **Generated**: 2026-07-13T12:08:27+08:00
+- **Generated**: 2026-07-13T12:13:18+08:00
+- **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
 
@@ -63,9 +64,9 @@
   ```
   订单已创建（店铺=小象超市）: 未找到用户 demo@rlbox.ai 在店铺「小象超市」的订单（data_version：35ef0957f459818b）
   ```
-- death shot: ![last-step](./screenshots/DaishushenghuoXxsmV022PlaceOrderWithRemarkTask/episode_001/step_019.png)
-  - state: [`./screenshots/DaishushenghuoXxsmV022PlaceOrderWithRemarkTask/episode_001/step_019.json`](./screenshots/DaishushenghuoXxsmV022PlaceOrderWithRemarkTask/episode_001/step_019.json)
-  - digest: [`episode_digest.md`](./screenshots/DaishushenghuoXxsmV022PlaceOrderWithRemarkTask/episode_001/episode_digest.md)
+- death shot: ![last-step](./death_shots/DaishushenghuoXxsmV022PlaceOrderWithRemarkTask/episode_001/step_019.png)
+  - state: [`./death_shots/DaishushenghuoXxsmV022PlaceOrderWithRemarkTask/episode_001/step_019.json`](./death_shots/DaishushenghuoXxsmV022PlaceOrderWithRemarkTask/episode_001/step_019.json)
+  - digest: [`episode_digest.md`](./death_shots/DaishushenghuoXxsmV022PlaceOrderWithRemarkTask/episode_001/episode_digest.md)
 
 ### Episode 2 — ❌ failed
 
@@ -76,9 +77,9 @@
   ```
   订单已创建（店铺=小象超市）: 未找到用户 demo@rlbox.ai 在店铺「小象超市」的订单（data_version：26d09c02544d993e）
   ```
-- death shot: ![last-step](./screenshots/DaishushenghuoXxsmV022PlaceOrderWithRemarkTask/episode_002/step_017.png)
-  - state: [`./screenshots/DaishushenghuoXxsmV022PlaceOrderWithRemarkTask/episode_002/step_017.json`](./screenshots/DaishushenghuoXxsmV022PlaceOrderWithRemarkTask/episode_002/step_017.json)
-  - digest: [`episode_digest.md`](./screenshots/DaishushenghuoXxsmV022PlaceOrderWithRemarkTask/episode_002/episode_digest.md)
+- death shot: ![last-step](./death_shots/DaishushenghuoXxsmV022PlaceOrderWithRemarkTask/episode_002/step_017.png)
+  - state: [`./death_shots/DaishushenghuoXxsmV022PlaceOrderWithRemarkTask/episode_002/step_017.json`](./death_shots/DaishushenghuoXxsmV022PlaceOrderWithRemarkTask/episode_002/step_017.json)
+  - digest: [`episode_digest.md`](./death_shots/DaishushenghuoXxsmV022PlaceOrderWithRemarkTask/episode_002/episode_digest.md)
 
 ### Episode 3 — ❌ failed
 
@@ -89,9 +90,9 @@
   ```
   订单已创建（店铺=小象超市）: 未找到用户 demo@rlbox.ai 在店铺「小象超市」的订单（data_version：31942f73120d0f81）
   ```
-- death shot: ![last-step](./screenshots/DaishushenghuoXxsmV022PlaceOrderWithRemarkTask/episode_003/step_018.png)
-  - state: [`./screenshots/DaishushenghuoXxsmV022PlaceOrderWithRemarkTask/episode_003/step_018.json`](./screenshots/DaishushenghuoXxsmV022PlaceOrderWithRemarkTask/episode_003/step_018.json)
-  - digest: [`episode_digest.md`](./screenshots/DaishushenghuoXxsmV022PlaceOrderWithRemarkTask/episode_003/episode_digest.md)
+- death shot: ![last-step](./death_shots/DaishushenghuoXxsmV022PlaceOrderWithRemarkTask/episode_003/step_018.png)
+  - state: [`./death_shots/DaishushenghuoXxsmV022PlaceOrderWithRemarkTask/episode_003/step_018.json`](./death_shots/DaishushenghuoXxsmV022PlaceOrderWithRemarkTask/episode_003/step_018.json)
+  - digest: [`episode_digest.md`](./death_shots/DaishushenghuoXxsmV022PlaceOrderWithRemarkTask/episode_003/episode_digest.md)
 
 ---
 

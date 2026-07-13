@@ -6,7 +6,8 @@
 - **Elapsed**: 966s (~16.1 min)
 - **Model**: `doubao-seed-2-0-lite-260428`
 - **Raw log**: [./raw_logs/DaishushenghuoFlowV004FanGroupClaimAndUseCouponTask.log](./raw_logs/DaishushenghuoFlowV004FanGroupClaimAndUseCouponTask.log)
-- **Generated**: 2026-07-13T12:08:26+08:00
+- **Generated**: 2026-07-13T12:13:18+08:00
+- **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
 
@@ -63,9 +64,9 @@
   ```
   订单已创建在老王牛肉面馆: 未在老王牛肉面馆下单
   ```
-- death shot: ![last-step](./screenshots/DaishushenghuoFlowV004FanGroupClaimAndUseCouponTask/episode_002/step_034.png)
-  - state: [`./screenshots/DaishushenghuoFlowV004FanGroupClaimAndUseCouponTask/episode_002/step_034.json`](./screenshots/DaishushenghuoFlowV004FanGroupClaimAndUseCouponTask/episode_002/step_034.json)
-  - digest: [`episode_digest.md`](./screenshots/DaishushenghuoFlowV004FanGroupClaimAndUseCouponTask/episode_002/episode_digest.md)
+- death shot: ![last-step](./death_shots/DaishushenghuoFlowV004FanGroupClaimAndUseCouponTask/episode_002/step_034.png)
+  - state: [`./death_shots/DaishushenghuoFlowV004FanGroupClaimAndUseCouponTask/episode_002/step_034.json`](./death_shots/DaishushenghuoFlowV004FanGroupClaimAndUseCouponTask/episode_002/step_034.json)
+  - digest: [`episode_digest.md`](./death_shots/DaishushenghuoFlowV004FanGroupClaimAndUseCouponTask/episode_002/episode_digest.md)
 
 ### Episode 3 — ❌ failed
 
@@ -76,9 +77,9 @@
   ```
   订单已创建在老王牛肉面馆: 未在老王牛肉面馆下单
   ```
-- death shot: ![last-step](./screenshots/DaishushenghuoFlowV004FanGroupClaimAndUseCouponTask/episode_003/step_026.png)
-  - state: [`./screenshots/DaishushenghuoFlowV004FanGroupClaimAndUseCouponTask/episode_003/step_026.json`](./screenshots/DaishushenghuoFlowV004FanGroupClaimAndUseCouponTask/episode_003/step_026.json)
-  - digest: [`episode_digest.md`](./screenshots/DaishushenghuoFlowV004FanGroupClaimAndUseCouponTask/episode_003/episode_digest.md)
+- death shot: ![last-step](./death_shots/DaishushenghuoFlowV004FanGroupClaimAndUseCouponTask/episode_003/step_026.png)
+  - state: [`./death_shots/DaishushenghuoFlowV004FanGroupClaimAndUseCouponTask/episode_003/step_026.json`](./death_shots/DaishushenghuoFlowV004FanGroupClaimAndUseCouponTask/episode_003/step_026.json)
+  - digest: [`episode_digest.md`](./death_shots/DaishushenghuoFlowV004FanGroupClaimAndUseCouponTask/episode_003/episode_digest.md)
 
 ---
 

@@ -6,7 +6,8 @@
 - **Elapsed**: 335s (~5.6 min)
 - **Model**: `doubao-seed-2-0-lite-260428`
 - **Raw log**: [./raw_logs/DaishushenghuoXxsmV016PlaceOrderAbove35FullAmountTask.log](./raw_logs/DaishushenghuoXxsmV016PlaceOrderAbove35FullAmountTask.log)
-- **Generated**: 2026-07-13T12:08:27+08:00
+- **Generated**: 2026-07-13T12:13:18+08:00
+- **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
 
@@ -63,9 +64,9 @@
   ```
   订单已创建（店铺=小象超市）: 未找到用户 demo@rlbox.ai 在店铺「小象超市」的订单（data_version：e8a3f0733f1aa9a4）
   ```
-- death shot: ![last-step](./screenshots/DaishushenghuoXxsmV016PlaceOrderAbove35FullAmountTask/episode_003/step_007.png)
-  - state: [`./screenshots/DaishushenghuoXxsmV016PlaceOrderAbove35FullAmountTask/episode_003/step_007.json`](./screenshots/DaishushenghuoXxsmV016PlaceOrderAbove35FullAmountTask/episode_003/step_007.json)
-  - digest: [`episode_digest.md`](./screenshots/DaishushenghuoXxsmV016PlaceOrderAbove35FullAmountTask/episode_003/episode_digest.md)
+- death shot: ![last-step](./death_shots/DaishushenghuoXxsmV016PlaceOrderAbove35FullAmountTask/episode_003/step_007.png)
+  - state: [`./death_shots/DaishushenghuoXxsmV016PlaceOrderAbove35FullAmountTask/episode_003/step_007.json`](./death_shots/DaishushenghuoXxsmV016PlaceOrderAbove35FullAmountTask/episode_003/step_007.json)
+  - digest: [`episode_digest.md`](./death_shots/DaishushenghuoXxsmV016PlaceOrderAbove35FullAmountTask/episode_003/episode_digest.md)
 
 ---
 

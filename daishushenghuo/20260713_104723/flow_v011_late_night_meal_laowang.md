@@ -6,7 +6,8 @@
 - **Elapsed**: 1526s (~25.4 min)
 - **Model**: `doubao-seed-2-0-lite-260428`
 - **Raw log**: [./raw_logs/DaishushenghuoFlowV011LateNightMealLaowangTask.log](./raw_logs/DaishushenghuoFlowV011LateNightMealLaowangTask.log)
-- **Generated**: 2026-07-13T12:08:27+08:00
+- **Generated**: 2026-07-13T12:13:18+08:00
+- **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
 
@@ -63,9 +64,9 @@
   ```
   订单已支付: 订单状态错误：预期 'paid'，实际 "pending"; 已加入兰州拉面国贸店粉丝群: 未找到加入兰州拉面国贸店粉丝群的成员记录; 已收藏兰州拉面国贸店: 未找到对兰州拉面国贸店的收藏
   ```
-- death shot: ![last-step](./screenshots/DaishushenghuoFlowV011LateNightMealLaowangTask/episode_001/step_026.png)
-  - state: [`./screenshots/DaishushenghuoFlowV011LateNightMealLaowangTask/episode_001/step_026.json`](./screenshots/DaishushenghuoFlowV011LateNightMealLaowangTask/episode_001/step_026.json)
-  - digest: [`episode_digest.md`](./screenshots/DaishushenghuoFlowV011LateNightMealLaowangTask/episode_001/episode_digest.md)
+- death shot: ![last-step](./death_shots/DaishushenghuoFlowV011LateNightMealLaowangTask/episode_001/step_026.png)
+  - state: [`./death_shots/DaishushenghuoFlowV011LateNightMealLaowangTask/episode_001/step_026.json`](./death_shots/DaishushenghuoFlowV011LateNightMealLaowangTask/episode_001/step_026.json)
+  - digest: [`episode_digest.md`](./death_shots/DaishushenghuoFlowV011LateNightMealLaowangTask/episode_001/episode_digest.md)
 
 ### Episode 3 — ❌ failed
 
@@ -76,9 +77,9 @@
   ```
   订单里有 1 份凉拌牛肉: 订单未包含凉拌牛肉; 实付金额是 ¥50: actual_amount 错误：预期约50（商品46+配送2+打包2），实际 21.0
   ```
-- death shot: ![last-step](./screenshots/DaishushenghuoFlowV011LateNightMealLaowangTask/episode_003/step_071.png)
-  - state: [`./screenshots/DaishushenghuoFlowV011LateNightMealLaowangTask/episode_003/step_071.json`](./screenshots/DaishushenghuoFlowV011LateNightMealLaowangTask/episode_003/step_071.json)
-  - digest: [`episode_digest.md`](./screenshots/DaishushenghuoFlowV011LateNightMealLaowangTask/episode_003/episode_digest.md)
+- death shot: ![last-step](./death_shots/DaishushenghuoFlowV011LateNightMealLaowangTask/episode_003/step_071.png)
+  - state: [`./death_shots/DaishushenghuoFlowV011LateNightMealLaowangTask/episode_003/step_071.json`](./death_shots/DaishushenghuoFlowV011LateNightMealLaowangTask/episode_003/step_071.json)
+  - digest: [`episode_digest.md`](./death_shots/DaishushenghuoFlowV011LateNightMealLaowangTask/episode_003/episode_digest.md)
 
 ---
 

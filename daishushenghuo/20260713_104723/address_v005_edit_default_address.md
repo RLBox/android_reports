@@ -6,7 +6,8 @@
 - **Elapsed**: 754s (~12.6 min)
 - **Model**: `doubao-seed-2-0-lite-260428`
 - **Raw log**: [./raw_logs/DaishushenghuoAddressV005EditDefaultAddressTask.log](./raw_logs/DaishushenghuoAddressV005EditDefaultAddressTask.log)
-- **Generated**: 2026-07-13T12:08:26+08:00
+- **Generated**: 2026-07-13T12:13:18+08:00
+- **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
 
