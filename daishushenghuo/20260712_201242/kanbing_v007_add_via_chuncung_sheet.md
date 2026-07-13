@@ -6,7 +6,8 @@
 - **Elapsed**: 775s (~12.9 min)
 - **Model**: `doubao-seed-2-0-lite-260428`
 - **Raw log**: [./raw_logs/DaishushenghuoKanbingV007AddViaChuncungSheetTask.log](./raw_logs/DaishushenghuoKanbingV007AddViaChuncungSheetTask.log)
-- **Generated**: 2026-07-12T22:16:54+08:00
+- **Generated**: 2026-07-13T10:28:56+08:00
+- **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
 
@@ -68,9 +69,9 @@
   (compared using ==)
   ; 购物车小计: 预期 ¥17.77，实际 ¥22.95
   ```
-- death shot: ![last-step](./screenshots/DaishushenghuoKanbingV007AddViaChuncungSheetTask/episode_001/step_020.png)
-  - state: [`./screenshots/DaishushenghuoKanbingV007AddViaChuncungSheetTask/episode_001/step_020.json`](./screenshots/DaishushenghuoKanbingV007AddViaChuncungSheetTask/episode_001/step_020.json)
-  - digest: [`episode_digest.md`](./screenshots/DaishushenghuoKanbingV007AddViaChuncungSheetTask/episode_001/episode_digest.md)
+- death shot: ![last-step](./death_shots/DaishushenghuoKanbingV007AddViaChuncungSheetTask/episode_001/step_020.png)
+  - state: [`./death_shots/DaishushenghuoKanbingV007AddViaChuncungSheetTask/episode_001/step_020.json`](./death_shots/DaishushenghuoKanbingV007AddViaChuncungSheetTask/episode_001/step_020.json)
+  - digest: [`episode_digest.md`](./death_shots/DaishushenghuoKanbingV007AddViaChuncungSheetTask/episode_001/episode_digest.md)
 
 ### Episode 3 — ❌ failed
 
@@ -86,9 +87,9 @@
   (compared using ==)
   ; 购物车小计: 预期 ¥17.77，实际 ¥22.95
   ```
-- death shot: ![last-step](./screenshots/DaishushenghuoKanbingV007AddViaChuncungSheetTask/episode_003/step_028.png)
-  - state: [`./screenshots/DaishushenghuoKanbingV007AddViaChuncungSheetTask/episode_003/step_028.json`](./screenshots/DaishushenghuoKanbingV007AddViaChuncungSheetTask/episode_003/step_028.json)
-  - digest: [`episode_digest.md`](./screenshots/DaishushenghuoKanbingV007AddViaChuncungSheetTask/episode_003/episode_digest.md)
+- death shot: ![last-step](./death_shots/DaishushenghuoKanbingV007AddViaChuncungSheetTask/episode_003/step_028.png)
+  - state: [`./death_shots/DaishushenghuoKanbingV007AddViaChuncungSheetTask/episode_003/step_028.json`](./death_shots/DaishushenghuoKanbingV007AddViaChuncungSheetTask/episode_003/step_028.json)
+  - digest: [`episode_digest.md`](./death_shots/DaishushenghuoKanbingV007AddViaChuncungSheetTask/episode_003/episode_digest.md)
 
 ---
 

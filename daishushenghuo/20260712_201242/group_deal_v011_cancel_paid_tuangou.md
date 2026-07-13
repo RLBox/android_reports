@@ -6,7 +6,8 @@
 - **Elapsed**: 173s (~2.9 min)
 - **Model**: `doubao-seed-2-0-lite-260428`
 - **Raw log**: [./raw_logs/DaishushenghuoGroupDealV011CancelPaidTuangouTask.log](./raw_logs/DaishushenghuoGroupDealV011CancelPaidTuangouTask.log)
-- **Generated**: 2026-07-12T22:16:53+08:00
+- **Generated**: 2026-07-13T10:28:56+08:00
+- **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
 
@@ -63,9 +64,9 @@
   ```
   订单状态 = 「已取消/已退款」: 预期 'cancelled' 或 'refunded'，实际 "paid"; 订单取消后可重新查询到（状态持久化）: 重新查询后订单状态不是 cancelled/refunded，实际 "paid"
   ```
-- death shot: ![last-step](./screenshots/DaishushenghuoGroupDealV011CancelPaidTuangouTask/episode_001/step_006.png)
-  - state: [`./screenshots/DaishushenghuoGroupDealV011CancelPaidTuangouTask/episode_001/step_006.json`](./screenshots/DaishushenghuoGroupDealV011CancelPaidTuangouTask/episode_001/step_006.json)
-  - digest: [`episode_digest.md`](./screenshots/DaishushenghuoGroupDealV011CancelPaidTuangouTask/episode_001/episode_digest.md)
+- death shot: ![last-step](./death_shots/DaishushenghuoGroupDealV011CancelPaidTuangouTask/episode_001/step_006.png)
+  - state: [`./death_shots/DaishushenghuoGroupDealV011CancelPaidTuangouTask/episode_001/step_006.json`](./death_shots/DaishushenghuoGroupDealV011CancelPaidTuangouTask/episode_001/step_006.json)
+  - digest: [`episode_digest.md`](./death_shots/DaishushenghuoGroupDealV011CancelPaidTuangouTask/episode_001/episode_digest.md)
 
 ---
 

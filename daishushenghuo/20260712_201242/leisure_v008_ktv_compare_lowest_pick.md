@@ -6,7 +6,8 @@
 - **Elapsed**: 319s (~5.3 min)
 - **Model**: `doubao-seed-2-0-lite-260428`
 - **Raw log**: [./raw_logs/DaishushenghuoLeisureV008KtvCompareLowestPickTask.log](./raw_logs/DaishushenghuoLeisureV008KtvCompareLowestPickTask.log)
-- **Generated**: 2026-07-12T22:16:54+08:00
+- **Generated**: 2026-07-13T10:28:56+08:00
+- **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
 
@@ -69,9 +70,9 @@
   ; 魅KTV 订单 paid_at 不为空: expected: not nil
        got: nil; 收藏「唱吧麦颂KTV(望京店)」: 未找到对唱吧麦颂KTV(望京店)的收藏; 收藏「哇噢KTV(朝阳大悦城店)」: 未找到对哇噢KTV(朝阳大悦城店)的收藏
   ```
-- death shot: ![last-step](./screenshots/DaishushenghuoLeisureV008KtvCompareLowestPickTask/episode_001/step_004.png)
-  - state: [`./screenshots/DaishushenghuoLeisureV008KtvCompareLowestPickTask/episode_001/step_004.json`](./screenshots/DaishushenghuoLeisureV008KtvCompareLowestPickTask/episode_001/step_004.json)
-  - digest: [`episode_digest.md`](./screenshots/DaishushenghuoLeisureV008KtvCompareLowestPickTask/episode_001/episode_digest.md)
+- death shot: ![last-step](./death_shots/DaishushenghuoLeisureV008KtvCompareLowestPickTask/episode_001/step_004.png)
+  - state: [`./death_shots/DaishushenghuoLeisureV008KtvCompareLowestPickTask/episode_001/step_004.json`](./death_shots/DaishushenghuoLeisureV008KtvCompareLowestPickTask/episode_001/step_004.json)
+  - digest: [`episode_digest.md`](./death_shots/DaishushenghuoLeisureV008KtvCompareLowestPickTask/episode_001/episode_digest.md)
 
 ### Episode 2 — ❌ failed
 
@@ -88,9 +89,9 @@
   ; 魅KTV 订单 paid_at 不为空: expected: not nil
        got: nil; 收藏「唱吧麦颂KTV(望京店)」: 未找到对唱吧麦颂KTV(望京店)的收藏; 收藏「哇噢KTV(朝阳大悦城店)」: 未找到对哇噢KTV(朝阳大悦城店)的收藏
   ```
-- death shot: ![last-step](./screenshots/DaishushenghuoLeisureV008KtvCompareLowestPickTask/episode_002/step_009.png)
-  - state: [`./screenshots/DaishushenghuoLeisureV008KtvCompareLowestPickTask/episode_002/step_009.json`](./screenshots/DaishushenghuoLeisureV008KtvCompareLowestPickTask/episode_002/step_009.json)
-  - digest: [`episode_digest.md`](./screenshots/DaishushenghuoLeisureV008KtvCompareLowestPickTask/episode_002/episode_digest.md)
+- death shot: ![last-step](./death_shots/DaishushenghuoLeisureV008KtvCompareLowestPickTask/episode_002/step_009.png)
+  - state: [`./death_shots/DaishushenghuoLeisureV008KtvCompareLowestPickTask/episode_002/step_009.json`](./death_shots/DaishushenghuoLeisureV008KtvCompareLowestPickTask/episode_002/step_009.json)
+  - digest: [`episode_digest.md`](./death_shots/DaishushenghuoLeisureV008KtvCompareLowestPickTask/episode_002/episode_digest.md)
 
 ### Episode 3 — ❌ failed
 
@@ -107,9 +108,9 @@
   ; 魅KTV 订单 paid_at 不为空: expected: not nil
        got: nil; 收藏「唱吧麦颂KTV(望京店)」: 未找到对唱吧麦颂KTV(望京店)的收藏; 收藏「哇噢KTV(朝阳大悦城店)」: 未找到对哇噢KTV(朝阳大悦城店)的收藏
   ```
-- death shot: ![last-step](./screenshots/DaishushenghuoLeisureV008KtvCompareLowestPickTask/episode_003/step_009.png)
-  - state: [`./screenshots/DaishushenghuoLeisureV008KtvCompareLowestPickTask/episode_003/step_009.json`](./screenshots/DaishushenghuoLeisureV008KtvCompareLowestPickTask/episode_003/step_009.json)
-  - digest: [`episode_digest.md`](./screenshots/DaishushenghuoLeisureV008KtvCompareLowestPickTask/episode_003/episode_digest.md)
+- death shot: ![last-step](./death_shots/DaishushenghuoLeisureV008KtvCompareLowestPickTask/episode_003/step_009.png)
+  - state: [`./death_shots/DaishushenghuoLeisureV008KtvCompareLowestPickTask/episode_003/step_009.json`](./death_shots/DaishushenghuoLeisureV008KtvCompareLowestPickTask/episode_003/step_009.json)
+  - digest: [`episode_digest.md`](./death_shots/DaishushenghuoLeisureV008KtvCompareLowestPickTask/episode_003/episode_digest.md)
 
 ---
 

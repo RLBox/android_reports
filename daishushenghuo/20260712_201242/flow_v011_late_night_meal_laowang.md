@@ -6,7 +6,8 @@
 - **Elapsed**: 935s (~15.6 min)
 - **Model**: `doubao-seed-2-0-lite-260428`
 - **Raw log**: [./raw_logs/DaishushenghuoFlowV011LateNightMealLaowangTask.log](./raw_logs/DaishushenghuoFlowV011LateNightMealLaowangTask.log)
-- **Generated**: 2026-07-12T22:16:53+08:00
+- **Generated**: 2026-07-13T10:28:56+08:00
+- **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
 
@@ -69,9 +70,9 @@
        got: nil; 订单已支付: expected: not nil
        got: nil; 已加入兰州拉面国贸店粉丝群: 未找到加入兰州拉面国贸店粉丝群的成员记录; 已收藏兰州拉面国贸店: 未找到对兰州拉面国贸店的收藏
   ```
-- death shot: ![last-step](./screenshots/DaishushenghuoFlowV011LateNightMealLaowangTask/episode_001/step_029.png)
-  - state: [`./screenshots/DaishushenghuoFlowV011LateNightMealLaowangTask/episode_001/step_029.json`](./screenshots/DaishushenghuoFlowV011LateNightMealLaowangTask/episode_001/step_029.json)
-  - digest: [`episode_digest.md`](./screenshots/DaishushenghuoFlowV011LateNightMealLaowangTask/episode_001/episode_digest.md)
+- death shot: ![last-step](./death_shots/DaishushenghuoFlowV011LateNightMealLaowangTask/episode_001/step_029.png)
+  - state: [`./death_shots/DaishushenghuoFlowV011LateNightMealLaowangTask/episode_001/step_029.json`](./death_shots/DaishushenghuoFlowV011LateNightMealLaowangTask/episode_001/step_029.json)
+  - digest: [`episode_digest.md`](./death_shots/DaishushenghuoFlowV011LateNightMealLaowangTask/episode_001/episode_digest.md)
 
 ### Episode 2 — ❌ failed
 
@@ -88,9 +89,9 @@
        got: nil; 订单已支付: expected: not nil
        got: nil; 已加入兰州拉面国贸店粉丝群: 未找到加入兰州拉面国贸店粉丝群的成员记录; 已收藏兰州拉面国贸店: 未找到对兰州拉面国贸店的收藏
   ```
-- death shot: ![last-step](./screenshots/DaishushenghuoFlowV011LateNightMealLaowangTask/episode_002/step_044.png)
-  - state: [`./screenshots/DaishushenghuoFlowV011LateNightMealLaowangTask/episode_002/step_044.json`](./screenshots/DaishushenghuoFlowV011LateNightMealLaowangTask/episode_002/step_044.json)
-  - digest: [`episode_digest.md`](./screenshots/DaishushenghuoFlowV011LateNightMealLaowangTask/episode_002/episode_digest.md)
+- death shot: ![last-step](./death_shots/DaishushenghuoFlowV011LateNightMealLaowangTask/episode_002/step_044.png)
+  - state: [`./death_shots/DaishushenghuoFlowV011LateNightMealLaowangTask/episode_002/step_044.json`](./death_shots/DaishushenghuoFlowV011LateNightMealLaowangTask/episode_002/step_044.json)
+  - digest: [`episode_digest.md`](./death_shots/DaishushenghuoFlowV011LateNightMealLaowangTask/episode_002/episode_digest.md)
 
 ### Episode 3 — ❌ failed
 
@@ -107,9 +108,9 @@
        got: nil; 订单已支付: expected: not nil
        got: nil; 已加入兰州拉面国贸店粉丝群: 未找到加入兰州拉面国贸店粉丝群的成员记录; 已收藏兰州拉面国贸店: 未找到对兰州拉面国贸店的收藏
   ```
-- death shot: ![last-step](./screenshots/DaishushenghuoFlowV011LateNightMealLaowangTask/episode_003/step_034.png)
-  - state: [`./screenshots/DaishushenghuoFlowV011LateNightMealLaowangTask/episode_003/step_034.json`](./screenshots/DaishushenghuoFlowV011LateNightMealLaowangTask/episode_003/step_034.json)
-  - digest: [`episode_digest.md`](./screenshots/DaishushenghuoFlowV011LateNightMealLaowangTask/episode_003/episode_digest.md)
+- death shot: ![last-step](./death_shots/DaishushenghuoFlowV011LateNightMealLaowangTask/episode_003/step_034.png)
+  - state: [`./death_shots/DaishushenghuoFlowV011LateNightMealLaowangTask/episode_003/step_034.json`](./death_shots/DaishushenghuoFlowV011LateNightMealLaowangTask/episode_003/step_034.json)
+  - digest: [`episode_digest.md`](./death_shots/DaishushenghuoFlowV011LateNightMealLaowangTask/episode_003/episode_digest.md)
 
 ---
 

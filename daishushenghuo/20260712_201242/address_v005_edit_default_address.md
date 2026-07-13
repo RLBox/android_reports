@@ -6,7 +6,8 @@
 - **Elapsed**: 716s (~11.9 min)
 - **Model**: `doubao-seed-2-0-lite-260428`
 - **Raw log**: [./raw_logs/DaishushenghuoAddressV005EditDefaultAddressTask.log](./raw_logs/DaishushenghuoAddressV005EditDefaultAddressTask.log)
-- **Generated**: 2026-07-12T22:16:52+08:00
+- **Generated**: 2026-07-13T10:28:56+08:00
+- **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
 
@@ -67,9 +68,9 @@
   -true
   +false
   ```
-- death shot: ![last-step](./screenshots/DaishushenghuoAddressV005EditDefaultAddressTask/episode_001/step_027.png)
-  - state: [`./screenshots/DaishushenghuoAddressV005EditDefaultAddressTask/episode_001/step_027.json`](./screenshots/DaishushenghuoAddressV005EditDefaultAddressTask/episode_001/step_027.json)
-  - digest: [`episode_digest.md`](./screenshots/DaishushenghuoAddressV005EditDefaultAddressTask/episode_001/episode_digest.md)
+- death shot: ![last-step](./death_shots/DaishushenghuoAddressV005EditDefaultAddressTask/episode_001/step_027.png)
+  - state: [`./death_shots/DaishushenghuoAddressV005EditDefaultAddressTask/episode_001/step_027.json`](./death_shots/DaishushenghuoAddressV005EditDefaultAddressTask/episode_001/step_027.json)
+  - digest: [`episode_digest.md`](./death_shots/DaishushenghuoAddressV005EditDefaultAddressTask/episode_001/episode_digest.md)
 
 ### Episode 2 — ❌ failed
 
@@ -84,9 +85,9 @@
   -true
   +false
   ```
-- death shot: ![last-step](./screenshots/DaishushenghuoAddressV005EditDefaultAddressTask/episode_002/step_027.png)
-  - state: [`./screenshots/DaishushenghuoAddressV005EditDefaultAddressTask/episode_002/step_027.json`](./screenshots/DaishushenghuoAddressV005EditDefaultAddressTask/episode_002/step_027.json)
-  - digest: [`episode_digest.md`](./screenshots/DaishushenghuoAddressV005EditDefaultAddressTask/episode_002/episode_digest.md)
+- death shot: ![last-step](./death_shots/DaishushenghuoAddressV005EditDefaultAddressTask/episode_002/step_027.png)
+  - state: [`./death_shots/DaishushenghuoAddressV005EditDefaultAddressTask/episode_002/step_027.json`](./death_shots/DaishushenghuoAddressV005EditDefaultAddressTask/episode_002/step_027.json)
+  - digest: [`episode_digest.md`](./death_shots/DaishushenghuoAddressV005EditDefaultAddressTask/episode_002/episode_digest.md)
 
 ### Episode 3 — ❌ failed
 
@@ -101,9 +102,9 @@
   -true
   +false
   ```
-- death shot: ![last-step](./screenshots/DaishushenghuoAddressV005EditDefaultAddressTask/episode_003/step_027.png)
-  - state: [`./screenshots/DaishushenghuoAddressV005EditDefaultAddressTask/episode_003/step_027.json`](./screenshots/DaishushenghuoAddressV005EditDefaultAddressTask/episode_003/step_027.json)
-  - digest: [`episode_digest.md`](./screenshots/DaishushenghuoAddressV005EditDefaultAddressTask/episode_003/episode_digest.md)
+- death shot: ![last-step](./death_shots/DaishushenghuoAddressV005EditDefaultAddressTask/episode_003/step_027.png)
+  - state: [`./death_shots/DaishushenghuoAddressV005EditDefaultAddressTask/episode_003/step_027.json`](./death_shots/DaishushenghuoAddressV005EditDefaultAddressTask/episode_003/step_027.json)
+  - digest: [`episode_digest.md`](./death_shots/DaishushenghuoAddressV005EditDefaultAddressTask/episode_003/episode_digest.md)
 
 ---
 
