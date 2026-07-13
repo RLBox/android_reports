@@ -1,0 +1,18 @@
+# XingqiushejiaowangPartyV001JoinFirstRecommendedTask — Agent Trace Summary
+
+- **Episodes**: 1 (1 passed, 0 failed)
+- **Goal**: 随便加入一个推荐的派对看看有什么好玩的
+
+## Episode 1 — ✅ passed (4 steps)
+
+| # | Action | Think |
+|---|--------|-------|
+| 1 | open_app com.xingqiushejiaowang | 我需要找到并打开指定的目标应用。当前桌面未找到目标应用图标，我将直接调用启动工具，按包名对应信息打开目标应用。 |
+| 2 | click (117, 2232) | 已入广场页，将加推荐派对。接下来将点击左下角「星球」按钮查找推荐派对。 |
+| 3 | click (703, 1049) | 在星球页面，我看到了早安电台等群聊相关选项。当前需要完成加入推荐派对的任务，我打算点击群聊派对早安电台对应的进入按钮，加入该派对。 |
+| 4 | answer "已为你在星球社交网中加入推荐的“早安电台”派对，这个派对是关于早晨的问候和..." | 我已进入早安电台推荐派对，当前房间氛围融洽，大家正分享早安问候与正能量内容。本次查看推荐派对的任务已完成，我将向你反馈相关结果。 |
+
+- **Terminated**: answer
+
+---
+> 由 `log_summarizer.render_task_digest_md` 自动生成。 展示 Agent 每步的决策（action）和思考过程（think）。
