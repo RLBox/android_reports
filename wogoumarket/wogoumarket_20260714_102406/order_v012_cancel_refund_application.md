@@ -6,7 +6,7 @@
 - **Elapsed**: 93s (~1.6 min)
 - **Model**: `doubao-seed-2-0-pro-260215`
 - **Raw log**: [./raw_logs/WogoumarketOrderV012CancelRefundApplicationTask.log](./raw_logs/WogoumarketOrderV012CancelRefundApplicationTask.log)
-- **Generated**: 2026-07-14T16:39:29+08:00
+- **Generated**: 2026-07-14T17:05:21+08:00
 - **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
