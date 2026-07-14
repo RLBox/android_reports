@@ -6,7 +6,8 @@
 - **Elapsed**: 306s (~5.1 min)
 - **Model**: `doubao-seed-2-0-pro-260215`
 - **Raw log**: [./raw_logs/WogoumarketNotificationV015PaySavingCardFromExpiryNotificationTask.log](./raw_logs/WogoumarketNotificationV015PaySavingCardFromExpiryNotificationTask.log)
-- **Generated**: 2026-07-15T00:10:16+08:00
+- **Generated**: 2026-07-15T00:45:52+08:00
+- **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
 
@@ -63,9 +64,10 @@
   ```
   省钱卡订单已支付: 未找到已支付的省钱卡订单; 省钱卡已开通: 省钱卡未被开通，未找到 SavingCardPurchase 记录
   ```
-- death shot: ![last-step](./screenshots/WogoumarketNotificationV015PaySavingCardFromExpiryNotificationTask/episode_001/step_009.png)
-  - state: [`./screenshots/WogoumarketNotificationV015PaySavingCardFromExpiryNotificationTask/episode_001/step_009.json`](./screenshots/WogoumarketNotificationV015PaySavingCardFromExpiryNotificationTask/episode_001/step_009.json)
-  - digest: [`episode_digest.md`](./screenshots/WogoumarketNotificationV015PaySavingCardFromExpiryNotificationTask/episode_001/episode_digest.md)
+- death shot:
+  ![last-step](./death_shots/WogoumarketNotificationV015PaySavingCardFromExpiryNotificationTask/episode_001/step_009.png)
+- state: [`./death_shots/WogoumarketNotificationV015PaySavingCardFromExpiryNotificationTask/episode_001/step_009.json`](./death_shots/WogoumarketNotificationV015PaySavingCardFromExpiryNotificationTask/episode_001/step_009.json)
+- digest: [`episode_digest.md`](./episode_digests/WogoumarketNotificationV015PaySavingCardFromExpiryNotificationTask/episode_001/episode_digest.md)
 
 ### Episode 2 — ❌ failed
 
@@ -76,9 +78,10 @@
   ```
   省钱卡订单已支付: 未找到已支付的省钱卡订单; 省钱卡已开通: 省钱卡未被开通，未找到 SavingCardPurchase 记录
   ```
-- death shot: ![last-step](./screenshots/WogoumarketNotificationV015PaySavingCardFromExpiryNotificationTask/episode_002/step_008.png)
-  - state: [`./screenshots/WogoumarketNotificationV015PaySavingCardFromExpiryNotificationTask/episode_002/step_008.json`](./screenshots/WogoumarketNotificationV015PaySavingCardFromExpiryNotificationTask/episode_002/step_008.json)
-  - digest: [`episode_digest.md`](./screenshots/WogoumarketNotificationV015PaySavingCardFromExpiryNotificationTask/episode_002/episode_digest.md)
+- death shot:
+  ![last-step](./death_shots/WogoumarketNotificationV015PaySavingCardFromExpiryNotificationTask/episode_002/step_008.png)
+- state: [`./death_shots/WogoumarketNotificationV015PaySavingCardFromExpiryNotificationTask/episode_002/step_008.json`](./death_shots/WogoumarketNotificationV015PaySavingCardFromExpiryNotificationTask/episode_002/step_008.json)
+- digest: [`episode_digest.md`](./episode_digests/WogoumarketNotificationV015PaySavingCardFromExpiryNotificationTask/episode_002/episode_digest.md)
 
 ### Episode 3 — ❌ failed
 
@@ -89,9 +92,10 @@
   ```
   省钱卡订单已支付: 未找到已支付的省钱卡订单; 省钱卡已开通: 省钱卡未被开通，未找到 SavingCardPurchase 记录
   ```
-- death shot: ![last-step](./screenshots/WogoumarketNotificationV015PaySavingCardFromExpiryNotificationTask/episode_003/step_009.png)
-  - state: [`./screenshots/WogoumarketNotificationV015PaySavingCardFromExpiryNotificationTask/episode_003/step_009.json`](./screenshots/WogoumarketNotificationV015PaySavingCardFromExpiryNotificationTask/episode_003/step_009.json)
-  - digest: [`episode_digest.md`](./screenshots/WogoumarketNotificationV015PaySavingCardFromExpiryNotificationTask/episode_003/episode_digest.md)
+- death shot:
+  ![last-step](./death_shots/WogoumarketNotificationV015PaySavingCardFromExpiryNotificationTask/episode_003/step_009.png)
+- state: [`./death_shots/WogoumarketNotificationV015PaySavingCardFromExpiryNotificationTask/episode_003/step_009.json`](./death_shots/WogoumarketNotificationV015PaySavingCardFromExpiryNotificationTask/episode_003/step_009.json)
+- digest: [`episode_digest.md`](./episode_digests/WogoumarketNotificationV015PaySavingCardFromExpiryNotificationTask/episode_003/episode_digest.md)
 
 ---
 

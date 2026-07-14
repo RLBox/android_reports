@@ -6,7 +6,8 @@
 - **Elapsed**: 438s (~7.3 min)
 - **Model**: `doubao-seed-2-0-pro-260215`
 - **Raw log**: [./raw_logs/WogoumarketSearchV012SearchKettleUnionpayTask.log](./raw_logs/WogoumarketSearchV012SearchKettleUnionpayTask.log)
-- **Generated**: 2026-07-15T00:10:17+08:00
+- **Generated**: 2026-07-15T00:45:52+08:00
+- **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
 
@@ -63,9 +64,10 @@
   ```
   订单已创建: 未找到用户的订单
   ```
-- death shot: ![last-step](./screenshots/WogoumarketSearchV012SearchKettleUnionpayTask/episode_001/step_013.png)
-  - state: [`./screenshots/WogoumarketSearchV012SearchKettleUnionpayTask/episode_001/step_013.json`](./screenshots/WogoumarketSearchV012SearchKettleUnionpayTask/episode_001/step_013.json)
-  - digest: [`episode_digest.md`](./screenshots/WogoumarketSearchV012SearchKettleUnionpayTask/episode_001/episode_digest.md)
+- death shot:
+  ![last-step](./death_shots/WogoumarketSearchV012SearchKettleUnionpayTask/episode_001/step_013.png)
+- state: [`./death_shots/WogoumarketSearchV012SearchKettleUnionpayTask/episode_001/step_013.json`](./death_shots/WogoumarketSearchV012SearchKettleUnionpayTask/episode_001/step_013.json)
+- digest: [`episode_digest.md`](./episode_digests/WogoumarketSearchV012SearchKettleUnionpayTask/episode_001/episode_digest.md)
 
 ### Episode 2 — ❌ failed
 
@@ -76,9 +78,10 @@
   ```
   订单已创建: 未找到用户的订单
   ```
-- death shot: ![last-step](./screenshots/WogoumarketSearchV012SearchKettleUnionpayTask/episode_002/step_014.png)
-  - state: [`./screenshots/WogoumarketSearchV012SearchKettleUnionpayTask/episode_002/step_014.json`](./screenshots/WogoumarketSearchV012SearchKettleUnionpayTask/episode_002/step_014.json)
-  - digest: [`episode_digest.md`](./screenshots/WogoumarketSearchV012SearchKettleUnionpayTask/episode_002/episode_digest.md)
+- death shot:
+  ![last-step](./death_shots/WogoumarketSearchV012SearchKettleUnionpayTask/episode_002/step_014.png)
+- state: [`./death_shots/WogoumarketSearchV012SearchKettleUnionpayTask/episode_002/step_014.json`](./death_shots/WogoumarketSearchV012SearchKettleUnionpayTask/episode_002/step_014.json)
+- digest: [`episode_digest.md`](./episode_digests/WogoumarketSearchV012SearchKettleUnionpayTask/episode_002/episode_digest.md)
 
 ### Episode 3 — ❌ failed
 
@@ -89,9 +92,10 @@
   ```
   订单已创建: 未找到用户的订单
   ```
-- death shot: ![last-step](./screenshots/WogoumarketSearchV012SearchKettleUnionpayTask/episode_003/step_014.png)
-  - state: [`./screenshots/WogoumarketSearchV012SearchKettleUnionpayTask/episode_003/step_014.json`](./screenshots/WogoumarketSearchV012SearchKettleUnionpayTask/episode_003/step_014.json)
-  - digest: [`episode_digest.md`](./screenshots/WogoumarketSearchV012SearchKettleUnionpayTask/episode_003/episode_digest.md)
+- death shot:
+  ![last-step](./death_shots/WogoumarketSearchV012SearchKettleUnionpayTask/episode_003/step_014.png)
+- state: [`./death_shots/WogoumarketSearchV012SearchKettleUnionpayTask/episode_003/step_014.json`](./death_shots/WogoumarketSearchV012SearchKettleUnionpayTask/episode_003/step_014.json)
+- digest: [`episode_digest.md`](./episode_digests/WogoumarketSearchV012SearchKettleUnionpayTask/episode_003/episode_digest.md)
 
 ---
 

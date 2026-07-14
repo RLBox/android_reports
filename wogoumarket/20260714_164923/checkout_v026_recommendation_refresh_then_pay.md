@@ -6,7 +6,8 @@
 - **Elapsed**: 309s (~5.2 min)
 - **Model**: `doubao-seed-2-0-pro-260215`
 - **Raw log**: [./raw_logs/WogoumarketCheckoutV026RecommendationRefreshThenPayTask.log](./raw_logs/WogoumarketCheckoutV026RecommendationRefreshThenPayTask.log)
-- **Generated**: 2026-07-15T00:10:16+08:00
+- **Generated**: 2026-07-15T00:45:52+08:00
+- **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
 
@@ -63,9 +64,10 @@
   ```
   订单已创建并支付: 未找到已支付的订单
   ```
-- death shot: ![last-step](./screenshots/WogoumarketCheckoutV026RecommendationRefreshThenPayTask/episode_001/step_008.png)
-  - state: [`./screenshots/WogoumarketCheckoutV026RecommendationRefreshThenPayTask/episode_001/step_008.json`](./screenshots/WogoumarketCheckoutV026RecommendationRefreshThenPayTask/episode_001/step_008.json)
-  - digest: [`episode_digest.md`](./screenshots/WogoumarketCheckoutV026RecommendationRefreshThenPayTask/episode_001/episode_digest.md)
+- death shot:
+  ![last-step](./death_shots/WogoumarketCheckoutV026RecommendationRefreshThenPayTask/episode_001/step_008.png)
+- state: [`./death_shots/WogoumarketCheckoutV026RecommendationRefreshThenPayTask/episode_001/step_008.json`](./death_shots/WogoumarketCheckoutV026RecommendationRefreshThenPayTask/episode_001/step_008.json)
+- digest: [`episode_digest.md`](./episode_digests/WogoumarketCheckoutV026RecommendationRefreshThenPayTask/episode_001/episode_digest.md)
 
 ### Episode 2 — ❌ failed
 
@@ -76,9 +78,10 @@
   ```
   订单已创建并支付: 未找到已支付的订单
   ```
-- death shot: ![last-step](./screenshots/WogoumarketCheckoutV026RecommendationRefreshThenPayTask/episode_002/step_008.png)
-  - state: [`./screenshots/WogoumarketCheckoutV026RecommendationRefreshThenPayTask/episode_002/step_008.json`](./screenshots/WogoumarketCheckoutV026RecommendationRefreshThenPayTask/episode_002/step_008.json)
-  - digest: [`episode_digest.md`](./screenshots/WogoumarketCheckoutV026RecommendationRefreshThenPayTask/episode_002/episode_digest.md)
+- death shot:
+  ![last-step](./death_shots/WogoumarketCheckoutV026RecommendationRefreshThenPayTask/episode_002/step_008.png)
+- state: [`./death_shots/WogoumarketCheckoutV026RecommendationRefreshThenPayTask/episode_002/step_008.json`](./death_shots/WogoumarketCheckoutV026RecommendationRefreshThenPayTask/episode_002/step_008.json)
+- digest: [`episode_digest.md`](./episode_digests/WogoumarketCheckoutV026RecommendationRefreshThenPayTask/episode_002/episode_digest.md)
 
 ### Episode 3 — ❌ failed
 
@@ -89,9 +92,10 @@
   ```
   订单已创建并支付: 未找到已支付的订单
   ```
-- death shot: ![last-step](./screenshots/WogoumarketCheckoutV026RecommendationRefreshThenPayTask/episode_003/step_008.png)
-  - state: [`./screenshots/WogoumarketCheckoutV026RecommendationRefreshThenPayTask/episode_003/step_008.json`](./screenshots/WogoumarketCheckoutV026RecommendationRefreshThenPayTask/episode_003/step_008.json)
-  - digest: [`episode_digest.md`](./screenshots/WogoumarketCheckoutV026RecommendationRefreshThenPayTask/episode_003/episode_digest.md)
+- death shot:
+  ![last-step](./death_shots/WogoumarketCheckoutV026RecommendationRefreshThenPayTask/episode_003/step_008.png)
+- state: [`./death_shots/WogoumarketCheckoutV026RecommendationRefreshThenPayTask/episode_003/step_008.json`](./death_shots/WogoumarketCheckoutV026RecommendationRefreshThenPayTask/episode_003/step_008.json)
+- digest: [`episode_digest.md`](./episode_digests/WogoumarketCheckoutV026RecommendationRefreshThenPayTask/episode_003/episode_digest.md)
 
 ---
 

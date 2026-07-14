@@ -6,7 +6,8 @@
 - **Elapsed**: 437s (~7.3 min)
 - **Model**: `doubao-seed-2-0-pro-260215`
 - **Raw log**: [./raw_logs/WogoumarketOrderV030SeafoodThumbsUpReviewTask.log](./raw_logs/WogoumarketOrderV030SeafoodThumbsUpReviewTask.log)
-- **Generated**: 2026-07-15T00:10:17+08:00
+- **Generated**: 2026-07-15T00:45:52+08:00
+- **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
 
@@ -63,9 +64,10 @@
   ```
   订单已完成评价: 预期订单状态为 completed，实际为 delivered; 基围虾收到好评: 未找到基围虾的评价; 梭子蟹收到好评: 未找到梭子蟹的评价; 三文鱼收到好评: 未找到三文鱼的评价
   ```
-- death shot: ![last-step](./screenshots/WogoumarketOrderV030SeafoodThumbsUpReviewTask/episode_001/step_012.png)
-  - state: [`./screenshots/WogoumarketOrderV030SeafoodThumbsUpReviewTask/episode_001/step_012.json`](./screenshots/WogoumarketOrderV030SeafoodThumbsUpReviewTask/episode_001/step_012.json)
-  - digest: [`episode_digest.md`](./screenshots/WogoumarketOrderV030SeafoodThumbsUpReviewTask/episode_001/episode_digest.md)
+- death shot:
+  ![last-step](./death_shots/WogoumarketOrderV030SeafoodThumbsUpReviewTask/episode_001/step_012.png)
+- state: [`./death_shots/WogoumarketOrderV030SeafoodThumbsUpReviewTask/episode_001/step_012.json`](./death_shots/WogoumarketOrderV030SeafoodThumbsUpReviewTask/episode_001/step_012.json)
+- digest: [`episode_digest.md`](./episode_digests/WogoumarketOrderV030SeafoodThumbsUpReviewTask/episode_001/episode_digest.md)
 
 ### Episode 2 — ❌ failed
 
@@ -76,9 +78,10 @@
   ```
   订单已完成评价: 预期订单状态为 completed，实际为 delivered; 基围虾收到好评: 未找到基围虾的评价; 梭子蟹收到好评: 未找到梭子蟹的评价; 三文鱼收到好评: 未找到三文鱼的评价
   ```
-- death shot: ![last-step](./screenshots/WogoumarketOrderV030SeafoodThumbsUpReviewTask/episode_002/step_008.png)
-  - state: [`./screenshots/WogoumarketOrderV030SeafoodThumbsUpReviewTask/episode_002/step_008.json`](./screenshots/WogoumarketOrderV030SeafoodThumbsUpReviewTask/episode_002/step_008.json)
-  - digest: [`episode_digest.md`](./screenshots/WogoumarketOrderV030SeafoodThumbsUpReviewTask/episode_002/episode_digest.md)
+- death shot:
+  ![last-step](./death_shots/WogoumarketOrderV030SeafoodThumbsUpReviewTask/episode_002/step_008.png)
+- state: [`./death_shots/WogoumarketOrderV030SeafoodThumbsUpReviewTask/episode_002/step_008.json`](./death_shots/WogoumarketOrderV030SeafoodThumbsUpReviewTask/episode_002/step_008.json)
+- digest: [`episode_digest.md`](./episode_digests/WogoumarketOrderV030SeafoodThumbsUpReviewTask/episode_002/episode_digest.md)
 
 ---
 

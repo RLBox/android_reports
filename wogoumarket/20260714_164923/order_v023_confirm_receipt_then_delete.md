@@ -6,7 +6,8 @@
 - **Elapsed**: 122s (~2.0 min)
 - **Model**: `doubao-seed-2-0-pro-260215`
 - **Raw log**: [./raw_logs/WogoumarketOrderV023ConfirmReceiptThenDeleteTask.log](./raw_logs/WogoumarketOrderV023ConfirmReceiptThenDeleteTask.log)
-- **Generated**: 2026-07-15T00:10:16+08:00
+- **Generated**: 2026-07-15T00:45:52+08:00
+- **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
 

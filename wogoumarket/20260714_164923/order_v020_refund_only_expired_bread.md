@@ -6,7 +6,8 @@
 - **Elapsed**: 949s (~15.8 min)
 - **Model**: `doubao-seed-2-0-pro-260215`
 - **Raw log**: [./raw_logs/WogoumarketOrderV020RefundOnlyExpiredBreadTask.log](./raw_logs/WogoumarketOrderV020RefundOnlyExpiredBreadTask.log)
-- **Generated**: 2026-07-15T00:10:16+08:00
+- **Generated**: 2026-07-15T00:45:52+08:00
+- **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
 
@@ -63,9 +64,10 @@
   ```
   退款单已创建: 未找到退款申请记录
   ```
-- death shot: ![last-step](./screenshots/WogoumarketOrderV020RefundOnlyExpiredBreadTask/episode_001/step_030.png)
-  - state: [`./screenshots/WogoumarketOrderV020RefundOnlyExpiredBreadTask/episode_001/step_030.json`](./screenshots/WogoumarketOrderV020RefundOnlyExpiredBreadTask/episode_001/step_030.json)
-  - digest: [`episode_digest.md`](./screenshots/WogoumarketOrderV020RefundOnlyExpiredBreadTask/episode_001/episode_digest.md)
+- death shot:
+  ![last-step](./death_shots/WogoumarketOrderV020RefundOnlyExpiredBreadTask/episode_001/step_030.png)
+- state: [`./death_shots/WogoumarketOrderV020RefundOnlyExpiredBreadTask/episode_001/step_030.json`](./death_shots/WogoumarketOrderV020RefundOnlyExpiredBreadTask/episode_001/step_030.json)
+- digest: [`episode_digest.md`](./episode_digests/WogoumarketOrderV020RefundOnlyExpiredBreadTask/episode_001/episode_digest.md)
 
 ### Episode 2 — ❌ failed
 
@@ -76,9 +78,10 @@
   ```
   退款单已创建: 未找到退款申请记录
   ```
-- death shot: ![last-step](./screenshots/WogoumarketOrderV020RefundOnlyExpiredBreadTask/episode_002/step_021.png)
-  - state: [`./screenshots/WogoumarketOrderV020RefundOnlyExpiredBreadTask/episode_002/step_021.json`](./screenshots/WogoumarketOrderV020RefundOnlyExpiredBreadTask/episode_002/step_021.json)
-  - digest: [`episode_digest.md`](./screenshots/WogoumarketOrderV020RefundOnlyExpiredBreadTask/episode_002/episode_digest.md)
+- death shot:
+  ![last-step](./death_shots/WogoumarketOrderV020RefundOnlyExpiredBreadTask/episode_002/step_021.png)
+- state: [`./death_shots/WogoumarketOrderV020RefundOnlyExpiredBreadTask/episode_002/step_021.json`](./death_shots/WogoumarketOrderV020RefundOnlyExpiredBreadTask/episode_002/step_021.json)
+- digest: [`episode_digest.md`](./episode_digests/WogoumarketOrderV020RefundOnlyExpiredBreadTask/episode_002/episode_digest.md)
 
 ### Episode 3 — ❌ failed
 
@@ -89,9 +92,10 @@
   ```
   退款单已创建: 未找到退款申请记录
   ```
-- death shot: ![last-step](./screenshots/WogoumarketOrderV020RefundOnlyExpiredBreadTask/episode_003/step_028.png)
-  - state: [`./screenshots/WogoumarketOrderV020RefundOnlyExpiredBreadTask/episode_003/step_028.json`](./screenshots/WogoumarketOrderV020RefundOnlyExpiredBreadTask/episode_003/step_028.json)
-  - digest: [`episode_digest.md`](./screenshots/WogoumarketOrderV020RefundOnlyExpiredBreadTask/episode_003/episode_digest.md)
+- death shot:
+  ![last-step](./death_shots/WogoumarketOrderV020RefundOnlyExpiredBreadTask/episode_003/step_028.png)
+- state: [`./death_shots/WogoumarketOrderV020RefundOnlyExpiredBreadTask/episode_003/step_028.json`](./death_shots/WogoumarketOrderV020RefundOnlyExpiredBreadTask/episode_003/step_028.json)
+- digest: [`episode_digest.md`](./episode_digests/WogoumarketOrderV020RefundOnlyExpiredBreadTask/episode_003/episode_digest.md)
 
 ---
 

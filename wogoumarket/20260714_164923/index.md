@@ -7,6 +7,7 @@
 - ⚠️  Partial (1-2 / 3): **25**
 - ❌ Failed (0/3): **23**
 - Total elapsed: 24366s (406.1 min)
+- Note: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Tasks
 

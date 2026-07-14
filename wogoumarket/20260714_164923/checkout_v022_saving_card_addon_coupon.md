@@ -6,7 +6,8 @@
 - **Elapsed**: 596s (~9.9 min)
 - **Model**: `doubao-seed-2-0-pro-260215`
 - **Raw log**: [./raw_logs/WogoumarketCheckoutV022SavingCardAddonCouponTask.log](./raw_logs/WogoumarketCheckoutV022SavingCardAddonCouponTask.log)
-- **Generated**: 2026-07-15T00:10:16+08:00
+- **Generated**: 2026-07-15T00:45:52+08:00
+- **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
 
@@ -63,9 +64,10 @@
   ```
   产生已支付订单: 未找到已支付的订单
   ```
-- death shot: ![last-step](./screenshots/WogoumarketCheckoutV022SavingCardAddonCouponTask/episode_001/step_015.png)
-  - state: [`./screenshots/WogoumarketCheckoutV022SavingCardAddonCouponTask/episode_001/step_015.json`](./screenshots/WogoumarketCheckoutV022SavingCardAddonCouponTask/episode_001/step_015.json)
-  - digest: [`episode_digest.md`](./screenshots/WogoumarketCheckoutV022SavingCardAddonCouponTask/episode_001/episode_digest.md)
+- death shot:
+  ![last-step](./death_shots/WogoumarketCheckoutV022SavingCardAddonCouponTask/episode_001/step_015.png)
+- state: [`./death_shots/WogoumarketCheckoutV022SavingCardAddonCouponTask/episode_001/step_015.json`](./death_shots/WogoumarketCheckoutV022SavingCardAddonCouponTask/episode_001/step_015.json)
+- digest: [`episode_digest.md`](./episode_digests/WogoumarketCheckoutV022SavingCardAddonCouponTask/episode_001/episode_digest.md)
 
 ### Episode 2 — ❌ failed
 
@@ -76,9 +78,10 @@
   ```
   产生已支付订单: 未找到已支付的订单
   ```
-- death shot: ![last-step](./screenshots/WogoumarketCheckoutV022SavingCardAddonCouponTask/episode_002/step_010.png)
-  - state: [`./screenshots/WogoumarketCheckoutV022SavingCardAddonCouponTask/episode_002/step_010.json`](./screenshots/WogoumarketCheckoutV022SavingCardAddonCouponTask/episode_002/step_010.json)
-  - digest: [`episode_digest.md`](./screenshots/WogoumarketCheckoutV022SavingCardAddonCouponTask/episode_002/episode_digest.md)
+- death shot:
+  ![last-step](./death_shots/WogoumarketCheckoutV022SavingCardAddonCouponTask/episode_002/step_010.png)
+- state: [`./death_shots/WogoumarketCheckoutV022SavingCardAddonCouponTask/episode_002/step_010.json`](./death_shots/WogoumarketCheckoutV022SavingCardAddonCouponTask/episode_002/step_010.json)
+- digest: [`episode_digest.md`](./episode_digests/WogoumarketCheckoutV022SavingCardAddonCouponTask/episode_002/episode_digest.md)
 
 ### Episode 3 — ❌ failed
 
@@ -89,9 +92,10 @@
   ```
   产生已支付订单: 未找到已支付的订单
   ```
-- death shot: ![last-step](./screenshots/WogoumarketCheckoutV022SavingCardAddonCouponTask/episode_003/step_011.png)
-  - state: [`./screenshots/WogoumarketCheckoutV022SavingCardAddonCouponTask/episode_003/step_011.json`](./screenshots/WogoumarketCheckoutV022SavingCardAddonCouponTask/episode_003/step_011.json)
-  - digest: [`episode_digest.md`](./screenshots/WogoumarketCheckoutV022SavingCardAddonCouponTask/episode_003/episode_digest.md)
+- death shot:
+  ![last-step](./death_shots/WogoumarketCheckoutV022SavingCardAddonCouponTask/episode_003/step_011.png)
+- state: [`./death_shots/WogoumarketCheckoutV022SavingCardAddonCouponTask/episode_003/step_011.json`](./death_shots/WogoumarketCheckoutV022SavingCardAddonCouponTask/episode_003/step_011.json)
+- digest: [`episode_digest.md`](./episode_digests/WogoumarketCheckoutV022SavingCardAddonCouponTask/episode_003/episode_digest.md)
 
 ---
 

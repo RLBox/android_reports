@@ -6,7 +6,8 @@
 - **Elapsed**: 240s (~4.0 min)
 - **Model**: `doubao-seed-2-0-pro-260215`
 - **Raw log**: [./raw_logs/WogoumarketOrderV035PayPendingSavingCardWithUnionpayTask.log](./raw_logs/WogoumarketOrderV035PayPendingSavingCardWithUnionpayTask.log)
-- **Generated**: 2026-07-15T00:10:17+08:00
+- **Generated**: 2026-07-15T00:45:52+08:00
+- **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
 
@@ -63,9 +64,10 @@
   ```
   省钱卡订单已支付成功: 订单仍为待支付状态; 支付方式为云闪付: 预期支付方式为云闪付(unionpay)，实际为 wechat; 省钱卡已开通: 未找到省钱卡开通记录
   ```
-- death shot: ![last-step](./screenshots/WogoumarketOrderV035PayPendingSavingCardWithUnionpayTask/episode_001/step_008.png)
-  - state: [`./screenshots/WogoumarketOrderV035PayPendingSavingCardWithUnionpayTask/episode_001/step_008.json`](./screenshots/WogoumarketOrderV035PayPendingSavingCardWithUnionpayTask/episode_001/step_008.json)
-  - digest: [`episode_digest.md`](./screenshots/WogoumarketOrderV035PayPendingSavingCardWithUnionpayTask/episode_001/episode_digest.md)
+- death shot:
+  ![last-step](./death_shots/WogoumarketOrderV035PayPendingSavingCardWithUnionpayTask/episode_001/step_008.png)
+- state: [`./death_shots/WogoumarketOrderV035PayPendingSavingCardWithUnionpayTask/episode_001/step_008.json`](./death_shots/WogoumarketOrderV035PayPendingSavingCardWithUnionpayTask/episode_001/step_008.json)
+- digest: [`episode_digest.md`](./episode_digests/WogoumarketOrderV035PayPendingSavingCardWithUnionpayTask/episode_001/episode_digest.md)
 
 ### Episode 2 — ❌ failed
 
@@ -76,9 +78,10 @@
   ```
   省钱卡订单已支付成功: 订单仍为待支付状态; 支付方式为云闪付: 预期支付方式为云闪付(unionpay)，实际为 wechat; 省钱卡已开通: 未找到省钱卡开通记录
   ```
-- death shot: ![last-step](./screenshots/WogoumarketOrderV035PayPendingSavingCardWithUnionpayTask/episode_002/step_008.png)
-  - state: [`./screenshots/WogoumarketOrderV035PayPendingSavingCardWithUnionpayTask/episode_002/step_008.json`](./screenshots/WogoumarketOrderV035PayPendingSavingCardWithUnionpayTask/episode_002/step_008.json)
-  - digest: [`episode_digest.md`](./screenshots/WogoumarketOrderV035PayPendingSavingCardWithUnionpayTask/episode_002/episode_digest.md)
+- death shot:
+  ![last-step](./death_shots/WogoumarketOrderV035PayPendingSavingCardWithUnionpayTask/episode_002/step_008.png)
+- state: [`./death_shots/WogoumarketOrderV035PayPendingSavingCardWithUnionpayTask/episode_002/step_008.json`](./death_shots/WogoumarketOrderV035PayPendingSavingCardWithUnionpayTask/episode_002/step_008.json)
+- digest: [`episode_digest.md`](./episode_digests/WogoumarketOrderV035PayPendingSavingCardWithUnionpayTask/episode_002/episode_digest.md)
 
 ### Episode 3 — ❌ failed
 
@@ -89,9 +92,10 @@
   ```
   省钱卡订单已支付成功: 订单仍为待支付状态; 支付方式为云闪付: 预期支付方式为云闪付(unionpay)，实际为 wechat; 省钱卡已开通: 未找到省钱卡开通记录
   ```
-- death shot: ![last-step](./screenshots/WogoumarketOrderV035PayPendingSavingCardWithUnionpayTask/episode_003/step_008.png)
-  - state: [`./screenshots/WogoumarketOrderV035PayPendingSavingCardWithUnionpayTask/episode_003/step_008.json`](./screenshots/WogoumarketOrderV035PayPendingSavingCardWithUnionpayTask/episode_003/step_008.json)
-  - digest: [`episode_digest.md`](./screenshots/WogoumarketOrderV035PayPendingSavingCardWithUnionpayTask/episode_003/episode_digest.md)
+- death shot:
+  ![last-step](./death_shots/WogoumarketOrderV035PayPendingSavingCardWithUnionpayTask/episode_003/step_008.png)
+- state: [`./death_shots/WogoumarketOrderV035PayPendingSavingCardWithUnionpayTask/episode_003/step_008.json`](./death_shots/WogoumarketOrderV035PayPendingSavingCardWithUnionpayTask/episode_003/step_008.json)
+- digest: [`episode_digest.md`](./episode_digests/WogoumarketOrderV035PayPendingSavingCardWithUnionpayTask/episode_003/episode_digest.md)
 
 ---
 

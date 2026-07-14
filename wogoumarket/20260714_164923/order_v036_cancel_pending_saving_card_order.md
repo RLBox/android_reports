@@ -6,7 +6,8 @@
 - **Elapsed**: 74s (~1.2 min)
 - **Model**: `doubao-seed-2-0-pro-260215`
 - **Raw log**: [./raw_logs/WogoumarketOrderV036CancelPendingSavingCardOrderTask.log](./raw_logs/WogoumarketOrderV036CancelPendingSavingCardOrderTask.log)
-- **Generated**: 2026-07-15T00:10:17+08:00
+- **Generated**: 2026-07-15T00:45:52+08:00
+- **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
 
