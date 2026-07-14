@@ -6,7 +6,7 @@
 - **Elapsed**: 904s (~15.1 min)
 - **Model**: `doubao-seed-2-0-pro-260215`
 - **Raw log**: [./raw_logs/WogoumarketCommonV008ApplianceDetailVitaminFilterCheckoutTask.log](./raw_logs/WogoumarketCommonV008ApplianceDetailVitaminFilterCheckoutTask.log)
-- **Generated**: 2026-07-14T17:05:21+08:00
+- **Generated**: 2026-07-14T17:09:00+08:00
 - **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
@@ -64,6 +64,7 @@
   ```
   存在已支付的订单: 未找到订单
   ```
+- digest: [`episode_digest.md`](./episode_digests/WogoumarketCommonV008ApplianceDetailVitaminFilterCheckoutTask/episode_001/episode_digest.md)
 
 ### Episode 2 — ❌ failed
 
@@ -74,6 +75,7 @@
   ```
   存在已支付的订单: 未找到订单
   ```
+- digest: [`episode_digest.md`](./episode_digests/WogoumarketCommonV008ApplianceDetailVitaminFilterCheckoutTask/episode_002/episode_digest.md)
 
 ### Episode 3 — ❌ failed
 
@@ -84,6 +86,7 @@
   ```
   存在已支付的订单: 未找到订单
   ```
+- digest: [`episode_digest.md`](./episode_digests/WogoumarketCommonV008ApplianceDetailVitaminFilterCheckoutTask/episode_003/episode_digest.md)
 
 ---
 

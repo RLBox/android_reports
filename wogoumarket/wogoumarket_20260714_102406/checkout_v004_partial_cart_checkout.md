@@ -6,7 +6,7 @@
 - **Elapsed**: 334s (~5.6 min)
 - **Model**: `doubao-seed-2-0-pro-260215`
 - **Raw log**: [./raw_logs/WogoumarketCheckoutV004PartialCartCheckoutTask.log](./raw_logs/WogoumarketCheckoutV004PartialCartCheckoutTask.log)
-- **Generated**: 2026-07-14T17:05:21+08:00
+- **Generated**: 2026-07-14T17:09:00+08:00
 - **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
@@ -64,6 +64,7 @@
   ```
   产生 paid 订单: 未找到已支付的订单
   ```
+- digest: [`episode_digest.md`](./episode_digests/WogoumarketCheckoutV004PartialCartCheckoutTask/episode_001/episode_digest.md)
 
 ### Episode 2 — ❌ failed
 
@@ -74,6 +75,7 @@
   ```
   产生 paid 订单: 未找到已支付的订单
   ```
+- digest: [`episode_digest.md`](./episode_digests/WogoumarketCheckoutV004PartialCartCheckoutTask/episode_002/episode_digest.md)
 
 ### Episode 3 — ❌ failed
 
@@ -84,6 +86,7 @@
   ```
   产生 paid 订单: 未找到已支付的订单
   ```
+- digest: [`episode_digest.md`](./episode_digests/WogoumarketCheckoutV004PartialCartCheckoutTask/episode_003/episode_digest.md)
 
 ---
 

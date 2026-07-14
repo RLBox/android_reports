@@ -6,7 +6,7 @@
 - **Elapsed**: 860s (~14.3 min)
 - **Model**: `doubao-seed-2-0-pro-260215`
 - **Raw log**: [./raw_logs/WogoumarketCommonV007BeddingExpensiveClothingCheapestCheckoutCancelTask.log](./raw_logs/WogoumarketCommonV007BeddingExpensiveClothingCheapestCheckoutCancelTask.log)
-- **Generated**: 2026-07-14T17:05:21+08:00
+- **Generated**: 2026-07-14T17:09:00+08:00
 - **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
@@ -64,6 +64,7 @@
   ```
   存在已取消的订单: 未找到订单
   ```
+- digest: [`episode_digest.md`](./episode_digests/WogoumarketCommonV007BeddingExpensiveClothingCheapestCheckoutCancelTask/episode_001/episode_digest.md)
 
 ### Episode 2 — ❌ failed
 
@@ -74,6 +75,7 @@
   ```
   存在已取消的订单: 预期订单状态为 cancelled，实际为 pending; 订单包含服饰分类下最便宜商品（浪莎船袜）: 订单未包含最便宜商品：浪莎 纯棉船袜 男士 5双装 薄款; 订单已被取消（cancelled_at 非空）: cancelled_at 为 nil，订单未被取消
   ```
+- digest: [`episode_digest.md`](./episode_digests/WogoumarketCommonV007BeddingExpensiveClothingCheapestCheckoutCancelTask/episode_002/episode_digest.md)
 
 ### Episode 3 — ❌ failed
 
@@ -84,6 +86,7 @@
   ```
   订单包含服饰分类下最便宜商品（浪莎船袜）: 订单未包含最便宜商品：浪莎 纯棉船袜 男士 5双装 薄款
   ```
+- digest: [`episode_digest.md`](./episode_digests/WogoumarketCommonV007BeddingExpensiveClothingCheapestCheckoutCancelTask/episode_003/episode_digest.md)
 
 ---
 

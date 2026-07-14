@@ -6,7 +6,7 @@
 - **Elapsed**: 486s (~8.1 min)
 - **Model**: `doubao-seed-2-0-pro-260215`
 - **Raw log**: [./raw_logs/WogoumarketCatalogV007DurianFleshThirdLevelTabTask.log](./raw_logs/WogoumarketCatalogV007DurianFleshThirdLevelTabTask.log)
-- **Generated**: 2026-07-14T17:05:21+08:00
+- **Generated**: 2026-07-14T17:09:00+08:00
 - **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
@@ -64,6 +64,7 @@
   ```
   产生已支付订单: 未找到已支付的订单
   ```
+- digest: [`episode_digest.md`](./episode_digests/WogoumarketCatalogV007DurianFleshThirdLevelTabTask/episode_001/episode_digest.md)
 
 ### Episode 2 — ❌ failed
 
@@ -74,6 +75,7 @@
   ```
   产生已支付订单: 未找到已支付的订单
   ```
+- digest: [`episode_digest.md`](./episode_digests/WogoumarketCatalogV007DurianFleshThirdLevelTabTask/episode_002/episode_digest.md)
 
 ### Episode 3 — ❌ failed
 
@@ -84,6 +86,7 @@
   ```
   产生已支付订单: 未找到已支付的订单
   ```
+- digest: [`episode_digest.md`](./episode_digests/WogoumarketCatalogV007DurianFleshThirdLevelTabTask/episode_003/episode_digest.md)
 
 ---
 

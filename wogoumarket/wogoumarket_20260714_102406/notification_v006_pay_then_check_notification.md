@@ -6,7 +6,7 @@
 - **Elapsed**: 288s (~4.8 min)
 - **Model**: `doubao-seed-2-0-pro-260215`
 - **Raw log**: [./raw_logs/WogoumarketNotificationV006PayThenCheckNotificationTask.log](./raw_logs/WogoumarketNotificationV006PayThenCheckNotificationTask.log)
-- **Generated**: 2026-07-14T17:05:21+08:00
+- **Generated**: 2026-07-14T17:09:00+08:00
 - **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
@@ -63,6 +63,7 @@
   ```
   订单已支付: 未找到已支付的订单
   ```
+- digest: [`episode_digest.md`](./episode_digests/WogoumarketNotificationV006PayThenCheckNotificationTask/episode_001/episode_digest.md)
 
 ---
 

@@ -6,7 +6,7 @@
 - **Elapsed**: 956s (~15.9 min)
 - **Model**: `doubao-seed-2-0-pro-260215`
 - **Raw log**: [./raw_logs/WogoumarketCommonV014PartySnacksBeerMultiTask.log](./raw_logs/WogoumarketCommonV014PartySnacksBeerMultiTask.log)
-- **Generated**: 2026-07-14T17:05:21+08:00
+- **Generated**: 2026-07-14T17:09:00+08:00
 - **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
@@ -64,6 +64,7 @@
   ```
   已支付订单已创建: 未找到已支付订单
   ```
+- digest: [`episode_digest.md`](./episode_digests/WogoumarketCommonV014PartySnacksBeerMultiTask/episode_001/episode_digest.md)
 
 ### Episode 2 — ❌ failed
 
@@ -74,6 +75,7 @@
   ```
   已支付订单已创建: 未找到已支付订单
   ```
+- digest: [`episode_digest.md`](./episode_digests/WogoumarketCommonV014PartySnacksBeerMultiTask/episode_002/episode_digest.md)
 
 ### Episode 3 — ❌ failed
 
@@ -84,6 +86,7 @@
   ```
   已支付订单已创建: 未找到已支付订单
   ```
+- digest: [`episode_digest.md`](./episode_digests/WogoumarketCommonV014PartySnacksBeerMultiTask/episode_003/episode_digest.md)
 
 ---
 
