@@ -6,7 +6,7 @@
 - **Elapsed**: 488s (~8.1 min)
 - **Model**: `doubao-seed-2-0-pro-260215`
 - **Raw log**: [./raw_logs/WogoumarketOrderV009ReorderCancelledTask.log](./raw_logs/WogoumarketOrderV009ReorderCancelledTask.log)
-- **Generated**: 2026-07-14T17:38:02+08:00
+- **Generated**: 2026-07-14T17:43:25+08:00
 - **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
@@ -64,7 +64,8 @@
   ```
   存在已支付新订单: 未找到已支付的新订单
   ```
-![last-step](./death_shots/WogoumarketOrderV009ReorderCancelledTask/episode_001/step_009.png)
+- death shot:
+  ![last-step](./death_shots/WogoumarketOrderV009ReorderCancelledTask/episode_001/step_009.png)
 - state: [`./death_shots/WogoumarketOrderV009ReorderCancelledTask/episode_001/step_009.json`](./death_shots/WogoumarketOrderV009ReorderCancelledTask/episode_001/step_009.json)
 - digest: [`episode_digest.md`](./episode_digests/WogoumarketOrderV009ReorderCancelledTask/episode_001/episode_digest.md)
 
@@ -77,7 +78,8 @@
   ```
   存在已支付新订单: 未找到已支付的新订单
   ```
-![last-step](./death_shots/WogoumarketOrderV009ReorderCancelledTask/episode_002/step_010.png)
+- death shot:
+  ![last-step](./death_shots/WogoumarketOrderV009ReorderCancelledTask/episode_002/step_010.png)
 - state: [`./death_shots/WogoumarketOrderV009ReorderCancelledTask/episode_002/step_010.json`](./death_shots/WogoumarketOrderV009ReorderCancelledTask/episode_002/step_010.json)
 - digest: [`episode_digest.md`](./episode_digests/WogoumarketOrderV009ReorderCancelledTask/episode_002/episode_digest.md)
 
@@ -90,7 +92,8 @@
   ```
   存在已支付新订单: 未找到已支付的新订单
   ```
-![last-step](./death_shots/WogoumarketOrderV009ReorderCancelledTask/episode_003/step_010.png)
+- death shot:
+  ![last-step](./death_shots/WogoumarketOrderV009ReorderCancelledTask/episode_003/step_010.png)
 - state: [`./death_shots/WogoumarketOrderV009ReorderCancelledTask/episode_003/step_010.json`](./death_shots/WogoumarketOrderV009ReorderCancelledTask/episode_003/step_010.json)
 - digest: [`episode_digest.md`](./episode_digests/WogoumarketOrderV009ReorderCancelledTask/episode_003/episode_digest.md)
 

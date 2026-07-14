@@ -6,7 +6,7 @@
 - **Elapsed**: 298s (~5.0 min)
 - **Model**: `doubao-seed-2-0-pro-260215`
 - **Raw log**: [./raw_logs/WogoumarketNotificationV009CancelFromPaymentNotificationTask.log](./raw_logs/WogoumarketNotificationV009CancelFromPaymentNotificationTask.log)
-- **Generated**: 2026-07-14T17:38:02+08:00
+- **Generated**: 2026-07-14T17:43:25+08:00
 - **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
@@ -63,7 +63,8 @@
   ```
   支付成功通知已阅读: 支付成功通知未被阅读
   ```
-![last-step](./death_shots/WogoumarketNotificationV009CancelFromPaymentNotificationTask/episode_001/step_011.png)
+- death shot:
+  ![last-step](./death_shots/WogoumarketNotificationV009CancelFromPaymentNotificationTask/episode_001/step_011.png)
 - state: [`./death_shots/WogoumarketNotificationV009CancelFromPaymentNotificationTask/episode_001/step_011.json`](./death_shots/WogoumarketNotificationV009CancelFromPaymentNotificationTask/episode_001/step_011.json)
 - digest: [`episode_digest.md`](./episode_digests/WogoumarketNotificationV009CancelFromPaymentNotificationTask/episode_001/episode_digest.md)
 

@@ -6,7 +6,7 @@
 - **Elapsed**: 495s (~8.2 min)
 - **Model**: `doubao-seed-2-0-pro-260215`
 - **Raw log**: [./raw_logs/WogoumarketSearchV010SearchFlowerForMomBirthdayTask.log](./raw_logs/WogoumarketSearchV010SearchFlowerForMomBirthdayTask.log)
-- **Generated**: 2026-07-14T17:38:02+08:00
+- **Generated**: 2026-07-14T17:43:25+08:00
 - **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
@@ -64,7 +64,8 @@
   ```
   订单已创建: 未找到订单
   ```
-![last-step](./death_shots/WogoumarketSearchV010SearchFlowerForMomBirthdayTask/episode_001/step_010.png)
+- death shot:
+  ![last-step](./death_shots/WogoumarketSearchV010SearchFlowerForMomBirthdayTask/episode_001/step_010.png)
 - state: [`./death_shots/WogoumarketSearchV010SearchFlowerForMomBirthdayTask/episode_001/step_010.json`](./death_shots/WogoumarketSearchV010SearchFlowerForMomBirthdayTask/episode_001/step_010.json)
 - digest: [`episode_digest.md`](./episode_digests/WogoumarketSearchV010SearchFlowerForMomBirthdayTask/episode_001/episode_digest.md)
 
@@ -77,7 +78,8 @@
   ```
   订单已创建: 未找到订单
   ```
-![last-step](./death_shots/WogoumarketSearchV010SearchFlowerForMomBirthdayTask/episode_002/step_014.png)
+- death shot:
+  ![last-step](./death_shots/WogoumarketSearchV010SearchFlowerForMomBirthdayTask/episode_002/step_014.png)
 - state: [`./death_shots/WogoumarketSearchV010SearchFlowerForMomBirthdayTask/episode_002/step_014.json`](./death_shots/WogoumarketSearchV010SearchFlowerForMomBirthdayTask/episode_002/step_014.json)
 - digest: [`episode_digest.md`](./episode_digests/WogoumarketSearchV010SearchFlowerForMomBirthdayTask/episode_002/episode_digest.md)
 
@@ -90,7 +92,8 @@
   ```
   订单已创建: 未找到订单
   ```
-![last-step](./death_shots/WogoumarketSearchV010SearchFlowerForMomBirthdayTask/episode_003/step_014.png)
+- death shot:
+  ![last-step](./death_shots/WogoumarketSearchV010SearchFlowerForMomBirthdayTask/episode_003/step_014.png)
 - state: [`./death_shots/WogoumarketSearchV010SearchFlowerForMomBirthdayTask/episode_003/step_014.json`](./death_shots/WogoumarketSearchV010SearchFlowerForMomBirthdayTask/episode_003/step_014.json)
 - digest: [`episode_digest.md`](./episode_digests/WogoumarketSearchV010SearchFlowerForMomBirthdayTask/episode_003/episode_digest.md)
 

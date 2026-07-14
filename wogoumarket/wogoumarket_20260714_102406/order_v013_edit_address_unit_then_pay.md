@@ -6,7 +6,7 @@
 - **Elapsed**: 612s (~10.2 min)
 - **Model**: `doubao-seed-2-0-pro-260215`
 - **Raw log**: [./raw_logs/WogoumarketOrderV013EditAddressUnitThenPayTask.log](./raw_logs/WogoumarketOrderV013EditAddressUnitThenPayTask.log)
-- **Generated**: 2026-07-14T17:38:02+08:00
+- **Generated**: 2026-07-14T17:43:25+08:00
 - **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
@@ -64,7 +64,8 @@
   ```
   订单已支付: 预期订单为paid状态，实际为 pending
   ```
-![last-step](./death_shots/WogoumarketOrderV013EditAddressUnitThenPayTask/episode_001/step_018.png)
+- death shot:
+  ![last-step](./death_shots/WogoumarketOrderV013EditAddressUnitThenPayTask/episode_001/step_018.png)
 - state: [`./death_shots/WogoumarketOrderV013EditAddressUnitThenPayTask/episode_001/step_018.json`](./death_shots/WogoumarketOrderV013EditAddressUnitThenPayTask/episode_001/step_018.json)
 - digest: [`episode_digest.md`](./episode_digests/WogoumarketOrderV013EditAddressUnitThenPayTask/episode_001/episode_digest.md)
 
@@ -77,7 +78,8 @@
   ```
   订单已支付: 预期订单为paid状态，实际为 pending
   ```
-![last-step](./death_shots/WogoumarketOrderV013EditAddressUnitThenPayTask/episode_002/step_017.png)
+- death shot:
+  ![last-step](./death_shots/WogoumarketOrderV013EditAddressUnitThenPayTask/episode_002/step_017.png)
 - state: [`./death_shots/WogoumarketOrderV013EditAddressUnitThenPayTask/episode_002/step_017.json`](./death_shots/WogoumarketOrderV013EditAddressUnitThenPayTask/episode_002/step_017.json)
 - digest: [`episode_digest.md`](./episode_digests/WogoumarketOrderV013EditAddressUnitThenPayTask/episode_002/episode_digest.md)
 
@@ -90,7 +92,8 @@
   ```
   订单已支付: 预期订单为paid状态，实际为 pending
   ```
-![last-step](./death_shots/WogoumarketOrderV013EditAddressUnitThenPayTask/episode_003/step_017.png)
+- death shot:
+  ![last-step](./death_shots/WogoumarketOrderV013EditAddressUnitThenPayTask/episode_003/step_017.png)
 - state: [`./death_shots/WogoumarketOrderV013EditAddressUnitThenPayTask/episode_003/step_017.json`](./death_shots/WogoumarketOrderV013EditAddressUnitThenPayTask/episode_003/step_017.json)
 - digest: [`episode_digest.md`](./episode_digests/WogoumarketOrderV013EditAddressUnitThenPayTask/episode_003/episode_digest.md)
 

@@ -6,7 +6,7 @@
 - **Elapsed**: 500s (~8.3 min)
 - **Model**: `doubao-seed-2-0-pro-260215`
 - **Raw log**: [./raw_logs/WogoumarketCommonV009SearchCheckReviewsThenCheckoutTask.log](./raw_logs/WogoumarketCommonV009SearchCheckReviewsThenCheckoutTask.log)
-- **Generated**: 2026-07-14T17:38:02+08:00
+- **Generated**: 2026-07-14T17:43:25+08:00
 - **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
@@ -64,7 +64,8 @@
   ```
   已支付订单已创建: 未找到已支付的订单
   ```
-![last-step](./death_shots/WogoumarketCommonV009SearchCheckReviewsThenCheckoutTask/episode_001/step_014.png)
+- death shot:
+  ![last-step](./death_shots/WogoumarketCommonV009SearchCheckReviewsThenCheckoutTask/episode_001/step_014.png)
 - state: [`./death_shots/WogoumarketCommonV009SearchCheckReviewsThenCheckoutTask/episode_001/step_014.json`](./death_shots/WogoumarketCommonV009SearchCheckReviewsThenCheckoutTask/episode_001/step_014.json)
 - digest: [`episode_digest.md`](./episode_digests/WogoumarketCommonV009SearchCheckReviewsThenCheckoutTask/episode_001/episode_digest.md)
 
@@ -77,7 +78,8 @@
   ```
   已支付订单已创建: 未找到已支付的订单
   ```
-![last-step](./death_shots/WogoumarketCommonV009SearchCheckReviewsThenCheckoutTask/episode_002/step_014.png)
+- death shot:
+  ![last-step](./death_shots/WogoumarketCommonV009SearchCheckReviewsThenCheckoutTask/episode_002/step_014.png)
 - state: [`./death_shots/WogoumarketCommonV009SearchCheckReviewsThenCheckoutTask/episode_002/step_014.json`](./death_shots/WogoumarketCommonV009SearchCheckReviewsThenCheckoutTask/episode_002/step_014.json)
 - digest: [`episode_digest.md`](./episode_digests/WogoumarketCommonV009SearchCheckReviewsThenCheckoutTask/episode_002/episode_digest.md)
 
@@ -90,7 +92,8 @@
   ```
   已支付订单已创建: 未找到已支付的订单
   ```
-![last-step](./death_shots/WogoumarketCommonV009SearchCheckReviewsThenCheckoutTask/episode_003/step_015.png)
+- death shot:
+  ![last-step](./death_shots/WogoumarketCommonV009SearchCheckReviewsThenCheckoutTask/episode_003/step_015.png)
 - state: [`./death_shots/WogoumarketCommonV009SearchCheckReviewsThenCheckoutTask/episode_003/step_015.json`](./death_shots/WogoumarketCommonV009SearchCheckReviewsThenCheckoutTask/episode_003/step_015.json)
 - digest: [`episode_digest.md`](./episode_digests/WogoumarketCommonV009SearchCheckReviewsThenCheckoutTask/episode_003/episode_digest.md)
 

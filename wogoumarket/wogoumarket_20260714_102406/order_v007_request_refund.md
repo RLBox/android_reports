@@ -6,7 +6,7 @@
 - **Elapsed**: 507s (~8.4 min)
 - **Model**: `doubao-seed-2-0-pro-260215`
 - **Raw log**: [./raw_logs/WogoumarketOrderV007RequestRefundTask.log](./raw_logs/WogoumarketOrderV007RequestRefundTask.log)
-- **Generated**: 2026-07-14T17:38:02+08:00
+- **Generated**: 2026-07-14T17:43:25+08:00
 - **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
@@ -64,7 +64,8 @@
   ```
   退款单已创建: 未找到退款申请记录
   ```
-![last-step](./death_shots/WogoumarketOrderV007RequestRefundTask/episode_001/step_015.png)
+- death shot:
+  ![last-step](./death_shots/WogoumarketOrderV007RequestRefundTask/episode_001/step_015.png)
 - state: [`./death_shots/WogoumarketOrderV007RequestRefundTask/episode_001/step_015.json`](./death_shots/WogoumarketOrderV007RequestRefundTask/episode_001/step_015.json)
 - digest: [`episode_digest.md`](./episode_digests/WogoumarketOrderV007RequestRefundTask/episode_001/episode_digest.md)
 
@@ -77,7 +78,8 @@
   ```
   退款单已创建: 未找到退款申请记录
   ```
-![last-step](./death_shots/WogoumarketOrderV007RequestRefundTask/episode_002/step_015.png)
+- death shot:
+  ![last-step](./death_shots/WogoumarketOrderV007RequestRefundTask/episode_002/step_015.png)
 - state: [`./death_shots/WogoumarketOrderV007RequestRefundTask/episode_002/step_015.json`](./death_shots/WogoumarketOrderV007RequestRefundTask/episode_002/step_015.json)
 - digest: [`episode_digest.md`](./episode_digests/WogoumarketOrderV007RequestRefundTask/episode_002/episode_digest.md)
 
@@ -90,7 +92,8 @@
   ```
   退款单已创建: 未找到退款申请记录
   ```
-![last-step](./death_shots/WogoumarketOrderV007RequestRefundTask/episode_003/step_015.png)
+- death shot:
+  ![last-step](./death_shots/WogoumarketOrderV007RequestRefundTask/episode_003/step_015.png)
 - state: [`./death_shots/WogoumarketOrderV007RequestRefundTask/episode_003/step_015.json`](./death_shots/WogoumarketOrderV007RequestRefundTask/episode_003/step_015.json)
 - digest: [`episode_digest.md`](./episode_digests/WogoumarketOrderV007RequestRefundTask/episode_003/episode_digest.md)
 

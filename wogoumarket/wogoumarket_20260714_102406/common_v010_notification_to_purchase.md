@@ -6,7 +6,7 @@
 - **Elapsed**: 537s (~8.9 min)
 - **Model**: `doubao-seed-2-0-pro-260215`
 - **Raw log**: [./raw_logs/WogoumarketCommonV010NotificationToPurchaseTask.log](./raw_logs/WogoumarketCommonV010NotificationToPurchaseTask.log)
-- **Generated**: 2026-07-14T17:38:02+08:00
+- **Generated**: 2026-07-14T17:43:25+08:00
 - **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
@@ -64,7 +64,8 @@
   ```
   已支付订单已创建: 未找到已支付的订单
   ```
-![last-step](./death_shots/WogoumarketCommonV010NotificationToPurchaseTask/episode_001/step_017.png)
+- death shot:
+  ![last-step](./death_shots/WogoumarketCommonV010NotificationToPurchaseTask/episode_001/step_017.png)
 - state: [`./death_shots/WogoumarketCommonV010NotificationToPurchaseTask/episode_001/step_017.json`](./death_shots/WogoumarketCommonV010NotificationToPurchaseTask/episode_001/step_017.json)
 - digest: [`episode_digest.md`](./episode_digests/WogoumarketCommonV010NotificationToPurchaseTask/episode_001/episode_digest.md)
 
@@ -77,7 +78,8 @@
   ```
   已支付订单已创建: 未找到已支付的订单
   ```
-![last-step](./death_shots/WogoumarketCommonV010NotificationToPurchaseTask/episode_002/step_013.png)
+- death shot:
+  ![last-step](./death_shots/WogoumarketCommonV010NotificationToPurchaseTask/episode_002/step_013.png)
 - state: [`./death_shots/WogoumarketCommonV010NotificationToPurchaseTask/episode_002/step_013.json`](./death_shots/WogoumarketCommonV010NotificationToPurchaseTask/episode_002/step_013.json)
 - digest: [`episode_digest.md`](./episode_digests/WogoumarketCommonV010NotificationToPurchaseTask/episode_002/episode_digest.md)
 
@@ -90,7 +92,8 @@
   ```
   已支付订单已创建: 未找到已支付的订单
   ```
-![last-step](./death_shots/WogoumarketCommonV010NotificationToPurchaseTask/episode_003/step_013.png)
+- death shot:
+  ![last-step](./death_shots/WogoumarketCommonV010NotificationToPurchaseTask/episode_003/step_013.png)
 - state: [`./death_shots/WogoumarketCommonV010NotificationToPurchaseTask/episode_003/step_013.json`](./death_shots/WogoumarketCommonV010NotificationToPurchaseTask/episode_003/step_013.json)
 - digest: [`episode_digest.md`](./episode_digests/WogoumarketCommonV010NotificationToPurchaseTask/episode_003/episode_digest.md)
 
