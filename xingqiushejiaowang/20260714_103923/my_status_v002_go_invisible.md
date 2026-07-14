@@ -6,7 +6,8 @@
 - **Elapsed**: 387s (~6.5 min)
 - **Model**: `doubao-seed-2-0-lite-260428`
 - **Raw log**: [./raw_logs/XingqiushejiaowangMyStatusV002GoInvisibleTask.log](./raw_logs/XingqiushejiaowangMyStatusV002GoInvisibleTask.log)
-- **Generated**: 2026-07-14T15:32:11+08:00
+- **Generated**: 2026-07-14T15:44:34+08:00
+- **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
 
@@ -63,9 +64,9 @@
   ```
   在线状态已设为隐身: online_status="online"，应为 'invisible'
   ```
-- death shot: ![last-step](./screenshots/XingqiushejiaowangMyStatusV002GoInvisibleTask/episode_001/step_016.png)
-  - state: [`./screenshots/XingqiushejiaowangMyStatusV002GoInvisibleTask/episode_001/step_016.json`](./screenshots/XingqiushejiaowangMyStatusV002GoInvisibleTask/episode_001/step_016.json)
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangMyStatusV002GoInvisibleTask/episode_001/episode_digest.md)
+- death shot: ![last-step](./death_shots/XingqiushejiaowangMyStatusV002GoInvisibleTask/episode_001/step_016.png)
+  - state: [`./death_shots/XingqiushejiaowangMyStatusV002GoInvisibleTask/episode_001/step_016.json`](./death_shots/XingqiushejiaowangMyStatusV002GoInvisibleTask/episode_001/step_016.json)
+  - digest: [`episode_digest.md`](./death_shots/XingqiushejiaowangMyStatusV002GoInvisibleTask/episode_001/episode_digest.md)
 
 ### Episode 2 — 💥 error
 
@@ -76,7 +77,6 @@
   ```
   exception: 500 Internal Server Error for url: http://localhost:6800/task/init | detail: init_task('XingqiushejiaowangMyStatusV002GoInvisibleTask') failed: Task 'XingqiushejiaowangMyStatusV002GoInvisibleTask' failed during initialize_task()
   ```
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangMyStatusV002GoInvisibleTask/episode_002/episode_digest.md)
 
 ### Episode 3 — 💥 error
 
@@ -87,7 +87,6 @@
   ```
   exception: 500 Internal Server Error for url: http://localhost:6800/task/init | detail: init_task('XingqiushejiaowangMyStatusV002GoInvisibleTask') failed: Task 'XingqiushejiaowangMyStatusV002GoInvisibleTask' failed during initialize_task()
   ```
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangMyStatusV002GoInvisibleTask/episode_003/episode_digest.md)
 
 ---
 

@@ -7,6 +7,7 @@
 - ⚠️  Partial (1-2 / 3): **29**
 - ❌ Failed (0/3): **20**
 - Total elapsed: 15310s (255.2 min)
+- Note: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Tasks
 
@@ -34,7 +35,7 @@
 | ❌ | [`XingqiushejiaowangOnboardingV007MbtiRetakeKeepResultTask`](./onboarding_v007_mbti_retake_keep_result.md) | 0/3 | 0/0/0 | 299s |
 | ⚠️ | [`XingqiushejiaowangCampusV002JoinPekingUniversityTask`](./campus_v002_join_peking_university.md) | 1/3 | 8/?/? | 132s |
 | ⚠️ | [`XingqiushejiaowangCoinsV001DailyCheckInTask`](./coins_v001_daily_check_in.md) | 1/3 | 7/?/? | 124s |
-| ⚠️ | [`XingqiushejiaowangCoinsV005Recharge300StarCoinsTask`](./coins_v005_recharge_300_star_coins.md) | 1/3 | 14/?/? | 172s |
+| ⚠️ | [`XingqiushejiaowangCoinsV005Recharge300StarCoinsTask`](./coins_v005_recharge300_star_coins.md) | 1/3 | 14/?/? | 172s |
 | ⚠️ | [`XingqiushejiaowangCoinsV006RechargeLargestPlanTask`](./coins_v006_recharge_largest_plan.md) | 1/3 | 14/?/? | 187s |
 | ⚠️ | [`XingqiushejiaowangCoinsV007BuyBasicStickerPackTask`](./coins_v007_buy_basic_sticker_pack.md) | 1/3 | 11/?/? | 167s |
 | ⚠️ | [`XingqiushejiaowangCoinsV008BuyEternalStickerPackTask`](./coins_v008_buy_eternal_sticker_pack.md) | 1/3 | 11/?/? | 159s |

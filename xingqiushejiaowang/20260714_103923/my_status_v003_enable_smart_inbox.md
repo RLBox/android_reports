@@ -6,7 +6,8 @@
 - **Elapsed**: 110s (~1.8 min)
 - **Model**: `doubao-seed-2-0-lite-260428`
 - **Raw log**: [./raw_logs/XingqiushejiaowangMyStatusV003EnableSmartInboxTask.log](./raw_logs/XingqiushejiaowangMyStatusV003EnableSmartInboxTask.log)
-- **Generated**: 2026-07-14T15:32:11+08:00
+- **Generated**: 2026-07-14T15:44:34+08:00
+- **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
 

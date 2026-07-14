@@ -6,7 +6,8 @@
 - **Elapsed**: 309s (~5.2 min)
 - **Model**: `doubao-seed-2-0-lite-260428`
 - **Raw log**: [./raw_logs/XingqiushejiaowangNotificationsV007NormalFanSpecialCareTask.log](./raw_logs/XingqiushejiaowangNotificationsV007NormalFanSpecialCareTask.log)
-- **Generated**: 2026-07-14T15:32:11+08:00
+- **Generated**: 2026-07-14T15:44:34+08:00
+- **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
 
@@ -63,9 +64,9 @@
   ```
   存在一条张小星 → 小猫姐姐 的关注关系: 没找到 sandbox follow 记录
   ```
-- death shot: ![last-step](./screenshots/XingqiushejiaowangNotificationsV007NormalFanSpecialCareTask/episode_001/step_004.png)
-  - state: [`./screenshots/XingqiushejiaowangNotificationsV007NormalFanSpecialCareTask/episode_001/step_004.json`](./screenshots/XingqiushejiaowangNotificationsV007NormalFanSpecialCareTask/episode_001/step_004.json)
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangNotificationsV007NormalFanSpecialCareTask/episode_001/episode_digest.md)
+- death shot: ![last-step](./death_shots/XingqiushejiaowangNotificationsV007NormalFanSpecialCareTask/episode_001/step_004.png)
+  - state: [`./death_shots/XingqiushejiaowangNotificationsV007NormalFanSpecialCareTask/episode_001/step_004.json`](./death_shots/XingqiushejiaowangNotificationsV007NormalFanSpecialCareTask/episode_001/step_004.json)
+  - digest: [`episode_digest.md`](./death_shots/XingqiushejiaowangNotificationsV007NormalFanSpecialCareTask/episode_001/episode_digest.md)
 
 ### Episode 2 — 💥 error
 
@@ -76,7 +77,6 @@
   ```
   exception: 500 Internal Server Error for url: http://localhost:6800/task/init | detail: init_task('XingqiushejiaowangNotificationsV007NormalFanSpecialCareTask') failed: Task 'XingqiushejiaowangNotificationsV007NormalFanSpecialCareTask' failed during initialize_task()
   ```
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangNotificationsV007NormalFanSpecialCareTask/episode_002/episode_digest.md)
 
 ### Episode 3 — 💥 error
 
@@ -87,7 +87,6 @@
   ```
   exception: 500 Internal Server Error for url: http://localhost:6800/task/init | detail: init_task('XingqiushejiaowangNotificationsV007NormalFanSpecialCareTask') failed: Task 'XingqiushejiaowangNotificationsV007NormalFanSpecialCareTask' failed during initialize_task()
   ```
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangNotificationsV007NormalFanSpecialCareTask/episode_003/episode_digest.md)
 
 ---
 

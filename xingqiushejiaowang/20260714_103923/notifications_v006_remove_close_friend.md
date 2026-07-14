@@ -6,7 +6,8 @@
 - **Elapsed**: 285s (~4.8 min)
 - **Model**: `doubao-seed-2-0-lite-260428`
 - **Raw log**: [./raw_logs/XingqiushejiaowangNotificationsV006RemoveCloseFriendTask.log](./raw_logs/XingqiushejiaowangNotificationsV006RemoveCloseFriendTask.log)
-- **Generated**: 2026-07-14T15:32:11+08:00
+- **Generated**: 2026-07-14T15:44:34+08:00
+- **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
 
@@ -63,9 +64,9 @@
   ```
   存在会话内的关注副本: 没找到 session follow 副本
   ```
-- death shot: ![last-step](./screenshots/XingqiushejiaowangNotificationsV006RemoveCloseFriendTask/episode_001/step_004.png)
-  - state: [`./screenshots/XingqiushejiaowangNotificationsV006RemoveCloseFriendTask/episode_001/step_004.json`](./screenshots/XingqiushejiaowangNotificationsV006RemoveCloseFriendTask/episode_001/step_004.json)
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangNotificationsV006RemoveCloseFriendTask/episode_001/episode_digest.md)
+- death shot: ![last-step](./death_shots/XingqiushejiaowangNotificationsV006RemoveCloseFriendTask/episode_001/step_004.png)
+  - state: [`./death_shots/XingqiushejiaowangNotificationsV006RemoveCloseFriendTask/episode_001/step_004.json`](./death_shots/XingqiushejiaowangNotificationsV006RemoveCloseFriendTask/episode_001/step_004.json)
+  - digest: [`episode_digest.md`](./death_shots/XingqiushejiaowangNotificationsV006RemoveCloseFriendTask/episode_001/episode_digest.md)
 
 ### Episode 2 — ❌ failed
 
@@ -76,9 +77,9 @@
   ```
   存在会话内的关注副本: 没找到 session follow 副本
   ```
-- death shot: ![last-step](./screenshots/XingqiushejiaowangNotificationsV006RemoveCloseFriendTask/episode_002/step_004.png)
-  - state: [`./screenshots/XingqiushejiaowangNotificationsV006RemoveCloseFriendTask/episode_002/step_004.json`](./screenshots/XingqiushejiaowangNotificationsV006RemoveCloseFriendTask/episode_002/step_004.json)
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangNotificationsV006RemoveCloseFriendTask/episode_002/episode_digest.md)
+- death shot: ![last-step](./death_shots/XingqiushejiaowangNotificationsV006RemoveCloseFriendTask/episode_002/step_004.png)
+  - state: [`./death_shots/XingqiushejiaowangNotificationsV006RemoveCloseFriendTask/episode_002/step_004.json`](./death_shots/XingqiushejiaowangNotificationsV006RemoveCloseFriendTask/episode_002/step_004.json)
+  - digest: [`episode_digest.md`](./death_shots/XingqiushejiaowangNotificationsV006RemoveCloseFriendTask/episode_002/episode_digest.md)
 
 ### Episode 3 — ❌ failed
 
@@ -89,9 +90,9 @@
   ```
   存在会话内的关注副本: 没找到 session follow 副本
   ```
-- death shot: ![last-step](./screenshots/XingqiushejiaowangNotificationsV006RemoveCloseFriendTask/episode_003/step_003.png)
-  - state: [`./screenshots/XingqiushejiaowangNotificationsV006RemoveCloseFriendTask/episode_003/step_003.json`](./screenshots/XingqiushejiaowangNotificationsV006RemoveCloseFriendTask/episode_003/step_003.json)
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangNotificationsV006RemoveCloseFriendTask/episode_003/episode_digest.md)
+- death shot: ![last-step](./death_shots/XingqiushejiaowangNotificationsV006RemoveCloseFriendTask/episode_003/step_003.png)
+  - state: [`./death_shots/XingqiushejiaowangNotificationsV006RemoveCloseFriendTask/episode_003/step_003.json`](./death_shots/XingqiushejiaowangNotificationsV006RemoveCloseFriendTask/episode_003/step_003.json)
+  - digest: [`episode_digest.md`](./death_shots/XingqiushejiaowangNotificationsV006RemoveCloseFriendTask/episode_003/episode_digest.md)
 
 ---
 

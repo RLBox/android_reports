@@ -6,7 +6,8 @@
 - **Elapsed**: 379s (~6.3 min)
 - **Model**: `doubao-seed-2-0-lite-260428`
 - **Raw log**: [./raw_logs/XingqiushejiaowangContactsV007SearchVisitChatTask.log](./raw_logs/XingqiushejiaowangContactsV007SearchVisitChatTask.log)
-- **Generated**: 2026-07-14T15:32:10+08:00
+- **Generated**: 2026-07-14T15:44:34+08:00
+- **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
 
@@ -62,9 +63,9 @@
   ```
   发了私信打招呼: 未找到发给 山间清风 的私信
   ```
-- death shot: ![last-step](./screenshots/XingqiushejiaowangContactsV007SearchVisitChatTask/episode_001/step_007.png)
-  - state: [`./screenshots/XingqiushejiaowangContactsV007SearchVisitChatTask/episode_001/step_007.json`](./screenshots/XingqiushejiaowangContactsV007SearchVisitChatTask/episode_001/step_007.json)
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangContactsV007SearchVisitChatTask/episode_001/episode_digest.md)
+- death shot: ![last-step](./death_shots/XingqiushejiaowangContactsV007SearchVisitChatTask/episode_001/step_007.png)
+  - state: [`./death_shots/XingqiushejiaowangContactsV007SearchVisitChatTask/episode_001/step_007.json`](./death_shots/XingqiushejiaowangContactsV007SearchVisitChatTask/episode_001/step_007.json)
+  - digest: [`episode_digest.md`](./death_shots/XingqiushejiaowangContactsV007SearchVisitChatTask/episode_001/episode_digest.md)
 
 ---
 

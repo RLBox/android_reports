@@ -6,7 +6,8 @@
 - **Elapsed**: 437s (~7.3 min)
 - **Model**: `doubao-seed-2-0-lite-260428`
 - **Raw log**: [./raw_logs/XingqiushejiaowangMyStatusV008GiftAndInvisibleTask.log](./raw_logs/XingqiushejiaowangMyStatusV008GiftAndInvisibleTask.log)
-- **Generated**: 2026-07-14T15:32:11+08:00
+- **Generated**: 2026-07-14T15:44:34+08:00
+- **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
 
@@ -68,9 +69,9 @@
   +false
   ; 在线状态已设为隐身: online_status="online"，应为 'invisible'
   ```
-- death shot: ![last-step](./screenshots/XingqiushejiaowangMyStatusV008GiftAndInvisibleTask/episode_001/step_021.png)
-  - state: [`./screenshots/XingqiushejiaowangMyStatusV008GiftAndInvisibleTask/episode_001/step_021.json`](./screenshots/XingqiushejiaowangMyStatusV008GiftAndInvisibleTask/episode_001/step_021.json)
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangMyStatusV008GiftAndInvisibleTask/episode_001/episode_digest.md)
+- death shot: ![last-step](./death_shots/XingqiushejiaowangMyStatusV008GiftAndInvisibleTask/episode_001/step_021.png)
+  - state: [`./death_shots/XingqiushejiaowangMyStatusV008GiftAndInvisibleTask/episode_001/step_021.json`](./death_shots/XingqiushejiaowangMyStatusV008GiftAndInvisibleTask/episode_001/step_021.json)
+  - digest: [`episode_digest.md`](./death_shots/XingqiushejiaowangMyStatusV008GiftAndInvisibleTask/episode_001/episode_digest.md)
 
 ### Episode 2 — 💥 error
 
@@ -81,7 +82,6 @@
   ```
   exception: 500 Internal Server Error for url: http://localhost:6800/task/init | detail: init_task('XingqiushejiaowangMyStatusV008GiftAndInvisibleTask') failed: Task 'XingqiushejiaowangMyStatusV008GiftAndInvisibleTask' failed during initialize_task()
   ```
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangMyStatusV008GiftAndInvisibleTask/episode_002/episode_digest.md)
 
 ### Episode 3 — 💥 error
 
@@ -92,7 +92,6 @@
   ```
   exception: 500 Internal Server Error for url: http://localhost:6800/task/init | detail: init_task('XingqiushejiaowangMyStatusV008GiftAndInvisibleTask') failed: Task 'XingqiushejiaowangMyStatusV008GiftAndInvisibleTask' failed during initialize_task()
   ```
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangMyStatusV008GiftAndInvisibleTask/episode_003/episode_digest.md)
 
 ---
 

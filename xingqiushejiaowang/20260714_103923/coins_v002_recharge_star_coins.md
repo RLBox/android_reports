@@ -6,7 +6,8 @@
 - **Elapsed**: 305s (~5.1 min)
 - **Model**: `doubao-seed-2-0-lite-260428`
 - **Raw log**: [./raw_logs/XingqiushejiaowangCoinsV002RechargeStarCoinsTask.log](./raw_logs/XingqiushejiaowangCoinsV002RechargeStarCoinsTask.log)
-- **Generated**: 2026-07-14T15:32:10+08:00
+- **Generated**: 2026-07-14T15:44:34+08:00
+- **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
 
@@ -63,9 +64,9 @@
   ```
   存在一笔已支付的星币充值订单: 没找到 xiaoxing 的星币充值订单
   ```
-- death shot: ![last-step](./screenshots/XingqiushejiaowangCoinsV002RechargeStarCoinsTask/episode_001/step_005.png)
-  - state: [`./screenshots/XingqiushejiaowangCoinsV002RechargeStarCoinsTask/episode_001/step_005.json`](./screenshots/XingqiushejiaowangCoinsV002RechargeStarCoinsTask/episode_001/step_005.json)
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangCoinsV002RechargeStarCoinsTask/episode_001/episode_digest.md)
+- death shot: ![last-step](./death_shots/XingqiushejiaowangCoinsV002RechargeStarCoinsTask/episode_001/step_005.png)
+  - state: [`./death_shots/XingqiushejiaowangCoinsV002RechargeStarCoinsTask/episode_001/step_005.json`](./death_shots/XingqiushejiaowangCoinsV002RechargeStarCoinsTask/episode_001/step_005.json)
+  - digest: [`episode_digest.md`](./death_shots/XingqiushejiaowangCoinsV002RechargeStarCoinsTask/episode_001/episode_digest.md)
 
 ### Episode 2 — 💥 error
 
@@ -76,7 +77,6 @@
   ```
   exception: 500 Internal Server Error for url: http://localhost:6800/task/init | detail: init_task('XingqiushejiaowangCoinsV002RechargeStarCoinsTask') failed: Task 'XingqiushejiaowangCoinsV002RechargeStarCoinsTask' failed during initialize_task()
   ```
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangCoinsV002RechargeStarCoinsTask/episode_002/episode_digest.md)
 
 ### Episode 3 — 💥 error
 
@@ -87,7 +87,6 @@
   ```
   exception: 500 Internal Server Error for url: http://localhost:6800/task/init | detail: init_task('XingqiushejiaowangCoinsV002RechargeStarCoinsTask') failed: Task 'XingqiushejiaowangCoinsV002RechargeStarCoinsTask' failed during initialize_task()
   ```
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangCoinsV002RechargeStarCoinsTask/episode_003/episode_digest.md)
 
 ---
 

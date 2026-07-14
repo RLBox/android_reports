@@ -6,7 +6,8 @@
 - **Elapsed**: 333s (~5.5 min)
 - **Model**: `doubao-seed-2-0-lite-260428`
 - **Raw log**: [./raw_logs/XingqiushejiaowangContactsV006SearchChatThenVisitTask.log](./raw_logs/XingqiushejiaowangContactsV006SearchChatThenVisitTask.log)
-- **Generated**: 2026-07-14T15:32:10+08:00
+- **Generated**: 2026-07-14T15:44:34+08:00
+- **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
 
@@ -63,9 +64,9 @@
   ```
   发了消息聊咖啡: 未找到 demo → 提拉米苏 的新私信。请搜索「咖啡」→ 进入对话 → 点 tiramisu 头像 → 发消息聊咖啡。
   ```
-- death shot: ![last-step](./screenshots/XingqiushejiaowangContactsV006SearchChatThenVisitTask/episode_001/step_008.png)
-  - state: [`./screenshots/XingqiushejiaowangContactsV006SearchChatThenVisitTask/episode_001/step_008.json`](./screenshots/XingqiushejiaowangContactsV006SearchChatThenVisitTask/episode_001/step_008.json)
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangContactsV006SearchChatThenVisitTask/episode_001/episode_digest.md)
+- death shot: ![last-step](./death_shots/XingqiushejiaowangContactsV006SearchChatThenVisitTask/episode_001/step_008.png)
+  - state: [`./death_shots/XingqiushejiaowangContactsV006SearchChatThenVisitTask/episode_001/step_008.json`](./death_shots/XingqiushejiaowangContactsV006SearchChatThenVisitTask/episode_001/step_008.json)
+  - digest: [`episode_digest.md`](./death_shots/XingqiushejiaowangContactsV006SearchChatThenVisitTask/episode_001/episode_digest.md)
 
 ### Episode 2 — 💥 error
 
@@ -76,7 +77,6 @@
   ```
   exception: 500 Internal Server Error for url: http://localhost:6800/task/init | detail: init_task('XingqiushejiaowangContactsV006SearchChatThenVisitTask') failed: Task 'XingqiushejiaowangContactsV006SearchChatThenVisitTask' failed during initialize_task()
   ```
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangContactsV006SearchChatThenVisitTask/episode_002/episode_digest.md)
 
 ### Episode 3 — 💥 error
 
@@ -87,7 +87,6 @@
   ```
   exception: 500 Internal Server Error for url: http://localhost:6800/task/init | detail: init_task('XingqiushejiaowangContactsV006SearchChatThenVisitTask') failed: Task 'XingqiushejiaowangContactsV006SearchChatThenVisitTask' failed during initialize_task()
   ```
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangContactsV006SearchChatThenVisitTask/episode_003/episode_digest.md)
 
 ---
 

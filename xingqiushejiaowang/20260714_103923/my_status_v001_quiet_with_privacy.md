@@ -6,7 +6,8 @@
 - **Elapsed**: 423s (~7.0 min)
 - **Model**: `doubao-seed-2-0-lite-260428`
 - **Raw log**: [./raw_logs/XingqiushejiaowangMyStatusV001QuietWithPrivacyTask.log](./raw_logs/XingqiushejiaowangMyStatusV001QuietWithPrivacyTask.log)
-- **Generated**: 2026-07-14T15:32:11+08:00
+- **Generated**: 2026-07-14T15:44:34+08:00
+- **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
 
@@ -67,9 +68,9 @@
   -true
   +false
   ```
-- death shot: ![last-step](./screenshots/XingqiushejiaowangMyStatusV001QuietWithPrivacyTask/episode_001/step_020.png)
-  - state: [`./screenshots/XingqiushejiaowangMyStatusV001QuietWithPrivacyTask/episode_001/step_020.json`](./screenshots/XingqiushejiaowangMyStatusV001QuietWithPrivacyTask/episode_001/step_020.json)
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangMyStatusV001QuietWithPrivacyTask/episode_001/episode_digest.md)
+- death shot: ![last-step](./death_shots/XingqiushejiaowangMyStatusV001QuietWithPrivacyTask/episode_001/step_020.png)
+  - state: [`./death_shots/XingqiushejiaowangMyStatusV001QuietWithPrivacyTask/episode_001/step_020.json`](./death_shots/XingqiushejiaowangMyStatusV001QuietWithPrivacyTask/episode_001/step_020.json)
+  - digest: [`episode_digest.md`](./death_shots/XingqiushejiaowangMyStatusV001QuietWithPrivacyTask/episode_001/episode_digest.md)
 
 ### Episode 2 — 💥 error
 
@@ -80,7 +81,6 @@
   ```
   exception: 500 Internal Server Error for url: http://localhost:6800/task/init | detail: init_task('XingqiushejiaowangMyStatusV001QuietWithPrivacyTask') failed: Task 'XingqiushejiaowangMyStatusV001QuietWithPrivacyTask' failed during initialize_task()
   ```
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangMyStatusV001QuietWithPrivacyTask/episode_002/episode_digest.md)
 
 ### Episode 3 — 💥 error
 
@@ -91,7 +91,6 @@
   ```
   exception: 500 Internal Server Error for url: http://localhost:6800/task/init | detail: init_task('XingqiushejiaowangMyStatusV001QuietWithPrivacyTask') failed: Task 'XingqiushejiaowangMyStatusV001QuietWithPrivacyTask' failed during initialize_task()
   ```
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangMyStatusV001QuietWithPrivacyTask/episode_003/episode_digest.md)
 
 ---
 

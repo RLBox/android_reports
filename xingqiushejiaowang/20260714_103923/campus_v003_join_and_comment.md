@@ -6,7 +6,8 @@
 - **Elapsed**: 1139s (~19.0 min)
 - **Model**: `doubao-seed-2-0-lite-260428`
 - **Raw log**: [./raw_logs/XingqiushejiaowangCampusV003JoinAndCommentTask.log](./raw_logs/XingqiushejiaowangCampusV003JoinAndCommentTask.log)
-- **Generated**: 2026-07-14T15:32:10+08:00
+- **Generated**: 2026-07-14T15:44:34+08:00
+- **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
 
@@ -63,9 +64,9 @@
   ```
   已加入「南京大学」校园: 没找到 CampusMembership 记录; 在该帖下发了一条带「室友」的评论: 没找到 xiaoxing 的评论
   ```
-- death shot: ![last-step](./screenshots/XingqiushejiaowangCampusV003JoinAndCommentTask/episode_001/step_047.png)
-  - state: [`./screenshots/XingqiushejiaowangCampusV003JoinAndCommentTask/episode_001/step_047.json`](./screenshots/XingqiushejiaowangCampusV003JoinAndCommentTask/episode_001/step_047.json)
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangCampusV003JoinAndCommentTask/episode_001/episode_digest.md)
+- death shot: ![last-step](./death_shots/XingqiushejiaowangCampusV003JoinAndCommentTask/episode_001/step_047.png)
+  - state: [`./death_shots/XingqiushejiaowangCampusV003JoinAndCommentTask/episode_001/step_047.json`](./death_shots/XingqiushejiaowangCampusV003JoinAndCommentTask/episode_001/step_047.json)
+  - digest: [`episode_digest.md`](./death_shots/XingqiushejiaowangCampusV003JoinAndCommentTask/episode_001/episode_digest.md)
 
 ### Episode 2 — ❌ failed
 
@@ -76,9 +77,9 @@
   ```
   已加入「南京大学」校园: 没找到 CampusMembership 记录
   ```
-- death shot: ![last-step](./screenshots/XingqiushejiaowangCampusV003JoinAndCommentTask/episode_002/step_052.png)
-  - state: [`./screenshots/XingqiushejiaowangCampusV003JoinAndCommentTask/episode_002/step_052.json`](./screenshots/XingqiushejiaowangCampusV003JoinAndCommentTask/episode_002/step_052.json)
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangCampusV003JoinAndCommentTask/episode_002/episode_digest.md)
+- death shot: ![last-step](./death_shots/XingqiushejiaowangCampusV003JoinAndCommentTask/episode_002/step_052.png)
+  - state: [`./death_shots/XingqiushejiaowangCampusV003JoinAndCommentTask/episode_002/step_052.json`](./death_shots/XingqiushejiaowangCampusV003JoinAndCommentTask/episode_002/step_052.json)
+  - digest: [`episode_digest.md`](./death_shots/XingqiushejiaowangCampusV003JoinAndCommentTask/episode_002/episode_digest.md)
 
 ### Episode 3 — 💥 error
 
@@ -89,7 +90,6 @@
   ```
   exception: 500 Internal Server Error for url: http://localhost:6800/task/init | detail: init_task('XingqiushejiaowangCampusV003JoinAndCommentTask') failed: Task 'XingqiushejiaowangCampusV003JoinAndCommentTask' failed during initialize_task()
   ```
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangCampusV003JoinAndCommentTask/episode_003/episode_digest.md)
 
 ---
 

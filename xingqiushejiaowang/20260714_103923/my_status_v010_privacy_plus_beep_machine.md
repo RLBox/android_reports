@@ -6,7 +6,8 @@
 - **Elapsed**: 539s (~9.0 min)
 - **Model**: `doubao-seed-2-0-lite-260428`
 - **Raw log**: [./raw_logs/XingqiushejiaowangMyStatusV010PrivacyPlusBeepMachineTask.log](./raw_logs/XingqiushejiaowangMyStatusV010PrivacyPlusBeepMachineTask.log)
-- **Generated**: 2026-07-14T15:32:11+08:00
+- **Generated**: 2026-07-14T15:44:34+08:00
+- **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
 
@@ -71,9 +72,9 @@
   -true
   +false
   ```
-- death shot: ![last-step](./screenshots/XingqiushejiaowangMyStatusV010PrivacyPlusBeepMachineTask/episode_001/step_014.png)
-  - state: [`./screenshots/XingqiushejiaowangMyStatusV010PrivacyPlusBeepMachineTask/episode_001/step_014.json`](./screenshots/XingqiushejiaowangMyStatusV010PrivacyPlusBeepMachineTask/episode_001/step_014.json)
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangMyStatusV010PrivacyPlusBeepMachineTask/episode_001/episode_digest.md)
+- death shot: ![last-step](./death_shots/XingqiushejiaowangMyStatusV010PrivacyPlusBeepMachineTask/episode_001/step_014.png)
+  - state: [`./death_shots/XingqiushejiaowangMyStatusV010PrivacyPlusBeepMachineTask/episode_001/step_014.json`](./death_shots/XingqiushejiaowangMyStatusV010PrivacyPlusBeepMachineTask/episode_001/step_014.json)
+  - digest: [`episode_digest.md`](./death_shots/XingqiushejiaowangMyStatusV010PrivacyPlusBeepMachineTask/episode_001/episode_digest.md)
 
 ---
 

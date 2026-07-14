@@ -6,7 +6,8 @@
 - **Elapsed**: 280s (~4.7 min)
 - **Model**: `doubao-seed-2-0-lite-260428`
 - **Raw log**: [./raw_logs/XingqiushejiaowangMyStatusV009DisableQuietModeTask.log](./raw_logs/XingqiushejiaowangMyStatusV009DisableQuietModeTask.log)
-- **Generated**: 2026-07-14T15:32:11+08:00
+- **Generated**: 2026-07-14T15:44:34+08:00
+- **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
 
@@ -63,9 +64,9 @@
   ```
   聊天状态切换为想要聊天: chat_status="quiet_today"，应为 'want_chat'
   ```
-- death shot: ![last-step](./screenshots/XingqiushejiaowangMyStatusV009DisableQuietModeTask/episode_001/step_002.png)
-  - state: [`./screenshots/XingqiushejiaowangMyStatusV009DisableQuietModeTask/episode_001/step_002.json`](./screenshots/XingqiushejiaowangMyStatusV009DisableQuietModeTask/episode_001/step_002.json)
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangMyStatusV009DisableQuietModeTask/episode_001/episode_digest.md)
+- death shot: ![last-step](./death_shots/XingqiushejiaowangMyStatusV009DisableQuietModeTask/episode_001/step_002.png)
+  - state: [`./death_shots/XingqiushejiaowangMyStatusV009DisableQuietModeTask/episode_001/step_002.json`](./death_shots/XingqiushejiaowangMyStatusV009DisableQuietModeTask/episode_001/step_002.json)
+  - digest: [`episode_digest.md`](./death_shots/XingqiushejiaowangMyStatusV009DisableQuietModeTask/episode_001/episode_digest.md)
 
 ### Episode 2 — 💥 error
 
@@ -76,7 +77,6 @@
   ```
   exception: 500 Internal Server Error for url: http://localhost:6800/task/init | detail: init_task('XingqiushejiaowangMyStatusV009DisableQuietModeTask') failed: Task 'XingqiushejiaowangMyStatusV009DisableQuietModeTask' failed during initialize_task()
   ```
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangMyStatusV009DisableQuietModeTask/episode_002/episode_digest.md)
 
 ### Episode 3 — 💥 error
 
@@ -87,7 +87,6 @@
   ```
   exception: 500 Internal Server Error for url: http://localhost:6800/task/init | detail: init_task('XingqiushejiaowangMyStatusV009DisableQuietModeTask') failed: Task 'XingqiushejiaowangMyStatusV009DisableQuietModeTask' failed during initialize_task()
   ```
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangMyStatusV009DisableQuietModeTask/episode_003/episode_digest.md)
 
 ---
 

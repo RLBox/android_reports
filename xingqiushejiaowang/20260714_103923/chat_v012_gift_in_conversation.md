@@ -6,7 +6,8 @@
 - **Elapsed**: 316s (~5.3 min)
 - **Model**: `doubao-seed-2-0-lite-260428`
 - **Raw log**: [./raw_logs/XingqiushejiaowangChatV012GiftInConversationTask.log](./raw_logs/XingqiushejiaowangChatV012GiftInConversationTask.log)
-- **Generated**: 2026-07-14T15:32:10+08:00
+- **Generated**: 2026-07-14T15:44:34+08:00
+- **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
 
@@ -63,9 +64,9 @@
   ```
   在聊天中送出了礼物: 未找到在对话中送给陶陶的礼物记录
   ```
-- death shot: ![last-step](./screenshots/XingqiushejiaowangChatV012GiftInConversationTask/episode_001/step_007.png)
-  - state: [`./screenshots/XingqiushejiaowangChatV012GiftInConversationTask/episode_001/step_007.json`](./screenshots/XingqiushejiaowangChatV012GiftInConversationTask/episode_001/step_007.json)
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangChatV012GiftInConversationTask/episode_001/episode_digest.md)
+- death shot: ![last-step](./death_shots/XingqiushejiaowangChatV012GiftInConversationTask/episode_001/step_007.png)
+  - state: [`./death_shots/XingqiushejiaowangChatV012GiftInConversationTask/episode_001/step_007.json`](./death_shots/XingqiushejiaowangChatV012GiftInConversationTask/episode_001/step_007.json)
+  - digest: [`episode_digest.md`](./death_shots/XingqiushejiaowangChatV012GiftInConversationTask/episode_001/episode_digest.md)
 
 ### Episode 2 — 💥 error
 
@@ -76,7 +77,6 @@
   ```
   exception: 500 Internal Server Error for url: http://localhost:6800/task/init | detail: init_task('XingqiushejiaowangChatV012GiftInConversationTask') failed: Task 'XingqiushejiaowangChatV012GiftInConversationTask' failed during initialize_task()
   ```
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangChatV012GiftInConversationTask/episode_002/episode_digest.md)
 
 ### Episode 3 — 💥 error
 
@@ -87,7 +87,6 @@
   ```
   exception: 500 Internal Server Error for url: http://localhost:6800/task/init | detail: init_task('XingqiushejiaowangChatV012GiftInConversationTask') failed: Task 'XingqiushejiaowangChatV012GiftInConversationTask' failed during initialize_task()
   ```
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangChatV012GiftInConversationTask/episode_003/episode_digest.md)
 
 ---
 

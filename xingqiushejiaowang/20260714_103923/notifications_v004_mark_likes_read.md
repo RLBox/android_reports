@@ -6,7 +6,8 @@
 - **Elapsed**: 373s (~6.2 min)
 - **Model**: `doubao-seed-2-0-lite-260428`
 - **Raw log**: [./raw_logs/XingqiushejiaowangNotificationsV004MarkLikesReadTask.log](./raw_logs/XingqiushejiaowangNotificationsV004MarkLikesReadTask.log)
-- **Generated**: 2026-07-14T15:32:11+08:00
+- **Generated**: 2026-07-14T15:44:34+08:00
+- **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
 
@@ -62,9 +63,9 @@
   ```
   所有点赞通知都已读: 仍有 3 条未读
   ```
-- death shot: ![last-step](./screenshots/XingqiushejiaowangNotificationsV004MarkLikesReadTask/episode_001/step_004.png)
-  - state: [`./screenshots/XingqiushejiaowangNotificationsV004MarkLikesReadTask/episode_001/step_004.json`](./screenshots/XingqiushejiaowangNotificationsV004MarkLikesReadTask/episode_001/step_004.json)
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangNotificationsV004MarkLikesReadTask/episode_001/episode_digest.md)
+- death shot: ![last-step](./death_shots/XingqiushejiaowangNotificationsV004MarkLikesReadTask/episode_001/step_004.png)
+  - state: [`./death_shots/XingqiushejiaowangNotificationsV004MarkLikesReadTask/episode_001/step_004.json`](./death_shots/XingqiushejiaowangNotificationsV004MarkLikesReadTask/episode_001/step_004.json)
+  - digest: [`episode_digest.md`](./death_shots/XingqiushejiaowangNotificationsV004MarkLikesReadTask/episode_001/episode_digest.md)
 
 ---
 

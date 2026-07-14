@@ -6,7 +6,8 @@
 - **Elapsed**: 394s (~6.6 min)
 - **Model**: `doubao-seed-2-0-lite-260428`
 - **Raw log**: [./raw_logs/XingqiushejiaowangMyStatusV004QuietButAcceptGiftsTask.log](./raw_logs/XingqiushejiaowangMyStatusV004QuietButAcceptGiftsTask.log)
-- **Generated**: 2026-07-14T15:32:11+08:00
+- **Generated**: 2026-07-14T15:44:34+08:00
+- **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
 
@@ -67,9 +68,9 @@
   -true
   +false
   ```
-- death shot: ![last-step](./screenshots/XingqiushejiaowangMyStatusV004QuietButAcceptGiftsTask/episode_001/step_015.png)
-  - state: [`./screenshots/XingqiushejiaowangMyStatusV004QuietButAcceptGiftsTask/episode_001/step_015.json`](./screenshots/XingqiushejiaowangMyStatusV004QuietButAcceptGiftsTask/episode_001/step_015.json)
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangMyStatusV004QuietButAcceptGiftsTask/episode_001/episode_digest.md)
+- death shot: ![last-step](./death_shots/XingqiushejiaowangMyStatusV004QuietButAcceptGiftsTask/episode_001/step_015.png)
+  - state: [`./death_shots/XingqiushejiaowangMyStatusV004QuietButAcceptGiftsTask/episode_001/step_015.json`](./death_shots/XingqiushejiaowangMyStatusV004QuietButAcceptGiftsTask/episode_001/step_015.json)
+  - digest: [`episode_digest.md`](./death_shots/XingqiushejiaowangMyStatusV004QuietButAcceptGiftsTask/episode_001/episode_digest.md)
 
 ### Episode 2 — 💥 error
 
@@ -80,7 +81,6 @@
   ```
   exception: 500 Internal Server Error for url: http://localhost:6800/task/init | detail: init_task('XingqiushejiaowangMyStatusV004QuietButAcceptGiftsTask') failed: Task 'XingqiushejiaowangMyStatusV004QuietButAcceptGiftsTask' failed during initialize_task()
   ```
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangMyStatusV004QuietButAcceptGiftsTask/episode_002/episode_digest.md)
 
 ### Episode 3 — 💥 error
 
@@ -91,7 +91,6 @@
   ```
   exception: 500 Internal Server Error for url: http://localhost:6800/task/init | detail: init_task('XingqiushejiaowangMyStatusV004QuietButAcceptGiftsTask') failed: Task 'XingqiushejiaowangMyStatusV004QuietButAcceptGiftsTask' failed during initialize_task()
   ```
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangMyStatusV004QuietButAcceptGiftsTask/episode_003/episode_digest.md)
 
 ---
 

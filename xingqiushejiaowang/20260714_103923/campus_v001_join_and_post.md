@@ -6,7 +6,8 @@
 - **Elapsed**: 779s (~13.0 min)
 - **Model**: `doubao-seed-2-0-lite-260428`
 - **Raw log**: [./raw_logs/XingqiushejiaowangCampusV001JoinAndPostTask.log](./raw_logs/XingqiushejiaowangCampusV001JoinAndPostTask.log)
-- **Generated**: 2026-07-14T15:32:09+08:00
+- **Generated**: 2026-07-14T15:44:34+08:00
+- **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
 
@@ -63,9 +64,9 @@
   ```
   已加入「江苏大学」校园: 没找到 CampusMembership 记录; 发了一条带「新生」的校园帖: 没找到 campus Post
   ```
-- death shot: ![last-step](./screenshots/XingqiushejiaowangCampusV001JoinAndPostTask/episode_001/step_022.png)
-  - state: [`./screenshots/XingqiushejiaowangCampusV001JoinAndPostTask/episode_001/step_022.json`](./screenshots/XingqiushejiaowangCampusV001JoinAndPostTask/episode_001/step_022.json)
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangCampusV001JoinAndPostTask/episode_001/episode_digest.md)
+- death shot: ![last-step](./death_shots/XingqiushejiaowangCampusV001JoinAndPostTask/episode_001/step_022.png)
+  - state: [`./death_shots/XingqiushejiaowangCampusV001JoinAndPostTask/episode_001/step_022.json`](./death_shots/XingqiushejiaowangCampusV001JoinAndPostTask/episode_001/step_022.json)
+  - digest: [`episode_digest.md`](./death_shots/XingqiushejiaowangCampusV001JoinAndPostTask/episode_001/episode_digest.md)
 
 ### Episode 2 — ❌ failed
 
@@ -76,9 +77,9 @@
   ```
   已加入「江苏大学」校园: 没找到 CampusMembership 记录; 发了一条带「新生」的校园帖: 没找到 campus Post
   ```
-- death shot: ![last-step](./screenshots/XingqiushejiaowangCampusV001JoinAndPostTask/episode_002/step_024.png)
-  - state: [`./screenshots/XingqiushejiaowangCampusV001JoinAndPostTask/episode_002/step_024.json`](./screenshots/XingqiushejiaowangCampusV001JoinAndPostTask/episode_002/step_024.json)
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangCampusV001JoinAndPostTask/episode_002/episode_digest.md)
+- death shot: ![last-step](./death_shots/XingqiushejiaowangCampusV001JoinAndPostTask/episode_002/step_024.png)
+  - state: [`./death_shots/XingqiushejiaowangCampusV001JoinAndPostTask/episode_002/step_024.json`](./death_shots/XingqiushejiaowangCampusV001JoinAndPostTask/episode_002/step_024.json)
+  - digest: [`episode_digest.md`](./death_shots/XingqiushejiaowangCampusV001JoinAndPostTask/episode_002/episode_digest.md)
 
 ### Episode 3 — ❌ failed
 
@@ -89,9 +90,9 @@
   ```
   已加入「江苏大学」校园: 没找到 CampusMembership 记录; 发了一条带「新生」的校园帖: 没找到 campus Post
   ```
-- death shot: ![last-step](./screenshots/XingqiushejiaowangCampusV001JoinAndPostTask/episode_003/step_023.png)
-  - state: [`./screenshots/XingqiushejiaowangCampusV001JoinAndPostTask/episode_003/step_023.json`](./screenshots/XingqiushejiaowangCampusV001JoinAndPostTask/episode_003/step_023.json)
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangCampusV001JoinAndPostTask/episode_003/episode_digest.md)
+- death shot: ![last-step](./death_shots/XingqiushejiaowangCampusV001JoinAndPostTask/episode_003/step_023.png)
+  - state: [`./death_shots/XingqiushejiaowangCampusV001JoinAndPostTask/episode_003/step_023.json`](./death_shots/XingqiushejiaowangCampusV001JoinAndPostTask/episode_003/step_023.json)
+  - digest: [`episode_digest.md`](./death_shots/XingqiushejiaowangCampusV001JoinAndPostTask/episode_003/episode_digest.md)
 
 ---
 
