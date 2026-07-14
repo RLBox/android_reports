@@ -6,7 +6,7 @@
 - **Elapsed**: 486s (~8.1 min)
 - **Model**: `doubao-seed-2-0-pro-260215`
 - **Raw log**: [./raw_logs/WogoumarketCatalogV007DurianFleshThirdLevelTabTask.log](./raw_logs/WogoumarketCatalogV007DurianFleshThirdLevelTabTask.log)
-- **Generated**: 2026-07-14T17:13:51+08:00
+- **Generated**: 2026-07-14T17:38:02+08:00
 - **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
@@ -64,9 +64,9 @@
   ```
   产生已支付订单: 未找到已支付的订单
   ```
+![last-step](./death_shots/WogoumarketCatalogV007DurianFleshThirdLevelTabTask/episode_001/step_010.png)
+- state: [`./death_shots/WogoumarketCatalogV007DurianFleshThirdLevelTabTask/episode_001/step_010.json`](./death_shots/WogoumarketCatalogV007DurianFleshThirdLevelTabTask/episode_001/step_010.json)
 - digest: [`episode_digest.md`](./episode_digests/WogoumarketCatalogV007DurianFleshThirdLevelTabTask/episode_001/episode_digest.md)
-- death shot: ![last-step](./death_shots/WogoumarketCatalogV007DurianFleshThirdLevelTabTask/episode_001/step_010.png)
-  - state: [`./death_shots/WogoumarketCatalogV007DurianFleshThirdLevelTabTask/episode_001/step_010.json`](./death_shots/WogoumarketCatalogV007DurianFleshThirdLevelTabTask/episode_001/step_010.json)
 
 ### Episode 2 — ❌ failed
 
@@ -77,9 +77,9 @@
   ```
   产生已支付订单: 未找到已支付的订单
   ```
+![last-step](./death_shots/WogoumarketCatalogV007DurianFleshThirdLevelTabTask/episode_002/step_012.png)
+- state: [`./death_shots/WogoumarketCatalogV007DurianFleshThirdLevelTabTask/episode_002/step_012.json`](./death_shots/WogoumarketCatalogV007DurianFleshThirdLevelTabTask/episode_002/step_012.json)
 - digest: [`episode_digest.md`](./episode_digests/WogoumarketCatalogV007DurianFleshThirdLevelTabTask/episode_002/episode_digest.md)
-- death shot: ![last-step](./death_shots/WogoumarketCatalogV007DurianFleshThirdLevelTabTask/episode_002/step_012.png)
-  - state: [`./death_shots/WogoumarketCatalogV007DurianFleshThirdLevelTabTask/episode_002/step_012.json`](./death_shots/WogoumarketCatalogV007DurianFleshThirdLevelTabTask/episode_002/step_012.json)
 
 ### Episode 3 — ❌ failed
 
@@ -90,9 +90,9 @@
   ```
   产生已支付订单: 未找到已支付的订单
   ```
+![last-step](./death_shots/WogoumarketCatalogV007DurianFleshThirdLevelTabTask/episode_003/step_012.png)
+- state: [`./death_shots/WogoumarketCatalogV007DurianFleshThirdLevelTabTask/episode_003/step_012.json`](./death_shots/WogoumarketCatalogV007DurianFleshThirdLevelTabTask/episode_003/step_012.json)
 - digest: [`episode_digest.md`](./episode_digests/WogoumarketCatalogV007DurianFleshThirdLevelTabTask/episode_003/episode_digest.md)
-- death shot: ![last-step](./death_shots/WogoumarketCatalogV007DurianFleshThirdLevelTabTask/episode_003/step_012.png)
-  - state: [`./death_shots/WogoumarketCatalogV007DurianFleshThirdLevelTabTask/episode_003/step_012.json`](./death_shots/WogoumarketCatalogV007DurianFleshThirdLevelTabTask/episode_003/step_012.json)
 
 ---
 

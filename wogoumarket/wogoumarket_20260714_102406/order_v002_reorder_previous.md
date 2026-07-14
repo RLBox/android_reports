@@ -6,7 +6,7 @@
 - **Elapsed**: 360s (~6.0 min)
 - **Model**: `doubao-seed-2-0-pro-260215`
 - **Raw log**: [./raw_logs/WogoumarketOrderV002ReorderPreviousTask.log](./raw_logs/WogoumarketOrderV002ReorderPreviousTask.log)
-- **Generated**: 2026-07-14T17:13:51+08:00
+- **Generated**: 2026-07-14T17:38:02+08:00
 - **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
@@ -64,9 +64,9 @@
   ```
   产生一个新的 paid 订单: 未找到新下的 paid 订单
   ```
+![last-step](./death_shots/WogoumarketOrderV002ReorderPreviousTask/episode_001/step_009.png)
+- state: [`./death_shots/WogoumarketOrderV002ReorderPreviousTask/episode_001/step_009.json`](./death_shots/WogoumarketOrderV002ReorderPreviousTask/episode_001/step_009.json)
 - digest: [`episode_digest.md`](./episode_digests/WogoumarketOrderV002ReorderPreviousTask/episode_001/episode_digest.md)
-- death shot: ![last-step](./death_shots/WogoumarketOrderV002ReorderPreviousTask/episode_001/step_009.png)
-  - state: [`./death_shots/WogoumarketOrderV002ReorderPreviousTask/episode_001/step_009.json`](./death_shots/WogoumarketOrderV002ReorderPreviousTask/episode_001/step_009.json)
 
 ### Episode 2 — ❌ failed
 
@@ -77,9 +77,9 @@
   ```
   产生一个新的 paid 订单: 未找到新下的 paid 订单
   ```
+![last-step](./death_shots/WogoumarketOrderV002ReorderPreviousTask/episode_002/step_009.png)
+- state: [`./death_shots/WogoumarketOrderV002ReorderPreviousTask/episode_002/step_009.json`](./death_shots/WogoumarketOrderV002ReorderPreviousTask/episode_002/step_009.json)
 - digest: [`episode_digest.md`](./episode_digests/WogoumarketOrderV002ReorderPreviousTask/episode_002/episode_digest.md)
-- death shot: ![last-step](./death_shots/WogoumarketOrderV002ReorderPreviousTask/episode_002/step_009.png)
-  - state: [`./death_shots/WogoumarketOrderV002ReorderPreviousTask/episode_002/step_009.json`](./death_shots/WogoumarketOrderV002ReorderPreviousTask/episode_002/step_009.json)
 
 ### Episode 3 — ❌ failed
 
@@ -90,9 +90,9 @@
   ```
   产生一个新的 paid 订单: 未找到新下的 paid 订单
   ```
+![last-step](./death_shots/WogoumarketOrderV002ReorderPreviousTask/episode_003/step_009.png)
+- state: [`./death_shots/WogoumarketOrderV002ReorderPreviousTask/episode_003/step_009.json`](./death_shots/WogoumarketOrderV002ReorderPreviousTask/episode_003/step_009.json)
 - digest: [`episode_digest.md`](./episode_digests/WogoumarketOrderV002ReorderPreviousTask/episode_003/episode_digest.md)
-- death shot: ![last-step](./death_shots/WogoumarketOrderV002ReorderPreviousTask/episode_003/step_009.png)
-  - state: [`./death_shots/WogoumarketOrderV002ReorderPreviousTask/episode_003/step_009.json`](./death_shots/WogoumarketOrderV002ReorderPreviousTask/episode_003/step_009.json)
 
 ---
 

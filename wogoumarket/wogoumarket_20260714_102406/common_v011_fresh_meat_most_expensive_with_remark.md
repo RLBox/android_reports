@@ -6,7 +6,7 @@
 - **Elapsed**: 1731s (~28.9 min)
 - **Model**: `doubao-seed-2-0-pro-260215`
 - **Raw log**: [./raw_logs/WogoumarketCommonV011FreshMeatMostExpensiveWithRemarkTask.log](./raw_logs/WogoumarketCommonV011FreshMeatMostExpensiveWithRemarkTask.log)
-- **Generated**: 2026-07-14T17:13:51+08:00
+- **Generated**: 2026-07-14T17:38:02+08:00
 - **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
@@ -64,9 +64,9 @@
   ```
   成功下单: 未找到新订单
   ```
+![last-step](./death_shots/WogoumarketCommonV011FreshMeatMostExpensiveWithRemarkTask/episode_001/step_018.png)
+- state: [`./death_shots/WogoumarketCommonV011FreshMeatMostExpensiveWithRemarkTask/episode_001/step_018.json`](./death_shots/WogoumarketCommonV011FreshMeatMostExpensiveWithRemarkTask/episode_001/step_018.json)
 - digest: [`episode_digest.md`](./episode_digests/WogoumarketCommonV011FreshMeatMostExpensiveWithRemarkTask/episode_001/episode_digest.md)
-- death shot: ![last-step](./death_shots/WogoumarketCommonV011FreshMeatMostExpensiveWithRemarkTask/episode_001/step_018.png)
-  - state: [`./death_shots/WogoumarketCommonV011FreshMeatMostExpensiveWithRemarkTask/episode_001/step_018.json`](./death_shots/WogoumarketCommonV011FreshMeatMostExpensiveWithRemarkTask/episode_001/step_018.json)
 
 ### Episode 2 — ⏰ timeout
 
@@ -77,9 +77,9 @@
   ```
   成功下单: 未找到新订单
   ```
+![last-step](./death_shots/WogoumarketCommonV011FreshMeatMostExpensiveWithRemarkTask/episode_002/step_050.png)
+- state: [`./death_shots/WogoumarketCommonV011FreshMeatMostExpensiveWithRemarkTask/episode_002/step_050.json`](./death_shots/WogoumarketCommonV011FreshMeatMostExpensiveWithRemarkTask/episode_002/step_050.json)
 - digest: [`episode_digest.md`](./episode_digests/WogoumarketCommonV011FreshMeatMostExpensiveWithRemarkTask/episode_002/episode_digest.md)
-- death shot: ![last-step](./death_shots/WogoumarketCommonV011FreshMeatMostExpensiveWithRemarkTask/episode_002/step_050.png)
-  - state: [`./death_shots/WogoumarketCommonV011FreshMeatMostExpensiveWithRemarkTask/episode_002/step_050.json`](./death_shots/WogoumarketCommonV011FreshMeatMostExpensiveWithRemarkTask/episode_002/step_050.json)
 
 ### Episode 3 — ⏰ timeout
 
@@ -90,9 +90,9 @@
   ```
   成功下单: 未找到新订单
   ```
+![last-step](./death_shots/WogoumarketCommonV011FreshMeatMostExpensiveWithRemarkTask/episode_003/step_050.png)
+- state: [`./death_shots/WogoumarketCommonV011FreshMeatMostExpensiveWithRemarkTask/episode_003/step_050.json`](./death_shots/WogoumarketCommonV011FreshMeatMostExpensiveWithRemarkTask/episode_003/step_050.json)
 - digest: [`episode_digest.md`](./episode_digests/WogoumarketCommonV011FreshMeatMostExpensiveWithRemarkTask/episode_003/episode_digest.md)
-- death shot: ![last-step](./death_shots/WogoumarketCommonV011FreshMeatMostExpensiveWithRemarkTask/episode_003/step_050.png)
-  - state: [`./death_shots/WogoumarketCommonV011FreshMeatMostExpensiveWithRemarkTask/episode_003/step_050.json`](./death_shots/WogoumarketCommonV011FreshMeatMostExpensiveWithRemarkTask/episode_003/step_050.json)
 
 ---
 

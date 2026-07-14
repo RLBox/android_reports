@@ -6,7 +6,7 @@
 - **Elapsed**: 860s (~14.3 min)
 - **Model**: `doubao-seed-2-0-pro-260215`
 - **Raw log**: [./raw_logs/WogoumarketCommonV007BeddingExpensiveClothingCheapestCheckoutCancelTask.log](./raw_logs/WogoumarketCommonV007BeddingExpensiveClothingCheapestCheckoutCancelTask.log)
-- **Generated**: 2026-07-14T17:13:51+08:00
+- **Generated**: 2026-07-14T17:38:02+08:00
 - **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
@@ -64,9 +64,9 @@
   ```
   存在已取消的订单: 未找到订单
   ```
+![last-step](./death_shots/WogoumarketCommonV007BeddingExpensiveClothingCheapestCheckoutCancelTask/episode_001/step_022.png)
+- state: [`./death_shots/WogoumarketCommonV007BeddingExpensiveClothingCheapestCheckoutCancelTask/episode_001/step_022.json`](./death_shots/WogoumarketCommonV007BeddingExpensiveClothingCheapestCheckoutCancelTask/episode_001/step_022.json)
 - digest: [`episode_digest.md`](./episode_digests/WogoumarketCommonV007BeddingExpensiveClothingCheapestCheckoutCancelTask/episode_001/episode_digest.md)
-- death shot: ![last-step](./death_shots/WogoumarketCommonV007BeddingExpensiveClothingCheapestCheckoutCancelTask/episode_001/step_022.png)
-  - state: [`./death_shots/WogoumarketCommonV007BeddingExpensiveClothingCheapestCheckoutCancelTask/episode_001/step_022.json`](./death_shots/WogoumarketCommonV007BeddingExpensiveClothingCheapestCheckoutCancelTask/episode_001/step_022.json)
 
 ### Episode 2 — ❌ failed
 
@@ -77,9 +77,9 @@
   ```
   存在已取消的订单: 预期订单状态为 cancelled，实际为 pending; 订单包含服饰分类下最便宜商品（浪莎船袜）: 订单未包含最便宜商品：浪莎 纯棉船袜 男士 5双装 薄款; 订单已被取消（cancelled_at 非空）: cancelled_at 为 nil，订单未被取消
   ```
+![last-step](./death_shots/WogoumarketCommonV007BeddingExpensiveClothingCheapestCheckoutCancelTask/episode_002/step_024.png)
+- state: [`./death_shots/WogoumarketCommonV007BeddingExpensiveClothingCheapestCheckoutCancelTask/episode_002/step_024.json`](./death_shots/WogoumarketCommonV007BeddingExpensiveClothingCheapestCheckoutCancelTask/episode_002/step_024.json)
 - digest: [`episode_digest.md`](./episode_digests/WogoumarketCommonV007BeddingExpensiveClothingCheapestCheckoutCancelTask/episode_002/episode_digest.md)
-- death shot: ![last-step](./death_shots/WogoumarketCommonV007BeddingExpensiveClothingCheapestCheckoutCancelTask/episode_002/step_024.png)
-  - state: [`./death_shots/WogoumarketCommonV007BeddingExpensiveClothingCheapestCheckoutCancelTask/episode_002/step_024.json`](./death_shots/WogoumarketCommonV007BeddingExpensiveClothingCheapestCheckoutCancelTask/episode_002/step_024.json)
 
 ### Episode 3 — ❌ failed
 
@@ -90,9 +90,9 @@
   ```
   订单包含服饰分类下最便宜商品（浪莎船袜）: 订单未包含最便宜商品：浪莎 纯棉船袜 男士 5双装 薄款
   ```
+![last-step](./death_shots/WogoumarketCommonV007BeddingExpensiveClothingCheapestCheckoutCancelTask/episode_003/step_039.png)
+- state: [`./death_shots/WogoumarketCommonV007BeddingExpensiveClothingCheapestCheckoutCancelTask/episode_003/step_039.json`](./death_shots/WogoumarketCommonV007BeddingExpensiveClothingCheapestCheckoutCancelTask/episode_003/step_039.json)
 - digest: [`episode_digest.md`](./episode_digests/WogoumarketCommonV007BeddingExpensiveClothingCheapestCheckoutCancelTask/episode_003/episode_digest.md)
-- death shot: ![last-step](./death_shots/WogoumarketCommonV007BeddingExpensiveClothingCheapestCheckoutCancelTask/episode_003/step_039.png)
-  - state: [`./death_shots/WogoumarketCommonV007BeddingExpensiveClothingCheapestCheckoutCancelTask/episode_003/step_039.json`](./death_shots/WogoumarketCommonV007BeddingExpensiveClothingCheapestCheckoutCancelTask/episode_003/step_039.json)
 
 ---
 
