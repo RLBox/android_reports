@@ -6,7 +6,7 @@
 - **Elapsed**: 653s (~10.9 min)
 - **Model**: `doubao-seed-2-0-pro-260215`
 - **Raw log**: [./raw_logs/WogoumarketOrderV011ConfirmThenPartialRefundTask.log](./raw_logs/WogoumarketOrderV011ConfirmThenPartialRefundTask.log)
-- **Generated**: 2026-07-14T17:09:00+08:00
+- **Generated**: 2026-07-14T17:13:51+08:00
 - **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
@@ -65,6 +65,8 @@
   订单已确认收货: 订单状态为 shipping，应为 delivered
   ```
 - digest: [`episode_digest.md`](./episode_digests/WogoumarketOrderV011ConfirmThenPartialRefundTask/episode_001/episode_digest.md)
+- death shot: ![last-step](./death_shots/WogoumarketOrderV011ConfirmThenPartialRefundTask/episode_001/step_017.png)
+  - state: [`./death_shots/WogoumarketOrderV011ConfirmThenPartialRefundTask/episode_001/step_017.json`](./death_shots/WogoumarketOrderV011ConfirmThenPartialRefundTask/episode_001/step_017.json)
 
 ### Episode 2 — ❌ failed
 
@@ -76,6 +78,8 @@
   存在退款申请: 未找到退款申请
   ```
 - digest: [`episode_digest.md`](./episode_digests/WogoumarketOrderV011ConfirmThenPartialRefundTask/episode_002/episode_digest.md)
+- death shot: ![last-step](./death_shots/WogoumarketOrderV011ConfirmThenPartialRefundTask/episode_002/step_021.png)
+  - state: [`./death_shots/WogoumarketOrderV011ConfirmThenPartialRefundTask/episode_002/step_021.json`](./death_shots/WogoumarketOrderV011ConfirmThenPartialRefundTask/episode_002/step_021.json)
 
 ### Episode 3 — ❌ failed
 
@@ -87,6 +91,8 @@
   订单已确认收货: 订单状态为 shipping，应为 delivered
   ```
 - digest: [`episode_digest.md`](./episode_digests/WogoumarketOrderV011ConfirmThenPartialRefundTask/episode_003/episode_digest.md)
+- death shot: ![last-step](./death_shots/WogoumarketOrderV011ConfirmThenPartialRefundTask/episode_003/step_009.png)
+  - state: [`./death_shots/WogoumarketOrderV011ConfirmThenPartialRefundTask/episode_003/step_009.json`](./death_shots/WogoumarketOrderV011ConfirmThenPartialRefundTask/episode_003/step_009.json)
 
 ---
 

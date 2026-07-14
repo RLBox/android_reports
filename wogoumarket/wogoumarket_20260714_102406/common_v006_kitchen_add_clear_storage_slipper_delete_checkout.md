@@ -6,7 +6,7 @@
 - **Elapsed**: 1263s (~21.1 min)
 - **Model**: `doubao-seed-2-0-pro-260215`
 - **Raw log**: [./raw_logs/WogoumarketCommonV006KitchenAddClearStorageSlipperDeleteCheckoutTask.log](./raw_logs/WogoumarketCommonV006KitchenAddClearStorageSlipperDeleteCheckoutTask.log)
-- **Generated**: 2026-07-14T17:09:00+08:00
+- **Generated**: 2026-07-14T17:13:51+08:00
 - **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
@@ -65,6 +65,8 @@
   存在已支付订单: 未找到订单
   ```
 - digest: [`episode_digest.md`](./episode_digests/WogoumarketCommonV006KitchenAddClearStorageSlipperDeleteCheckoutTask/episode_001/episode_digest.md)
+- death shot: ![last-step](./death_shots/WogoumarketCommonV006KitchenAddClearStorageSlipperDeleteCheckoutTask/episode_001/step_041.png)
+  - state: [`./death_shots/WogoumarketCommonV006KitchenAddClearStorageSlipperDeleteCheckoutTask/episode_001/step_041.json`](./death_shots/WogoumarketCommonV006KitchenAddClearStorageSlipperDeleteCheckoutTask/episode_001/step_041.json)
 
 ### Episode 2 — ❌ failed
 
@@ -76,6 +78,8 @@
   存在已支付订单: 未找到订单
   ```
 - digest: [`episode_digest.md`](./episode_digests/WogoumarketCommonV006KitchenAddClearStorageSlipperDeleteCheckoutTask/episode_002/episode_digest.md)
+- death shot: ![last-step](./death_shots/WogoumarketCommonV006KitchenAddClearStorageSlipperDeleteCheckoutTask/episode_002/step_037.png)
+  - state: [`./death_shots/WogoumarketCommonV006KitchenAddClearStorageSlipperDeleteCheckoutTask/episode_002/step_037.json`](./death_shots/WogoumarketCommonV006KitchenAddClearStorageSlipperDeleteCheckoutTask/episode_002/step_037.json)
 
 ### Episode 3 — ❌ failed
 
@@ -87,6 +91,8 @@
   存在已支付订单: 未找到订单
   ```
 - digest: [`episode_digest.md`](./episode_digests/WogoumarketCommonV006KitchenAddClearStorageSlipperDeleteCheckoutTask/episode_003/episode_digest.md)
+- death shot: ![last-step](./death_shots/WogoumarketCommonV006KitchenAddClearStorageSlipperDeleteCheckoutTask/episode_003/step_044.png)
+  - state: [`./death_shots/WogoumarketCommonV006KitchenAddClearStorageSlipperDeleteCheckoutTask/episode_003/step_044.json`](./death_shots/WogoumarketCommonV006KitchenAddClearStorageSlipperDeleteCheckoutTask/episode_003/step_044.json)
 
 ---
 
