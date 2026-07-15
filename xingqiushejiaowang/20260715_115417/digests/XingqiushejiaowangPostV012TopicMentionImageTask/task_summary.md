@@ -1,0 +1,23 @@
+# XingqiushejiaowangPostV012TopicMentionImageTask — Agent Trace Summary
+
+- **Episodes**: 1 (1 passed, 0 failed)
+- **Goal**: 发一条图文帖：带 #早餐时刻 话题、@ 陶陶、配图
+
+## Episode 1 — ✅ passed (9 steps)
+
+| # | Action | Think |
+|---|--------|-------|
+| 1 | open_app com.xingqiushejiaowang | 在指定应用发带话题、@提及及配图的图文帖，是我需要完成的操作。我将先打开目标应用，推进后续发帖操作。 |
+| 2 | click (540, 2213) | 我已进入星球社交王广场页面，下一步点击底部发布瞬间按钮进入发帖编辑页。 |
+| 3 | click (170, 384) | 在发帖编辑页，我将点击入口添加配图。先处理配图，后续加话题和@。 |
+| 4 | click (1012, 2057) | 适配的早餐配图已找到，将选中后点击确定完成添加。选中目标图片。 |
+| 5 | click (796, 2249) | 已选中图片，下一步点击确认按钮完成配图添加。 |
+| 6 | click (148, 1073) | 配图已添加完成，我将激活输入框输入指定内容。点击目标输入框后，我将输入指定内容。 |
+| 7 | input_text "#早餐时刻 @陶陶" | 输入框已激活，我将输入指定内容后准备发布。 |
+| 8 | click (947, 137) | 图文内容已全部准备完毕，即将点击发布按钮发布。接下来我将直接点击发布按钮完成图文帖发布。 |
+| 9 | answer "已在com.xingqiushejiaowang（星球社交王）中成功发布包..." | 已确认图文帖发布成功，任务完成。可结束任务。 |
+
+- **Terminated**: answer
+
+---
+> 由 `log_summarizer.render_task_digest_md` 自动生成。 展示 Agent 每步的决策（action）和思考过程（think）。

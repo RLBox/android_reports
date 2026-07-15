@@ -1,0 +1,21 @@
+# XingqiushejiaowangCoinsV001DailyCheckInTask — Agent Trace Summary
+
+- **Episodes**: 1 (1 passed, 0 failed)
+- **Goal**: 帮我完成今天的每日签到，确认星币奖励到账
+
+## Episode 1 — ✅ passed (7 steps)
+
+| # | Action | Think |
+|---|--------|-------|
+| 1 | open_app com.xingqiushejiaowang | 待完成：对应应用签到及星币到账确认。当前桌面未找到目标应用图标，我将调用相关工具打开包名对应的星球社交类应用。 |
+| 2 | click (972, 2232) | 已进入星球社交主界面，将去个人中心找签到入口。点击右下角“自己”进入个人页面找签到入口。 |
+| 3 | click (340, 977) | 为找签到入口，我将点击星币中心进入对应页面。 |
+| 4 | click (900, 857) | 当前在星币中心页面，我将点击签到按钮完成签到，后续确认星币到账。点击去签到。 |
+| 5 | click (540, 972) | 点击签到按钮完成签到后，我将确认星币到账。 |
+| 6 | click (540, 1272) | 签到成功，1星币奖励已到账。签到相关操作已全部完成，我将点击弹窗关闭按钮。 |
+| 7 | answer "已在com.xingqiushejiaowang应用中完成今日的每日签到，..." | 已确认签到完成，星币奖励已到账。  签到任务已完成，将提交结果。 |
+
+- **Terminated**: answer
+
+---
+> 由 `log_summarizer.render_task_digest_md` 自动生成。 展示 Agent 每步的决策（action）和思考过程（think）。
