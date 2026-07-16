@@ -1,0 +1,20 @@
+# DuwuOrderV020RemindShippingTask — Agent Trace Summary
+
+- **Episodes**: 1 (1 passed, 0 failed)
+- **Goal**: 我有一笔待发货的订单，帮我提醒商家发货
+
+## Episode 1 — ✅ passed (6 steps)
+
+| # | Action | Think |
+|---|--------|-------|
+| 1 | open_app com.duwu | 首先打开目标应用。待发货订单的发货提醒需要通过com.duwu应用完成，我将先打开该应用。 |
+| 2 | click (945, 2256) | 待发货订单的查找，将从点击“我”进入个人中心开始。 |
+| 3 | click (348, 1092) | 先找待发货订单。接下来我将点击待发货订单入口，查看对应列表。 |
+| 4 | click (877, 912) | 待发货订单已找到，接下来我将点击“提醒发货”按钮，完成提醒商家发货的操作。 |
+| 5 | click (818, 1272) | 看到弹窗提示“已提醒商家，预计明日发货”，说明提醒发货的操作已经成功完成了。现在需要点击“知道了”关闭弹窗，然后任务就完成了。 |
+| 6 | answer "已成功为你提醒该待发货订单（商品为Nike Dunk LOW RETRO舒..." | 已提醒发货，预计明日发。已完成得物待发货订单的发货提醒操作，确认已通知商家，可提交任务告知用户结果。 |
+
+- **Terminated**: answer
+
+---
+> 由 `log_summarizer.render_task_digest_md` 自动生成。 展示 Agent 每步的决策（action）和思考过程（think）。
