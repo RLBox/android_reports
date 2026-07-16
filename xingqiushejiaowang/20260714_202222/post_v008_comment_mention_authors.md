@@ -5,8 +5,8 @@
 - **Pass@3**: **0/3**  (score = 0.00)
 - **Elapsed**: 372s (~6.2 min)
 - **Model**: `doubao-seed-2-0-lite-260428`
-- **Raw log**: [./raw_logs/XingqiushejiaowangPostV008CommentMentionAuthorsTask.log](./raw_logs/XingqiushejiaowangPostV008CommentMentionAuthorsTask.log)
-- **Generated**: 2026-07-15T02:44:22+08:00
+- **Generated**: 2026-07-15T10:35:47+08:00
+- **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
 
@@ -63,9 +63,6 @@
   ```
   至少 1 条评论: 评论数不足。需要 1 条，实际 0 条
   ```
-- death shot: ![last-step](./screenshots/XingqiushejiaowangPostV008CommentMentionAuthorsTask/episode_001/step_009.png)
-  - state: [`./screenshots/XingqiushejiaowangPostV008CommentMentionAuthorsTask/episode_001/step_009.json`](./screenshots/XingqiushejiaowangPostV008CommentMentionAuthorsTask/episode_001/step_009.json)
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangPostV008CommentMentionAuthorsTask/episode_001/episode_digest.md)
 
 ### Episode 2 — ❌ failed
 
@@ -76,9 +73,6 @@
   ```
   至少 1 条评论: 评论数不足。需要 1 条，实际 0 条
   ```
-- death shot: ![last-step](./screenshots/XingqiushejiaowangPostV008CommentMentionAuthorsTask/episode_002/step_009.png)
-  - state: [`./screenshots/XingqiushejiaowangPostV008CommentMentionAuthorsTask/episode_002/step_009.json`](./screenshots/XingqiushejiaowangPostV008CommentMentionAuthorsTask/episode_002/step_009.json)
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangPostV008CommentMentionAuthorsTask/episode_002/episode_digest.md)
 
 ### Episode 3 — 💥 error
 
@@ -89,7 +83,6 @@
   ```
   exception: 500 Internal Server Error for url: http://localhost:6800/task/init | detail: init_task('XingqiushejiaowangPostV008CommentMentionAuthorsTask') failed: Task 'XingqiushejiaowangPostV008CommentMentionAuthorsTask' failed during initialize_task()
   ```
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangPostV008CommentMentionAuthorsTask/episode_003/episode_digest.md)
 
 ---
 

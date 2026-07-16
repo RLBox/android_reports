@@ -5,8 +5,8 @@
 - **Pass@3**: **0/3**  (score = 0.00)
 - **Elapsed**: 314s (~5.2 min)
 - **Model**: `doubao-seed-2-0-lite-260428`
-- **Raw log**: [./raw_logs/XingqiushejiaowangProfileV005UnequipAvatarTask.log](./raw_logs/XingqiushejiaowangProfileV005UnequipAvatarTask.log)
-- **Generated**: 2026-07-15T02:44:22+08:00
+- **Generated**: 2026-07-15T10:35:47+08:00
+- **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
 
@@ -63,9 +63,6 @@
   ```
   当前没有装备任何商店头像: equipped_avatar_item_id=2（应为 nil）
   ```
-- death shot: ![last-step](./screenshots/XingqiushejiaowangProfileV005UnequipAvatarTask/episode_001/step_006.png)
-  - state: [`./screenshots/XingqiushejiaowangProfileV005UnequipAvatarTask/episode_001/step_006.json`](./screenshots/XingqiushejiaowangProfileV005UnequipAvatarTask/episode_001/step_006.json)
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangProfileV005UnequipAvatarTask/episode_001/episode_digest.md)
 
 ### Episode 2 — 💥 error
 
@@ -76,7 +73,6 @@
   ```
   exception: 500 Internal Server Error for url: http://localhost:6800/task/init | detail: init_task('XingqiushejiaowangProfileV005UnequipAvatarTask') failed: Task 'XingqiushejiaowangProfileV005UnequipAvatarTask' failed during initialize_task()
   ```
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangProfileV005UnequipAvatarTask/episode_002/episode_digest.md)
 
 ### Episode 3 — 💥 error
 
@@ -87,7 +83,6 @@
   ```
   exception: 500 Internal Server Error for url: http://localhost:6800/task/init | detail: init_task('XingqiushejiaowangProfileV005UnequipAvatarTask') failed: Task 'XingqiushejiaowangProfileV005UnequipAvatarTask' failed during initialize_task()
   ```
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangProfileV005UnequipAvatarTask/episode_003/episode_digest.md)
 
 ---
 

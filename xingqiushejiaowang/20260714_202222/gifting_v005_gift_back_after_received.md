@@ -5,8 +5,8 @@
 - **Pass@3**: **0/3**  (score = 0.00)
 - **Elapsed**: 331s (~5.5 min)
 - **Model**: `doubao-seed-2-0-lite-260428`
-- **Raw log**: [./raw_logs/XingqiushejiaowangGiftingV005GiftBackAfterReceivedTask.log](./raw_logs/XingqiushejiaowangGiftingV005GiftBackAfterReceivedTask.log)
-- **Generated**: 2026-07-15T02:44:22+08:00
+- **Generated**: 2026-07-15T10:35:47+08:00
+- **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
 
@@ -63,9 +63,6 @@
   ```
   在私聊里给小猫姐姐回赠了至少 1 份礼物: 没找到回赠小猫姐姐的礼物记录
   ```
-- death shot: ![last-step](./screenshots/XingqiushejiaowangGiftingV005GiftBackAfterReceivedTask/episode_001/step_008.png)
-  - state: [`./screenshots/XingqiushejiaowangGiftingV005GiftBackAfterReceivedTask/episode_001/step_008.json`](./screenshots/XingqiushejiaowangGiftingV005GiftBackAfterReceivedTask/episode_001/step_008.json)
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangGiftingV005GiftBackAfterReceivedTask/episode_001/episode_digest.md)
 
 ### Episode 2 — 💥 error
 
@@ -76,7 +73,6 @@
   ```
   exception: 500 Internal Server Error for url: http://localhost:6800/task/init | detail: init_task('XingqiushejiaowangGiftingV005GiftBackAfterReceivedTask') failed: Task 'XingqiushejiaowangGiftingV005GiftBackAfterReceivedTask' failed during initialize_task()
   ```
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangGiftingV005GiftBackAfterReceivedTask/episode_002/episode_digest.md)
 
 ### Episode 3 — 💥 error
 
@@ -87,7 +83,6 @@
   ```
   exception: 500 Internal Server Error for url: http://localhost:6800/task/init | detail: init_task('XingqiushejiaowangGiftingV005GiftBackAfterReceivedTask') failed: Task 'XingqiushejiaowangGiftingV005GiftBackAfterReceivedTask' failed during initialize_task()
   ```
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangGiftingV005GiftBackAfterReceivedTask/episode_003/episode_digest.md)
 
 ---
 

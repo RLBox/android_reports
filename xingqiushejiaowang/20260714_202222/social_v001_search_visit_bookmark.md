@@ -5,8 +5,8 @@
 - **Pass@3**: **0/3**  (score = 0.00)
 - **Elapsed**: 295s (~4.9 min)
 - **Model**: `doubao-seed-2-0-lite-260428`
-- **Raw log**: [./raw_logs/XingqiushejiaowangSocialV001SearchVisitBookmarkTask.log](./raw_logs/XingqiushejiaowangSocialV001SearchVisitBookmarkTask.log)
-- **Generated**: 2026-07-15T02:44:22+08:00
+- **Generated**: 2026-07-15T10:35:47+08:00
+- **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
 

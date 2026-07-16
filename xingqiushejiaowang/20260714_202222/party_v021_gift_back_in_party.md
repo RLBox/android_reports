@@ -5,8 +5,8 @@
 - **Pass@3**: **0/3**  (score = 0.00)
 - **Elapsed**: 500s (~8.3 min)
 - **Model**: `doubao-seed-2-0-lite-260428`
-- **Raw log**: [./raw_logs/XingqiushejiaowangPartyV021GiftBackInPartyTask.log](./raw_logs/XingqiushejiaowangPartyV021GiftBackInPartyTask.log)
-- **Generated**: 2026-07-15T02:44:22+08:00
+- **Generated**: 2026-07-15T10:35:47+08:00
+- **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
 
@@ -63,9 +63,6 @@
   ```
   回送了桃心可可通过派对: 未找到回赠记录; 星币正确扣减: 星币余额应为 164，实际 10
   ```
-- death shot: ![last-step](./screenshots/XingqiushejiaowangPartyV021GiftBackInPartyTask/episode_001/step_024.png)
-  - state: [`./screenshots/XingqiushejiaowangPartyV021GiftBackInPartyTask/episode_001/step_024.json`](./screenshots/XingqiushejiaowangPartyV021GiftBackInPartyTask/episode_001/step_024.json)
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangPartyV021GiftBackInPartyTask/episode_001/episode_digest.md)
 
 ### Episode 2 — 💥 error
 
@@ -76,7 +73,6 @@
   ```
   exception: 500 Internal Server Error for url: http://localhost:6800/task/init | detail: init_task('XingqiushejiaowangPartyV021GiftBackInPartyTask') failed: Task 'XingqiushejiaowangPartyV021GiftBackInPartyTask' failed during initialize_task()
   ```
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangPartyV021GiftBackInPartyTask/episode_002/episode_digest.md)
 
 ### Episode 3 — 💥 error
 
@@ -87,7 +83,6 @@
   ```
   exception: 500 Internal Server Error for url: http://localhost:6800/task/init | detail: init_task('XingqiushejiaowangPartyV021GiftBackInPartyTask') failed: Task 'XingqiushejiaowangPartyV021GiftBackInPartyTask' failed during initialize_task()
   ```
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangPartyV021GiftBackInPartyTask/episode_003/episode_digest.md)
 
 ---
 

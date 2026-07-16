@@ -5,8 +5,8 @@
 - **Pass@3**: **1/3**  (score = 1.00)
 - **Elapsed**: 414s (~6.9 min)
 - **Model**: `doubao-seed-2-0-lite-260428`
-- **Raw log**: [./raw_logs/XingqiushejiaowangVoiceV002SayHiToVoicePlanetUserTask.log](./raw_logs/XingqiushejiaowangVoiceV002SayHiToVoicePlanetUserTask.log)
-- **Generated**: 2026-07-15T02:44:23+08:00
+- **Generated**: 2026-07-15T10:35:47+08:00
+- **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
 
@@ -63,9 +63,6 @@
   ```
   demo↔月光水母 的私聊会话存在: 未找到 demo↔月光水母 的私聊会话（kind=direct）
   ```
-- death shot: ![last-step](./screenshots/XingqiushejiaowangVoiceV002SayHiToVoicePlanetUserTask/episode_002/step_006.png)
-  - state: [`./screenshots/XingqiushejiaowangVoiceV002SayHiToVoicePlanetUserTask/episode_002/step_006.json`](./screenshots/XingqiushejiaowangVoiceV002SayHiToVoicePlanetUserTask/episode_002/step_006.json)
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangVoiceV002SayHiToVoicePlanetUserTask/episode_002/episode_digest.md)
 
 ### Episode 3 — 💥 error
 
@@ -76,7 +73,6 @@
   ```
   exception: 500 Internal Server Error for url: http://localhost:6800/task/init | detail: init_task('XingqiushejiaowangVoiceV002SayHiToVoicePlanetUserTask') failed: Task 'XingqiushejiaowangVoiceV002SayHiToVoicePlanetUserTask' failed during initialize_task()
   ```
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangVoiceV002SayHiToVoicePlanetUserTask/episode_003/episode_digest.md)
 
 ---
 

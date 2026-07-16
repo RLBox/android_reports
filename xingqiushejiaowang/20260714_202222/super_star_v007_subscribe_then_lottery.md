@@ -5,8 +5,8 @@
 - **Pass@3**: **0/3**  (score = 0.00)
 - **Elapsed**: 648s (~10.8 min)
 - **Model**: `doubao-seed-2-0-lite-260428`
-- **Raw log**: [./raw_logs/XingqiushejiaowangSuperStarV007SubscribeThenLotteryTask.log](./raw_logs/XingqiushejiaowangSuperStarV007SubscribeThenLotteryTask.log)
-- **Generated**: 2026-07-15T02:44:22+08:00
+- **Generated**: 2026-07-15T10:35:47+08:00
+- **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
 
@@ -63,9 +63,6 @@
   ```
   开通了超级星人月卡: 未找到超级星人会员记录; 在派对里玩了抽奖: 未找到抽奖记录; 星币正确扣减: 无抽奖记录，无法验证星币扣减
   ```
-- death shot: ![last-step](./screenshots/XingqiushejiaowangSuperStarV007SubscribeThenLotteryTask/episode_001/step_037.png)
-  - state: [`./screenshots/XingqiushejiaowangSuperStarV007SubscribeThenLotteryTask/episode_001/step_037.json`](./screenshots/XingqiushejiaowangSuperStarV007SubscribeThenLotteryTask/episode_001/step_037.json)
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangSuperStarV007SubscribeThenLotteryTask/episode_001/episode_digest.md)
 
 ### Episode 2 — 💥 error
 
@@ -76,7 +73,6 @@
   ```
   exception: 500 Internal Server Error for url: http://localhost:6800/task/init | detail: init_task('XingqiushejiaowangSuperStarV007SubscribeThenLotteryTask') failed: Task 'XingqiushejiaowangSuperStarV007SubscribeThenLotteryTask' failed during initialize_task()
   ```
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangSuperStarV007SubscribeThenLotteryTask/episode_002/episode_digest.md)
 
 ### Episode 3 — 💥 error
 
@@ -87,7 +83,6 @@
   ```
   exception: 500 Internal Server Error for url: http://localhost:6800/task/init | detail: init_task('XingqiushejiaowangSuperStarV007SubscribeThenLotteryTask') failed: Task 'XingqiushejiaowangSuperStarV007SubscribeThenLotteryTask' failed during initialize_task()
   ```
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangSuperStarV007SubscribeThenLotteryTask/episode_003/episode_digest.md)
 
 ---
 

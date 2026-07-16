@@ -5,8 +5,8 @@
 - **Pass@3**: **0/3**  (score = 0.00)
 - **Elapsed**: 509s (~8.5 min)
 - **Model**: `doubao-seed-2-0-lite-260428`
-- **Raw log**: [./raw_logs/XingqiushejiaowangProfileV006BubbleOnlyTask.log](./raw_logs/XingqiushejiaowangProfileV006BubbleOnlyTask.log)
-- **Generated**: 2026-07-15T02:44:22+08:00
+- **Generated**: 2026-07-15T10:35:47+08:00
+- **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
 
@@ -63,9 +63,6 @@
   ```
   xiaoxing 发了一条心情气泡: 没找到 BubbleStatus 记录
   ```
-- death shot: ![last-step](./screenshots/XingqiushejiaowangProfileV006BubbleOnlyTask/episode_001/step_021.png)
-  - state: [`./screenshots/XingqiushejiaowangProfileV006BubbleOnlyTask/episode_001/step_021.json`](./screenshots/XingqiushejiaowangProfileV006BubbleOnlyTask/episode_001/step_021.json)
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangProfileV006BubbleOnlyTask/episode_001/episode_digest.md)
 
 ### Episode 2 — ❌ failed
 
@@ -76,9 +73,6 @@
   ```
   xiaoxing 发了一条心情气泡: 没找到 BubbleStatus 记录
   ```
-- death shot: ![last-step](./screenshots/XingqiushejiaowangProfileV006BubbleOnlyTask/episode_002/step_013.png)
-  - state: [`./screenshots/XingqiushejiaowangProfileV006BubbleOnlyTask/episode_002/step_013.json`](./screenshots/XingqiushejiaowangProfileV006BubbleOnlyTask/episode_002/step_013.json)
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangProfileV006BubbleOnlyTask/episode_002/episode_digest.md)
 
 ### Episode 3 — 💥 error
 
@@ -89,7 +83,6 @@
   ```
   exception: 500 Internal Server Error for url: http://localhost:6800/task/init | detail: init_task('XingqiushejiaowangProfileV006BubbleOnlyTask') failed: Task 'XingqiushejiaowangProfileV006BubbleOnlyTask' failed during initialize_task()
   ```
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangProfileV006BubbleOnlyTask/episode_003/episode_digest.md)
 
 ---
 

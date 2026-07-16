@@ -5,8 +5,8 @@
 - **Pass@3**: **2/3**  (score = 1.00)
 - **Elapsed**: 355s (~5.9 min)
 - **Model**: `doubao-seed-2-0-lite-260428`
-- **Raw log**: [./raw_logs/XingqiushejiaowangPostV004ReplyFromNotificationTask.log](./raw_logs/XingqiushejiaowangPostV004ReplyFromNotificationTask.log)
-- **Generated**: 2026-07-15T02:44:22+08:00
+- **Generated**: 2026-07-15T10:35:47+08:00
+- **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
 
@@ -63,9 +63,6 @@
   ```
   回复评论已创建: 未找到 张小星 对自己帖子的回复评论
   ```
-- death shot: ![last-step](./screenshots/XingqiushejiaowangPostV004ReplyFromNotificationTask/episode_003/step_004.png)
-  - state: [`./screenshots/XingqiushejiaowangPostV004ReplyFromNotificationTask/episode_003/step_004.json`](./screenshots/XingqiushejiaowangPostV004ReplyFromNotificationTask/episode_003/step_004.json)
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangPostV004ReplyFromNotificationTask/episode_003/episode_digest.md)
 
 ---
 

@@ -5,8 +5,8 @@
 - **Pass@3**: **0/3**  (score = 0.00)
 - **Elapsed**: 293s (~4.9 min)
 - **Model**: `doubao-seed-2-0-lite-260428`
-- **Raw log**: [./raw_logs/XingqiushejiaowangPartyV022CenterDiscoverJoinSpeakTask.log](./raw_logs/XingqiushejiaowangPartyV022CenterDiscoverJoinSpeakTask.log)
-- **Generated**: 2026-07-15T02:44:22+08:00
+- **Generated**: 2026-07-15T10:35:47+08:00
+- **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
 
@@ -63,9 +63,6 @@
   ```
   进入了一个派对: 未找到加入任何派对的记录
   ```
-- death shot: ![last-step](./screenshots/XingqiushejiaowangPartyV022CenterDiscoverJoinSpeakTask/episode_001/step_004.png)
-  - state: [`./screenshots/XingqiushejiaowangPartyV022CenterDiscoverJoinSpeakTask/episode_001/step_004.json`](./screenshots/XingqiushejiaowangPartyV022CenterDiscoverJoinSpeakTask/episode_001/step_004.json)
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangPartyV022CenterDiscoverJoinSpeakTask/episode_001/episode_digest.md)
 
 ### Episode 2 — 💥 error
 
@@ -76,7 +73,6 @@
   ```
   exception: 500 Internal Server Error for url: http://localhost:6800/task/init | detail: init_task('XingqiushejiaowangPartyV022CenterDiscoverJoinSpeakTask') failed: Task 'XingqiushejiaowangPartyV022CenterDiscoverJoinSpeakTask' failed during initialize_task()
   ```
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangPartyV022CenterDiscoverJoinSpeakTask/episode_002/episode_digest.md)
 
 ### Episode 3 — 💥 error
 
@@ -87,7 +83,6 @@
   ```
   exception: 500 Internal Server Error for url: http://localhost:6800/task/init | detail: init_task('XingqiushejiaowangPartyV022CenterDiscoverJoinSpeakTask') failed: Task 'XingqiushejiaowangPartyV022CenterDiscoverJoinSpeakTask' failed during initialize_task()
   ```
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangPartyV022CenterDiscoverJoinSpeakTask/episode_003/episode_digest.md)
 
 ---
 

@@ -5,8 +5,8 @@
 - **Pass@3**: **2/3**  (score = 1.00)
 - **Elapsed**: 1121s (~18.7 min)
 - **Model**: `doubao-seed-2-0-lite-260428`
-- **Raw log**: [./raw_logs/XingqiushejiaowangChatV017GroupTopicChainTask.log](./raw_logs/XingqiushejiaowangChatV017GroupTopicChainTask.log)
-- **Generated**: 2026-07-15T02:44:21+08:00
+- **Generated**: 2026-07-15T10:35:47+08:00
+- **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
 
@@ -63,7 +63,6 @@
   ```
   exception: 500 Internal Server Error for url: http://localhost:6800/task/init | detail: init_task('XingqiushejiaowangChatV017GroupTopicChainTask') failed: Task 'XingqiushejiaowangChatV017GroupTopicChainTask' failed during initialize_task()
   ```
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangChatV017GroupTopicChainTask/episode_003/episode_digest.md)
 
 ---
 

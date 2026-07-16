@@ -5,8 +5,8 @@
 - **Pass@3**: **0/3**  (score = 0.00)
 - **Elapsed**: 603s (~10.1 min)
 - **Model**: `doubao-seed-2-0-lite-260428`
-- **Raw log**: [./raw_logs/XingqiushejiaowangPartyV017LotteryThenGiftHostTask.log](./raw_logs/XingqiushejiaowangPartyV017LotteryThenGiftHostTask.log)
-- **Generated**: 2026-07-15T02:44:22+08:00
+- **Generated**: 2026-07-15T10:35:47+08:00
+- **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
 
@@ -63,9 +63,6 @@
   ```
   星币正确扣减: 余额错误。初始 100 - 花费 3 = 97，实际 10
   ```
-- death shot: ![last-step](./screenshots/XingqiushejiaowangPartyV017LotteryThenGiftHostTask/episode_001/step_021.png)
-  - state: [`./screenshots/XingqiushejiaowangPartyV017LotteryThenGiftHostTask/episode_001/step_021.json`](./screenshots/XingqiushejiaowangPartyV017LotteryThenGiftHostTask/episode_001/step_021.json)
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangPartyV017LotteryThenGiftHostTask/episode_001/episode_digest.md)
 
 ### Episode 2 — ❌ failed
 
@@ -76,9 +73,6 @@
   ```
   在派对里玩了抽奖: 未找到新手抽奖记录
   ```
-- death shot: ![last-step](./screenshots/XingqiushejiaowangPartyV017LotteryThenGiftHostTask/episode_002/step_021.png)
-  - state: [`./screenshots/XingqiushejiaowangPartyV017LotteryThenGiftHostTask/episode_002/step_021.json`](./screenshots/XingqiushejiaowangPartyV017LotteryThenGiftHostTask/episode_002/step_021.json)
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangPartyV017LotteryThenGiftHostTask/episode_002/episode_digest.md)
 
 ### Episode 3 — 💥 error
 
@@ -89,7 +83,6 @@
   ```
   exception: 500 Internal Server Error for url: http://localhost:6800/task/init | detail: init_task('XingqiushejiaowangPartyV017LotteryThenGiftHostTask') failed: Task 'XingqiushejiaowangPartyV017LotteryThenGiftHostTask' failed during initialize_task()
   ```
-  - digest: [`episode_digest.md`](./digests/XingqiushejiaowangPartyV017LotteryThenGiftHostTask/episode_003/episode_digest.md)
 
 ---
 
