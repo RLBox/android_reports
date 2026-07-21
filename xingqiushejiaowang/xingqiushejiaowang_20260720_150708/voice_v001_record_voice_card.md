@@ -6,7 +6,7 @@
 - **Elapsed**: 121s (~2.0 min)
 - **Model**: `doubao-seed-2-0-lite-260428`
 - **Raw log**: [./raw_logs/XingqiushejiaowangVoiceV001RecordVoiceCardTask.log](./raw_logs/XingqiushejiaowangVoiceV001RecordVoiceCardTask.log)
-- **Generated**: 2026-07-20T23:11:35+08:00
+- **Generated**: 2026-07-21T10:13:57+08:00
 - **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal

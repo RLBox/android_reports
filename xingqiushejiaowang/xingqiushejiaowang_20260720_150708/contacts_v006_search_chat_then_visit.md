@@ -6,7 +6,7 @@
 - **Elapsed**: 407s (~6.8 min)
 - **Model**: `doubao-seed-2-0-lite-260428`
 - **Raw log**: [./raw_logs/XingqiushejiaowangContactsV006SearchChatThenVisitTask.log](./raw_logs/XingqiushejiaowangContactsV006SearchChatThenVisitTask.log)
-- **Generated**: 2026-07-20T23:11:35+08:00
+- **Generated**: 2026-07-21T10:13:56+08:00
 - **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
