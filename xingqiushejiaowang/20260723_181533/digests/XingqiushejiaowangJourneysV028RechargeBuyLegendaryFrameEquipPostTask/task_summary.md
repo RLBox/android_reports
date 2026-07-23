@@ -1,0 +1,56 @@
+# XingqiushejiaowangJourneysV028RechargeBuyLegendaryFrameEquipPostTask — Agent Trace Summary
+
+- **Episodes**: 1 (1 passed, 0 failed)
+- **Goal**: 底部我Tab→星币中心→点去充值(不要点去签到!)→选档位→付密码123456→我Tab下滑→头像框入口→买彩虹之约(500币)→佩戴→广场发含彩虹帖子→取消装备。充值无真实扣款！
+
+## Episode 1 — ✅ passed (40 steps)
+
+| # | Action | Think |
+|---|--------|-------|
+| 1 | open_app com.xingqiushejiaowang |  |
+| 2 | click (972, 2244) |  |
+| 3 | click (340, 979) |  |
+| 4 | click (877, 408) |  |
+| 5 | click (540, 2189) |  |
+| 6 | click (179, 1771) |  |
+| 7 | click (540, 1771) |  |
+| 8 | click (900, 1771) |  |
+| 9 | click (179, 1932) |  |
+| 10 | click (540, 1932) |  |
+| 11 | click (900, 1932) |  |
+| 12 | wait |  |
+| 13 | click (73, 144) |  |
+| 14 | drag |  |
+| 15 | drag |  |
+| 16 | click (740, 989) |  |
+| 17 | click (373, 144) |  |
+| 18 | click (540, 1267) |  |
+| 19 | click (117, 1039) |  |
+| 20 | click (540, 821) |  |
+| 21 | click (198, 1992) |  |
+| 22 | click (937, 2256) |  |
+| 23 | wait |  |
+| 24 | click (191, 1483) |  |
+| 25 | click (86, 144) |  |
+| 26 | click (308, 2232) |  |
+| 27 | click (540, 2232) |  |
+| 28 | click (324, 756) |  |
+| 29 | input_text "今天的彩虹真漂亮啊！" |  |
+| 30 | click (948, 144) |  |
+| 31 | click (540, 1267) |  |
+| 32 | click (73, 144) |  |
+| 33 | click (961, 2232) |  |
+| 34 | drag |  |
+| 35 | drag |  |
+| 36 | click (740, 960) |  |
+| 37 | click (1002, 1188) |  |
+| 38 | click (540, 708) |  |
+| 39 | wait |  |
+| 40 | answer "已为您在星球 App 中完成全部指定任务：
+
+1. **进入星币中心与充值..." |  |
+
+- **Terminated**: answer
+
+---
+> 由 `log_summarizer.render_task_digest_md` 自动生成。 展示 Agent 每步的决策（action）和思考过程（think）。
