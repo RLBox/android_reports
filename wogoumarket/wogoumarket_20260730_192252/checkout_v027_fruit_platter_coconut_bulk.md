@@ -6,8 +6,8 @@
 - **Elapsed**: 190s (~3.2 min)
 - **Model**: `doubao-seed-evolving`
 - **Raw log**: [./raw_logs/WogoumarketCheckoutV027FruitPlatterCoconutBulkTask.log](./raw_logs/WogoumarketCheckoutV027FruitPlatterCoconutBulkTask.log)
-- **Generated**: 2026-07-31T10:18:26+08:00
-- **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
+- **Generated**: 2026-08-03T14:36:07+08:00
+- **Note**: Goomart pass@3 doubao-seed-evolving 2026-07-30
 
 ## Task Goal
 

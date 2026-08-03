@@ -7,7 +7,7 @@
 - ⚠️  Partial (1-2 / 3): **35**
 - ❌ Failed (0/3): **13**
 - Total elapsed: 7287s (121.5 min)
-- Note: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
+- Note: Goomart pass@3 doubao-seed-evolving 2026-07-30
 
 ## Tasks
 
