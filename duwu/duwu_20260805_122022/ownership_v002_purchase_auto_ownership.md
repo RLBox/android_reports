@@ -6,7 +6,8 @@
 - **Elapsed**: 1638s (~27.3 min)
 - **Model**: `doubao-seed-evolving`
 - **Raw log**: [./raw_logs/DuwuOwnershipV002PurchaseAutoOwnershipTask.log](./raw_logs/DuwuOwnershipV002PurchaseAutoOwnershipTask.log)
-- **Generated**: 2026-08-05T13:13:35+08:00
+- **Generated**: 2026-08-05T14:35:57+08:00
+- **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
 
@@ -63,9 +64,9 @@
   ```
   支付后商品出现在「我拥有的」列表: 未找到购买来源的 Converse Chuck 70 拥有记录
   ```
-- death shot: ![last-step](./screenshots/DuwuOwnershipV002PurchaseAutoOwnershipTask/episode_001/step_080.png)
-  - state: [`./screenshots/DuwuOwnershipV002PurchaseAutoOwnershipTask/episode_001/step_080.json`](./screenshots/DuwuOwnershipV002PurchaseAutoOwnershipTask/episode_001/step_080.json)
-  - digest: [`episode_digest.md`](./digests/DuwuOwnershipV002PurchaseAutoOwnershipTask/episode_001/episode_digest.md)
+- death shot: ![last-step](./death_shots/DuwuOwnershipV002PurchaseAutoOwnershipTask/episode_001/step_080.png)
+  - state: [`./death_shots/DuwuOwnershipV002PurchaseAutoOwnershipTask/episode_001/step_080.json`](./death_shots/DuwuOwnershipV002PurchaseAutoOwnershipTask/episode_001/step_080.json)
+  - digest: [`episode_digest.md`](./death_shots/DuwuOwnershipV002PurchaseAutoOwnershipTask/episode_001/episode_digest.md)
 
 ### Episode 2 — ❌ failed
 
@@ -76,9 +77,9 @@
   ```
   心情备注已记录为"美滋滋": 未找到心情备注为「美滋滋」的拥有记录（实际备注：[""]）
   ```
-- death shot: ![last-step](./screenshots/DuwuOwnershipV002PurchaseAutoOwnershipTask/episode_002/step_080.png)
-  - state: [`./screenshots/DuwuOwnershipV002PurchaseAutoOwnershipTask/episode_002/step_080.json`](./screenshots/DuwuOwnershipV002PurchaseAutoOwnershipTask/episode_002/step_080.json)
-  - digest: [`episode_digest.md`](./digests/DuwuOwnershipV002PurchaseAutoOwnershipTask/episode_002/episode_digest.md)
+- death shot: ![last-step](./death_shots/DuwuOwnershipV002PurchaseAutoOwnershipTask/episode_002/step_080.png)
+  - state: [`./death_shots/DuwuOwnershipV002PurchaseAutoOwnershipTask/episode_002/step_080.json`](./death_shots/DuwuOwnershipV002PurchaseAutoOwnershipTask/episode_002/step_080.json)
+  - digest: [`episode_digest.md`](./death_shots/DuwuOwnershipV002PurchaseAutoOwnershipTask/episode_002/episode_digest.md)
 
 ### Episode 3 — ⏰ timeout
 
@@ -89,9 +90,9 @@
   ```
   心情备注已记录为"美滋滋": 未找到心情备注为「美滋滋」的拥有记录（实际备注：[nil]）
   ```
-- death shot: ![last-step](./screenshots/DuwuOwnershipV002PurchaseAutoOwnershipTask/episode_003/step_080.png)
-  - state: [`./screenshots/DuwuOwnershipV002PurchaseAutoOwnershipTask/episode_003/step_080.json`](./screenshots/DuwuOwnershipV002PurchaseAutoOwnershipTask/episode_003/step_080.json)
-  - digest: [`episode_digest.md`](./digests/DuwuOwnershipV002PurchaseAutoOwnershipTask/episode_003/episode_digest.md)
+- death shot: ![last-step](./death_shots/DuwuOwnershipV002PurchaseAutoOwnershipTask/episode_003/step_080.png)
+  - state: [`./death_shots/DuwuOwnershipV002PurchaseAutoOwnershipTask/episode_003/step_080.json`](./death_shots/DuwuOwnershipV002PurchaseAutoOwnershipTask/episode_003/step_080.json)
+  - digest: [`episode_digest.md`](./death_shots/DuwuOwnershipV002PurchaseAutoOwnershipTask/episode_003/episode_digest.md)
 
 ---
 

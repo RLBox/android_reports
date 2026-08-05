@@ -6,7 +6,8 @@
 - **Elapsed**: 348s (~5.8 min)
 - **Model**: `doubao-seed-evolving`
 - **Raw log**: [./raw_logs/DuwuWalletV006ViewCouponDetailTask.log](./raw_logs/DuwuWalletV006ViewCouponDetailTask.log)
-- **Generated**: 2026-08-05T13:13:28+08:00
+- **Generated**: 2026-08-05T14:35:57+08:00
+- **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
 

@@ -6,7 +6,8 @@
 - **Elapsed**: 1075s (~17.9 min)
 - **Model**: `doubao-seed-evolving`
 - **Raw log**: [./raw_logs/DuwuPostV001CreateTextPostTask.log](./raw_logs/DuwuPostV001CreateTextPostTask.log)
-- **Generated**: 2026-08-05T13:13:22+08:00
+- **Generated**: 2026-08-05T14:35:57+08:00
+- **Note**: backfilled from /tmp/pass_at_3_full_<ts>/ on 2026-05-02
 
 ## Task Goal
 
@@ -63,9 +64,9 @@
   ```
   本人发布了至少 1 条 UGC 帖子: 预期至少 1 条 UGC feed，实际 0
   ```
-- death shot: ![last-step](./screenshots/DuwuPostV001CreateTextPostTask/episode_001/step_075.png)
-  - state: [`./screenshots/DuwuPostV001CreateTextPostTask/episode_001/step_075.json`](./screenshots/DuwuPostV001CreateTextPostTask/episode_001/step_075.json)
-  - digest: [`episode_digest.md`](./digests/DuwuPostV001CreateTextPostTask/episode_001/episode_digest.md)
+- death shot: ![last-step](./death_shots/DuwuPostV001CreateTextPostTask/episode_001/step_075.png)
+  - state: [`./death_shots/DuwuPostV001CreateTextPostTask/episode_001/step_075.json`](./death_shots/DuwuPostV001CreateTextPostTask/episode_001/step_075.json)
+  - digest: [`episode_digest.md`](./death_shots/DuwuPostV001CreateTextPostTask/episode_001/episode_digest.md)
 
 ### Episode 2 — ❌ failed
 
@@ -76,9 +77,9 @@
   ```
   本人发布了至少 1 条 UGC 帖子: 预期至少 1 条 UGC feed，实际 0
   ```
-- death shot: ![last-step](./screenshots/DuwuPostV001CreateTextPostTask/episode_002/step_056.png)
-  - state: [`./screenshots/DuwuPostV001CreateTextPostTask/episode_002/step_056.json`](./screenshots/DuwuPostV001CreateTextPostTask/episode_002/step_056.json)
-  - digest: [`episode_digest.md`](./digests/DuwuPostV001CreateTextPostTask/episode_002/episode_digest.md)
+- death shot: ![last-step](./death_shots/DuwuPostV001CreateTextPostTask/episode_002/step_056.png)
+  - state: [`./death_shots/DuwuPostV001CreateTextPostTask/episode_002/step_056.json`](./death_shots/DuwuPostV001CreateTextPostTask/episode_002/step_056.json)
+  - digest: [`episode_digest.md`](./death_shots/DuwuPostV001CreateTextPostTask/episode_002/episode_digest.md)
 
 ### Episode 3 — ❌ failed
 
@@ -89,9 +90,9 @@
   ```
   本人发布了至少 1 条 UGC 帖子: 预期至少 1 条 UGC feed，实际 0
   ```
-- death shot: ![last-step](./screenshots/DuwuPostV001CreateTextPostTask/episode_003/step_039.png)
-  - state: [`./screenshots/DuwuPostV001CreateTextPostTask/episode_003/step_039.json`](./screenshots/DuwuPostV001CreateTextPostTask/episode_003/step_039.json)
-  - digest: [`episode_digest.md`](./digests/DuwuPostV001CreateTextPostTask/episode_003/episode_digest.md)
+- death shot: ![last-step](./death_shots/DuwuPostV001CreateTextPostTask/episode_003/step_039.png)
+  - state: [`./death_shots/DuwuPostV001CreateTextPostTask/episode_003/step_039.json`](./death_shots/DuwuPostV001CreateTextPostTask/episode_003/step_039.json)
+  - digest: [`episode_digest.md`](./death_shots/DuwuPostV001CreateTextPostTask/episode_003/episode_digest.md)
 
 ---
 
