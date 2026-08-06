@@ -5,7 +5,7 @@
 - **Pass@3**: **1/3**  (score = 1.00)
 - **Elapsed**: 137s (~2.3 min)
 - **Model**: `doubao-seed-2-0-pro-260215`
-- **Raw log**: [WogoumarketOrderV029UseCouponCheckoutTask.log](https://raw.githubusercontent.com/RLBox/android_reports/wogoumarket-20260806-180454/wogoumarket/20260806_180454/raw_logs/WogoumarketOrderV029UseCouponCheckoutTask.log)
+- **Raw log**: [WogoumarketOrderV029UseCouponCheckoutTask.log](https://raw.githubusercontent.com/RLBox/android_reports/wogoumarket-20260806-180454/wogoumarket/20260806_180454/raw_logs/WogoumarketOrderV029UseCouponCheckoutTask.txt)
 - **Generated**: 2026-08-06T18:19:29+08:00
 
 ## Task Goal
