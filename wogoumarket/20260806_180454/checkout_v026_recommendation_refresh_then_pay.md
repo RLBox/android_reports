@@ -5,7 +5,7 @@
 - **Pass@3**: **0/3**  (score = 0.00)
 - **Elapsed**: 355s (~5.9 min)
 - **Model**: `doubao-seed-2-0-pro-260215`
-- **Raw log**: [./raw_logs/WogoumarketCheckoutV026RecommendationRefreshThenPayTask.log](./raw_logs/WogoumarketCheckoutV026RecommendationRefreshThenPayTask.log)
+- **Raw log**: [WogoumarketCheckoutV026RecommendationRefreshThenPayTask.log](https://raw.githubusercontent.com/RLBox/android_reports/wogoumarket-20260806-180454/wogoumarket/20260806_180454/raw_logs/WogoumarketCheckoutV026RecommendationRefreshThenPayTask.log)
 - **Generated**: 2026-08-06T18:19:24+08:00
 
 ## Task Goal
