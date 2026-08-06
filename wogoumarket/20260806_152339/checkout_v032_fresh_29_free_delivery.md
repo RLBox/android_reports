@@ -5,7 +5,7 @@
 - **Pass@3**: **1/3**  (score = 1.00)
 - **Elapsed**: 843s (~14.1 min)
 - **Model**: `doubao-seed-2-0-pro-260215`
-- **Raw log**: [./raw_logs/WogoumarketCheckoutV032Fresh29FreeDeliveryTask.log](./raw_logs/WogoumarketCheckoutV032Fresh29FreeDeliveryTask.log)
+- **Raw log**: [raw_log 文件不可用（已被清理）]
 - **Generated**: 2026-08-06T15:59:53+08:00
 
 ## Task Goal
