@@ -5,7 +5,7 @@
 - **Pass@3**: **1/3**  (score = 1.00)
 - **Elapsed**: 265s (~4.4 min)
 - **Model**: `doubao-seed-2-0-pro-260215`
-- **Raw log**: [raw_log 文件不可用（已被清理）]
+- **Raw log**: [WogoumarketSearchV007SearchGrapeMostExpensiveCheckoutTask.log](https://raw.githubusercontent.com/RLBox/android_reports/wogoumarket-20260806-152339/wogoumarket/20260806_152339/raw_logs/WogoumarketSearchV007SearchGrapeMostExpensiveCheckoutTask.txt)
 - **Generated**: 2026-08-06T16:00:28+08:00
 
 ## Task Goal
