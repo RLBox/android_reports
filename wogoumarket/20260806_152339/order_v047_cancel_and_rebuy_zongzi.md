@@ -5,7 +5,7 @@
 - **Pass@3**: **1/3**  (score = 1.00)
 - **Elapsed**: 258s (~4.3 min)
 - **Model**: `doubao-seed-2-0-pro-260215`
-- **Raw log**: [WogoumarketOrderV047CancelAndRebuyZongziTask.log](https://raw.githubusercontent.com/RLBox/android_reports/wogoumarket-20260806-152339/wogoumarket/20260806_152339/raw_logs/WogoumarketOrderV047CancelAndRebuyZongziTask.txt)
+- **Raw log**: [WogoumarketOrderV047CancelAndRebuyZongziTask.log](https://github.com/RLBox/android_reports/blob/wogoumarket-20260806-152339/wogoumarket/20260806_152339/raw_logs/WogoumarketOrderV047CancelAndRebuyZongziTask.log)
 - **Generated**: 2026-08-06T16:00:18+08:00
 
 ## Task Goal

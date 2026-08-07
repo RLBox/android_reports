@@ -5,7 +5,7 @@
 - **Pass@3**: **1/3**  (score = 1.00)
 - **Elapsed**: 215s (~3.6 min)
 - **Model**: `doubao-seed-2-0-pro-260215`
-- **Raw log**: [WogoumarketSearchV008SearchZongziCheapestCheckoutTask.log](https://raw.githubusercontent.com/RLBox/android_reports/wogoumarket-20260806-152339/wogoumarket/20260806_152339/raw_logs/WogoumarketSearchV008SearchZongziCheapestCheckoutTask.txt)
+- **Raw log**: [WogoumarketSearchV008SearchZongziCheapestCheckoutTask.log](https://github.com/RLBox/android_reports/blob/wogoumarket-20260806-152339/wogoumarket/20260806_152339/raw_logs/WogoumarketSearchV008SearchZongziCheapestCheckoutTask.log)
 - **Generated**: 2026-08-06T16:00:34+08:00
 
 ## Task Goal
